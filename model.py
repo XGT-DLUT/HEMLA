@@ -20,7 +20,7 @@ class T5ForGenerate(pl.LightningModule):
         self.correct_nums = 0
         self.best_f1 = 0
         self.training_start_time = None
-        # 加载预训练的 Llama 模型
+        # 加载预训练的t5模型
         self.t5_model = t5_model
         self.test_results = []
 
