@@ -1,0 +1,2954 @@
+[
+  {
+    "id": 1,
+    "input": "The bread is top notch as well .",
+    "label": "[[\"bread\", \"top notch\", \"positive\"]]",
+    "response": "[[\"bread\", \"top notch\", \"positive\"]]"
+  },
+  {
+    "id": 2,
+    "input": "I have to say they have one of the fastest delivery times in the city .",
+    "label": "[[\"delivery times\", \"fastest\", \"positive\"]]",
+    "response": "[[[\"delivery times\", \"fastest\", \"positive\"]]]"
+  },
+  {
+    "id": 3,
+    "input": "Food is always fresh and hot ready to eat !",
+    "label": "[[\"Food\", \"fresh\", \"positive\"], [\"Food\", \"hot\", \"positive\"]]",
+    "response": "[[ \"Food\", \"fresh\", \"positive\" ], [ \"Food\", \"hot\", \"positive\" ], [ \"Food\", \"ready to eat\", \"positive\" ]]"
+  },
+  {
+    "id": 4,
+    "input": "Did I mention that the coffee is OUTSTANDING ?",
+    "label": "[[\"coffee\", \"OUTSTANDING\", \"positive\"]]",
+    "response": "[[\"coffee\", \"OUTSTANDING\", \"positive\"]]"
+  },
+  {
+    "id": 5,
+    "input": "Certainly not the best sushi in New York , however , it is always fresh , and the place is very clean , sterile .",
+    "label": "[[\"place\", \"clean\", \"positive\"]]",
+    "response": "[[\"sushi\", \"not the best\", \"negative\"], [\"sushi\", \"fresh\", \"positive\"], [\"place\", \"clean\", \"positive\"], [\"place\", \"sterile\", \"positive\"]]"
+  },
+  {
+    "id": 6,
+    "input": "I trust the people at Go Sushi , it never disappoints .",
+    "label": "[[\"people\", \"trust\", \"positive\"]]",
+    "response": "[[\"people\", \"trust\", \"positive\"], [\"Go Sushi\", \"never disappoints\", \"positive\"]]"
+  },
+  {
+    "id": 7,
+    "input": "Straight-forward , no surprises , very decent Japanese food .",
+    "label": "[[\"Japanese food\", \"decent\", \"positive\"]]",
+    "response": "[[\"Japanese food\", \"straight-forward\", \"positive\"], [\"Japanese food\", \"no surprises\", \"positive\"], [\"Japanese food\", \"very decent\", \"positive\"]]"
+  },
+  {
+    "id": 8,
+    "input": "BEST spicy tuna roll , great asian salad .",
+    "label": "[[\"asian salad\", \"great\", \"positive\"], [\"spicy tuna roll\", \"BEST\", \"positive\"]]",
+    "response": "[[\"spicy tuna roll\", \"BEST\", \"positive\"], [\"asian salad\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 9,
+    "input": "Try the rose roll ( not on menu ) .",
+    "label": "[[\"rose roll\", \"Try\", \"positive\"]]",
+    "response": "[[[\"rose roll\", \"Try\", \"positive\"]]]"
+  },
+  {
+    "id": 10,
+    "input": "I love the drinks , esp lychee martini , and the food is also VERY good .",
+    "label": "[[\"drinks\", \"love\", \"positive\"], [\"lychee martini\", \"love\", \"positive\"], [\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"drinks\", \"love\", \"positive\"], [\"lychee martini\", \"esp\", \"positive\"], [\"food\", \"VERY good\", \"positive\"]]"
+  },
+  {
+    "id": 11,
+    "input": "While there 's a decent menu , it should n't take ten minutes to get your drinks and 45 for a dessert pizza .",
+    "label": "[[\"menu\", \"decent\", \"positive\"]]",
+    "response": "[[\"menu\", \"decent\", \"positive\"], [\"drinks\", \"ten minutes to get\", \"negative\"], [\"dessert pizza\", \"45 for\", \"negative\"]]"
+  },
+  {
+    "id": 12,
+    "input": "Once we sailed , the top-notch food and live entertainment sold us on a unforgettable evening .",
+    "label": "[[\"food\", \"top-notch\", \"positive\"], [\"live entertainment\", \"top-notch\", \"positive\"]]",
+    "response": "[[\"food\", \"top-notch\", \"positive\"], [\"live entertainment\", \"sold us on\", \"positive\"], [\"evening\", \"unforgettable\", \"positive\"]]"
+  },
+  {
+    "id": 13,
+    "input": "Our waiter was horrible ; so rude and disinterested .",
+    "label": "[[\"waiter\", \"horrible\", \"negative\"], [\"waiter\", \"rude\", \"negative\"], [\"waiter\", \"disinterested\", \"negative\"]]",
+    "response": "[[[\"waiter\", \"horrible\", \"negative\"], [\"waiter\", \"rude\", \"negative\"], [\"waiter\", \"disinterested\", \"negative\"]]"
+  },
+  {
+    "id": 14,
+    "input": "The sangria 's - watered down .",
+    "label": "[[\"sangria\", \"watered down\", \"negative\"]]",
+    "response": "[[\"sangria\", \"watered down\", \"negative\"]]"
+  },
+  {
+    "id": 15,
+    "input": "menu - uneventful , small .",
+    "label": "[[\"menu\", \"uneventful\", \"negative\"], [\"menu\", \"small\", \"negative\"]]",
+    "response": "[[[\"menu\", \"uneventful\", \"negative\"], [\"menu\", \"small\", \"negative\"]]]"
+  },
+  {
+    "id": 16,
+    "input": "Anytime and everytime I find myself in the neighborhood I will go to Sushi Rose for fresh sushi and great portions all at a reasonable price .",
+    "label": "[[\"sushi\", \"fresh\", \"positive\"], [\"portions\", \"great\", \"positive\"], [\"price\", \"reasonable\", \"positive\"]]",
+    "response": "[[\"sushi\", \"fresh\", \"positive\"], [\"portions\", \"great\", \"positive\"], [\"price\", \"reasonable\", \"positive\"]]"
+  },
+  {
+    "id": 17,
+    "input": "Great food but the service was dreadful !",
+    "label": "[[\"food\", \"Great\", \"positive\"], [\"service\", \"dreadful\", \"negative\"]]",
+    "response": "[[\"food\", \"Great\", \"positive\"], [\"service\", \"dreadful\", \"negative\"]]"
+  },
+  {
+    "id": 18,
+    "input": "The portions of the food that came out were mediocre .",
+    "label": "[[\"portions of the food\", \"mediocre\", \"neutral\"]]",
+    "response": "[[[\"portions\", \"mediocre\", \"negative\"]]]"
+  },
+  {
+    "id": 19,
+    "input": "From the beginning , we were met by friendly staff memebers , and the convenient parking at Chelsea Piers made it easy for us to get to the boat .",
+    "label": "[[\"staff memebers\", \"friendly\", \"positive\"], [\"parking\", \"convenient\", \"positive\"]]",
+    "response": "[[\"staff members\", \"friendly\", \"positive\"], [\"parking\", \"convenient\", \"positive\"]]"
+  },
+  {
+    "id": 20,
+    "input": "Desserts are almost incredible : my personal favorite is their Tart of the Day .",
+    "label": "[[\"Desserts\", \"incredible\", \"positive\"], [\"Tart of the Day\", \"favorite\", \"positive\"]]",
+    "response": "[[[\"Desserts\", \"almost incredible\", \"positive\"], [\"Tart of the Day\", \"personal favorite\", \"positive\"]]"
+  },
+  {
+    "id": 21,
+    "input": "The food was extremely tasty , creatively presented and the wine excellent .",
+    "label": "[[\"food\", \"tasty\", \"positive\"], [\"food\", \"creatively presented\", \"positive\"], [\"wine\", \"excellent\", \"positive\"]]",
+    "response": "[[\"food\", \"extremely tasty\", \"positive\"], [\"presentation\", \"creatively presented\", \"positive\"], [\"wine\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 22,
+    "input": "THE LASAGNA WAS PROBABLY THE BEST I HAVE TASTED .",
+    "label": "[[\"LASAGNA\", \"BEST\", \"positive\"]]",
+    "response": "[[\"lasagna\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 23,
+    "input": "Harumi Sushi has the freshest and most delicious array of sushi in NYC .",
+    "label": "[[\"array of sushi\", \"freshest\", \"positive\"], [\"array of sushi\", \"most delicious\", \"positive\"]]",
+    "response": "[[\"sushi\", \"freshest\", \"positive\"], [\"sushi\", \"most delicious\", \"positive\"]]"
+  },
+  {
+    "id": 24,
+    "input": "I highly recommend it for not just its superb cuisine , but also for its friendly owners and staff .",
+    "label": "[[\"cuisine\", \"superb\", \"positive\"], [\"owners\", \"friendly\", \"positive\"], [\"staff\", \"friendly\", \"positive\"]]",
+    "response": "[[\"cuisine\", \"superb\", \"positive\"], [\"owners\", \"friendly\", \"positive\"], [\"staff\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 25,
+    "input": "If you 're craving some serious indian food and desire a cozy ambiance , this is quiet and exquisite choice .",
+    "label": "[[\"indian food\", \"serious\", \"positive\"], [\"ambiance\", \"cozy\", \"positive\"]]",
+    "response": "[[\"Indian food\", \"serious\", \"positive\"], [\"ambiance\", \"cozy\", \"positive\"], [\"ambiance\", \"quiet\", \"positive\"], [\"choice\", \"exquisite\", \"positive\"]]"
+  },
+  {
+    "id": 26,
+    "input": "I definitely enjoyed the food as well .",
+    "label": "[[\"food\", \"enjoyed\", \"positive\"]]",
+    "response": "[[\"food\", \"enjoyed\", \"positive\"]]"
+  },
+  {
+    "id": 27,
+    "input": "It was pleasantly uncrowded , the service was delightful , the garden adorable , the food ( from appetizers to entrees ) was delectable .",
+    "label": "[[\"service\", \"delightful\", \"positive\"], [\"garden\", \"adorable\", \"positive\"], [\"food\", \"delectable\", \"positive\"], [\"appetizers\", \"delectable\", \"positive\"], [\"entrees\", \"delectable\", \"positive\"]]",
+    "response": "[[\"crowd\", \"pleasantly uncrowded\", \"positive\"], [\"service\", \"delightful\", \"positive\"], [\"garden\", \"adorable\", \"positive\"], [\"food\", \"delectable\", \"positive\"]]"
+  },
+  {
+    "id": 28,
+    "input": "The food is surprisingly good , and the decor is nice .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"decor\", \"nice\", \"positive\"]]",
+    "response": "[[\"food\", \"surprisingly good\", \"positive\"], [\"decor\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 29,
+    "input": "How pretentious and inappropriate for MJ Grill to claim that it provides power lunch and dinners !",
+    "label": "[[\"lunch\", \"power\", \"negative\"], [\"dinners\", \"power\", \"negative\"]]",
+    "response": "[[\"claim that it provides power lunch and dinners\", \"pretentious\", \"negative\"], [\"claim that it provides power lunch and dinners\", \"inappropriate\", \"negative\"]]"
+  },
+  {
+    "id": 30,
+    "input": "Two wasted steaks -- what a crime !",
+    "label": "[[\"steaks\", \"wasted\", \"negative\"]]",
+    "response": "[[\"steaks\", \"wasted\", \"negative\"], [\"steaks\", \"crime\", \"negative\"]]"
+  },
+  {
+    "id": 31,
+    "input": "The staff should be a bit more friendly .",
+    "label": "[[\"staff\", \"friendly\", \"negative\"]]",
+    "response": "[[\"staff\", \"friendly\", \"negative\"]]"
+  },
+  {
+    "id": 32,
+    "input": "I think the meatball parm is good .",
+    "label": "[[\"meatball parm\", \"good\", \"positive\"]]",
+    "response": "[[\"meatball parm\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 33,
+    "input": "If you want good tasting , well seasoned latin food eat at Cabana and you ca n't go wrong .",
+    "label": "[[\"latin food\", \"good tasting\", \"positive\"], [\"latin food\", \"well seasoned\", \"positive\"]]",
+    "response": "[[\"taste\", \"good\", \"positive\"], [\"seasoning\", \"well seasoned\", \"positive\"]]"
+  },
+  {
+    "id": 34,
+    "input": "Definitely try the taglierini with truffles - it was incredible .",
+    "label": "[[\"taglierini with truffles\", \"try\", \"positive\"], [\"taglierini with truffles\", \"incredible\", \"positive\"]]",
+    "response": "[[\"taglierini with truffles\", \"incredible\", \"positive\"]]"
+  },
+  {
+    "id": 35,
+    "input": "Also , the staff is very attentive and really personable .",
+    "label": "[[\"staff\", \"attentive\", \"positive\"], [\"staff\", \"personable\", \"positive\"]]",
+    "response": "[[ \"staff\", \"attentive\", \"positive\"], [\"staff\", \"personable\", \"positive\"]]"
+  },
+  {
+    "id": 36,
+    "input": "The gnocchi literally melts in your mouth !",
+    "label": "[[\"gnocchi\", \"melts\", \"positive\"]]",
+    "response": "[[\"gnocchi\", \"melts in your mouth\", \"positive\"]]"
+  },
+  {
+    "id": 37,
+    "input": "Had a great experience at Trio ... staff was pleasant ; food was tasty and large in portion size - I would highly recommend the portobello/gorgonzola/sausage appetizer and the lobster risotto .",
+    "label": "[[\"staff\", \"pleasant\", \"positive\"], [\"food\", \"tasty\", \"positive\"], [\"portion size\", \"large\", \"positive\"], [\"portobello/gorgonzola/sausage appetizer\", \"recommend\", \"positive\"], [\"lobster risotto\", \"recommend\", \"positive\"]]",
+    "response": "[[\"experience\", \"great\", \"positive\"], [\"staff\", \"pleasant\", \"positive\"], [\"food\", \"tasty\", \"positive\"], [\"portion size\", \"large\", \"positive\"], [\"portobello/gorgonzola/sausage appetizer\", \"highly recommend\", \"positive\"], [\"lobster risotto\", \"highly recommend\", \"positive\"]]"
+  },
+  {
+    "id": 38,
+    "input": "The food is good , the teriyaki I recommend .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"teriyaki\", \"recommend\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"teriyaki\", \"recommend\", \"positive\"]]"
+  },
+  {
+    "id": 39,
+    "input": "Meal was very expensive for what you get .",
+    "label": "[[\"Meal\", \"expensive\", \"negative\"]]",
+    "response": "[[\"Meal\", \"very expensive\", \"negative\"]]"
+  },
+  {
+    "id": 40,
+    "input": "Try the Peanut Butter Sorbet and the pizza with soy cheese !",
+    "label": "[[\"Peanut Butter Sorbet\", \"Try\", \"positive\"], [\"pizza with soy cheese\", \"Try\", \"positive\"]]",
+    "response": "[[\"Peanut Butter Sorbet\", \"Try\", \"positive\"], [\"pizza with soy cheese\", \"Try\", \"positive\"]]"
+  },
+  {
+    "id": 41,
+    "input": "Good food at the right price , what more can you ask for .",
+    "label": "[[\"food\", \"Good\", \"positive\"], [\"price\", \"right\", \"positive\"]]",
+    "response": "[[\"food\", \"Good\", \"positive\"], [\"price\", \"right\", \"positive\"]]"
+  },
+  {
+    "id": 42,
+    "input": "The food is top notch , the service is attentive , and the atmosphere is great .",
+    "label": "[[\"food\", \"top notch\", \"positive\"], [\"service\", \"attentive\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"top notch\", \"positive\"], [\"service\", \"attentive\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 43,
+    "input": "Great food , great waitstaff , great atmosphere , and best of all GREAT beer !",
+    "label": "[[\"food\", \"Great\", \"positive\"], [\"waitstaff\", \"great\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"], [\"beer\", \"best\", \"positive\"], [\"beer\", \"GREAT\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"waitstaff\", \"great\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"], [\"beer\", \"GREAT\", \"positive\"]]"
+  },
+  {
+    "id": 44,
+    "input": "this is still one of my most favorite restaurants in the area the food is inexpensive but very good ( kimono shrimp special was excellent ) and has a great atmosphere .",
+    "label": "[[\"food\", \"inexpensive\", \"positive\"], [\"food\", \"good\", \"positive\"], [\"kimono shrimp special\", \"excellent\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"very good\", \"positive\"], [\"price\", \"inexpensive\", \"positive\"], [\"kimono shrimp special\", \"excellent\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 45,
+    "input": "The menu is interesting and quite reasonably priced .",
+    "label": "[[\"menu\", \"interesting\", \"positive\"], [\"menu\", \"reasonably priced\", \"positive\"], [\"priced\", \"reasonably\", \"positive\"]]",
+    "response": "[[ \"menu\", \"interesting\", \"positive\"], [\"price\", \"reasonably priced\", \"positive\"]]"
+  },
+  {
+    "id": 46,
+    "input": "The food was delicious and clearly fresh ingredients were used .",
+    "label": "[[\"food\", \"delicious\", \"positive\"], [\"ingredients\", \"fresh\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"], [\"ingredients\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 47,
+    "input": "This made it obvious that the food was n't cooked fresh ; it was obviously made before hand and then reheated .",
+    "label": "[[\"food\", \"was n't cooked fresh\", \"negative\"]]",
+    "response": "[[\"food\", \"not cooked fresh\", \"negative\"], [\"food\", \"made before hand\", \"negative\"], [\"food\", \"reheated\", \"negative\"]]"
+  },
+  {
+    "id": 48,
+    "input": "Appetizer are excellent here ; you can make a great ( and inexpensive ) meal out of them .",
+    "label": "[[\"Appetizer\", \"excellent\", \"positive\"], [\"meal\", \"great\", \"positive\"], [\"meal\", \"inexpensive\", \"positive\"]]",
+    "response": "[[\"Appetizer\", \"excellent\", \"positive\"], [\"meal\", \"great\", \"positive\"], [\"meal\", \"inexpensive\", \"positive\"]]"
+  },
+  {
+    "id": 49,
+    "input": "The spicy mussels are a highlight .",
+    "label": "[[\"spicy mussels\", \"highlight\", \"positive\"]]",
+    "response": "[[\"mussels\", \"spicy\", \"positive\"], [\"mussels\", \"highlight\", \"positive\"]]"
+  },
+  {
+    "id": 50,
+    "input": "Also get the Onion Rings -- best we 've ever had .",
+    "label": "[[\"Onion Rings\", \"best\", \"positive\"]]",
+    "response": "[[\"Onion Rings\", \"best we've ever had\", \"positive\"]]"
+  },
+  {
+    "id": 51,
+    "input": "However , being foodies , we were utterly disappointed with the food .",
+    "label": "[[\"food\", \"utterly disappointed\", \"negative\"]]",
+    "response": "[[\"food\", \"utterly disappointed\", \"negative\"]]"
+  },
+  {
+    "id": 52,
+    "input": "Huge portions , great and attentive service , and pretty good prices .",
+    "label": "[[\"portions\", \"Huge\", \"positive\"], [\"service\", \"great\", \"positive\"], [\"service\", \"attentive\", \"positive\"], [\"prices\", \"good\", \"positive\"]]",
+    "response": "[[\"portions\", \"Huge\", \"positive\"], [\"service\", \"great\", \"positive\"], [\"service\", \"attentive\", \"positive\"], [\"prices\", \"pretty good\", \"positive\"]]"
+  },
+  {
+    "id": 53,
+    "input": "I was highly disappointed by their service and food .",
+    "label": "[[\"service\", \"disappointed\", \"negative\"], [\"food\", \"disappointed\", \"negative\"]]",
+    "response": "[[\"service\", \"highly disappointed\", \"negative\"], [\"food\", \"highly disappointed\", \"negative\"]]"
+  },
+  {
+    "id": 54,
+    "input": "I complained to the waiter and then to the manager , but the intensity of rudeness from them just went up .",
+    "label": "[[\"waiter\", \"rudeness\", \"negative\"], [\"manager\", \"rudeness\", \"negative\"]]",
+    "response": "[[\"waiter\", \"rudeness\", \"negative\"], [\"manager\", \"rudeness\", \"negative\"]]"
+  },
+  {
+    "id": 55,
+    "input": "The food is great and the milkshakes are even better !",
+    "label": "[[\"food\", \"great\", \"positive\"], [\"milkshakes\", \"better\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"milkshakes\", \"even better\", \"positive\"]]"
+  },
+  {
+    "id": 56,
+    "input": "the mushroom barley soup is amazing .",
+    "label": "[[\"mushroom barley soup\", \"amazing\", \"positive\"]]",
+    "response": "[[\"mushroom barley soup\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 57,
+    "input": "I 'm glad I did as the food was very good and the staff was friendly , courteous and efficient .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"staff\", \"friendly\", \"positive\"], [\"staff\", \"courteous\", \"positive\"], [\"staff\", \"efficient\", \"positive\"]]",
+    "response": "[[\"food\", \"very good\", \"positive\"], [\"staff\", \"friendly\", \"positive\"], [\"staff\", \"courteous\", \"positive\"], [\"staff\", \"efficient\", \"positive\"]]"
+  },
+  {
+    "id": 58,
+    "input": "Their duck here is also absolutely delicious .",
+    "label": "[[\"duck\", \"delicious\", \"positive\"]]",
+    "response": "[[[\"duck\", \"delicious\", \"positive\"]]]"
+  },
+  {
+    "id": 59,
+    "input": "While it was large and a bit noisy , the drinks were fantastic , and the food was superb .",
+    "label": "[[\"drinks\", \"fantastic\", \"positive\"], [\"food\", \"superb\", \"positive\"]]",
+    "response": "[[\"size\", \"large\", \"neutral\"], [\"noise level\", \"a bit noisy\", \"negative\"], [\"drinks\", \"fantastic\", \"positive\"], [\"food\", \"superb\", \"positive\"]]"
+  },
+  {
+    "id": 60,
+    "input": "One caveat : Some of the curried casseroles can be a trifle harsh .",
+    "label": "[[\"curried casseroles\", \"harsh\", \"negative\"]]",
+    "response": "[[\"curried casseroles\", \"trifle harsh\", \"negative\"]]"
+  },
+  {
+    "id": 61,
+    "input": "The food was almost always EXCELLENT .",
+    "label": "[[\"food\", \"EXCELLENT\", \"positive\"]]",
+    "response": "[[\"food\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 62,
+    "input": "I was pleasantly surprised at the taste .",
+    "label": "[[\"taste\", \"pleasantly surprised\", \"positive\"]]",
+    "response": "[[[\"taste\", \"pleasantly surprised\", \"positive\"]]]"
+  },
+  {
+    "id": 63,
+    "input": "A nice space , as long as it does n't get too crowded and a singleminded devotion to its chosen cuisine make Mare a great choice for seafood lovers .",
+    "label": "[[\"seafood\", \"great\", \"positive\"]]",
+    "response": "[[\"space\", \"nice\", \"positive\"], [\"crowdedness\", \"too crowded\", \"negative\"], [\"cuisine\", \"singleminded devotion\", \"positive\"], [\"choice for seafood lovers\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 64,
+    "input": "they really provide a relaxing , laid-back atmosphere .",
+    "label": "[[\"atmosphere\", \"relaxing\", \"positive\"], [\"atmosphere\", \"laid-back\", \"positive\"]]",
+    "response": "[[ \"atmosphere\", \"relaxing\", \"positive\"], [\"atmosphere\", \"laid-back\", \"positive\"]]"
+  },
+  {
+    "id": 65,
+    "input": "This particular location certainly uses substandard meats .",
+    "label": "[[\"meats\", \"substandard\", \"negative\"]]",
+    "response": "[[\"meats\", \"substandard\", \"negative\"]]"
+  },
+  {
+    "id": 66,
+    "input": "The Management was less than accomodating .",
+    "label": "[[\"Management\", \"less than accomodating\", \"negative\"]]",
+    "response": "[[ \"Management\", \"less than accommodating\", \"negative\" ]]"
+  },
+  {
+    "id": 67,
+    "input": "The ambience is also more laid-back and relaxed .",
+    "label": "[[\"ambience\", \"laid-back\", \"positive\"], [\"ambience\", \"relaxed\", \"positive\"]]",
+    "response": "[[ \"ambience\", \"laid-back\", \"positive\"], [\"ambience\", \"relaxed\", \"positive\"]]"
+  },
+  {
+    "id": 68,
+    "input": "the teas are great and all the sweets are homemade .",
+    "label": "[[\"teas\", \"great\", \"positive\"], [\"sweets\", \"homemade\", \"positive\"]]",
+    "response": "[[\"teas\", \"great\", \"positive\"], [\"sweets\", \"homemade\", \"positive\"]]"
+  },
+  {
+    "id": 69,
+    "input": "mojitos and the service are the best part in there",
+    "label": "[[\"mojitos\", \"best\", \"positive\"], [\"service\", \"best\", \"positive\"]]",
+    "response": "[[\"mojitos\", \"the best\", \"positive\"], [\"service\", \"the best\", \"positive\"]]"
+  },
+  {
+    "id": 70,
+    "input": "Sandwiches , burgers and salads , like the lemon-dressed cobb , are classic successes .",
+    "label": "[[\"Sandwiches\", \"classic successes\", \"positive\"], [\"burgers\", \"classic successes\", \"positive\"], [\"salads\", \"classic successes\", \"positive\"], [\"lemon-dressed cobb\", \"classic successes\", \"positive\"]]",
+    "response": "[[\"sandwiches\", \"classic successes\", \"positive\"], [\"burgers\", \"classic successes\", \"positive\"], [\"salads\", \"classic successes\", \"positive\"], [\"lemon-dressed cobb\", \"classic successes\", \"positive\"]]"
+  },
+  {
+    "id": 71,
+    "input": "The design is very intimate and romantic .",
+    "label": "[[\"design\", \"intimate\", \"positive\"], [\"design\", \"romantic\", \"positive\"]]",
+    "response": "[[[\"design\", \"intimate\", \"positive\"], [\"design\", \"romantic\", \"positive\"]]]"
+  },
+  {
+    "id": 72,
+    "input": "The food was wonderful and imaginative .",
+    "label": "[[\"food\", \"wonderful\", \"positive\"], [\"food\", \"imaginative\", \"positive\"]]",
+    "response": "[[ \"food\", \"wonderful\", \"positive\" ], [ \"food\", \"imaginative\", \"positive\" ]]"
+  },
+  {
+    "id": 73,
+    "input": "The staff is very sharp and they look good too .",
+    "label": "[[\"staff\", \"sharp\", \"positive\"], [\"staff\", \"good\", \"positive\"]]",
+    "response": "[[\"staff\", \"very sharp\", \"positive\"], [\"staff\", \"look good\", \"positive\"]]"
+  },
+  {
+    "id": 74,
+    "input": "The worst though was the taste .",
+    "label": "[[\"taste\", \"worst\", \"negative\"]]",
+    "response": "[[\"taste\", \"worst\", \"negative\"]]"
+  },
+  {
+    "id": 75,
+    "input": "The fajita we tried was tasteless and burned and the mole sauce was way too sweet .",
+    "label": "[[\"fajita\", \"tasteless\", \"negative\"], [\"fajita\", \"burned\", \"negative\"], [\"mole sauce\", \"too sweet\", \"negative\"]]",
+    "response": "[[[\"fajita\", \"tasteless\", \"negative\"], [\"fajita\", \"burned\", \"negative\"], [\"mole sauce\", \"way too sweet\", \"negative\"]]"
+  },
+  {
+    "id": 76,
+    "input": "The atmosphere is warm , comfortable , artsy and sexy .",
+    "label": "[[\"atmosphere\", \"warm\", \"positive\"], [\"atmosphere\", \"artsy\", \"positive\"], [\"atmosphere\", \"sexy\", \"positive\"]]",
+    "response": "[[[\"atmosphere\", \"warm\", \"positive\"], [\"atmosphere\", \"comfortable\", \"positive\"], [\"atmosphere\", \"artsy\", \"positive\"], [\"atmosphere\", \"sexy\", \"positive\"]]]"
+  },
+  {
+    "id": 77,
+    "input": "The food is great ( big selection , reasonable prices ) and the drinks are really good .",
+    "label": "[[\"food\", \"great\", \"positive\"], [\"selection\", \"big\", \"positive\"], [\"prices\", \"reasonable\", \"positive\"], [\"drinks\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"selection\", \"big\", \"positive\"], [\"prices\", \"reasonable\", \"positive\"], [\"drinks\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 78,
+    "input": "The food did take a few extra minutes to come , but the cute waiters ' jokes and friendliness made up for it .",
+    "label": "[[\"waiters\", \"cute\", \"positive\"], [\"waiters\", \"friendliness\", \"positive\"]]",
+    "response": "[[\"food\", \"take a few extra minutes\", \"negative\"], [\"waiters\", \"cute\", \"positive\"], [\"jokes and friendliness\", \"made up for it\", \"positive\"]]"
+  },
+  {
+    "id": 79,
+    "input": "Most importantly , it is reasonably priced .",
+    "label": "[[\"priced\", \"reasonably\", \"positive\"]]",
+    "response": "[[\"price\", \"reasonably\", \"positive\"]]"
+  },
+  {
+    "id": 80,
+    "input": "The selection of food is excellent ( I 'm not used to having much choice at restaurants ) , and the atmosphere is great .",
+    "label": "[[\"selection of food\", \"excellent\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"]]",
+    "response": "[[[\"selection of food\", \"excellent\", \"positive\"], [\"atmosphere\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 81,
+    "input": "Only suggestion is that you skip the dessert , it was overpriced and fell short on taste .",
+    "label": "[[\"dessert\", \"overpriced\", \"negative\"], [\"taste\", \"short\", \"negative\"]]",
+    "response": "[[\"dessert\", \"skip\", \"negative\"], [\"price\", \"overpriced\", \"negative\"], [\"taste\", \"fell short\", \"negative\"]]"
+  },
+  {
+    "id": 82,
+    "input": "Food was decent , but not great .",
+    "label": "[[\"Food\", \"decent\", \"positive\"], [\"Food\", \"not great\", \"positive\"]]",
+    "response": "[[\"Food\", \"decent\", \"positive\"], [\"Food\", \"not great\", \"negative\"]]"
+  },
+  {
+    "id": 83,
+    "input": "it is a hidden delight complete with a quaint bar and good food .",
+    "label": "[[\"bar\", \"quaint\", \"positive\"], [\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"bar\", \"quaint\", \"positive\"], [\"food\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 84,
+    "input": "The waiters ALWAYS look angry and even ignore their high-tipping regulars .",
+    "label": "[[\"waiters\", \"angry\", \"negative\"]]",
+    "response": "[[\"waiters\", \"angry\", \"negative\"], [\"waiters\", \"ignore\", \"negative\"]]"
+  },
+  {
+    "id": 85,
+    "input": "the atmosphere is very nice , and a welcome escape from the rest of the SI mall .",
+    "label": "[[\"atmosphere\", \"nice\", \"positive\"]]",
+    "response": "[[\"atmosphere\", \"very nice\", \"positive\"], [\"rest of the SI mall\", \"welcome escape\", \"negative\"]]"
+  },
+  {
+    "id": 86,
+    "input": "Yes , they 're a bit more expensive then typical , but then again , so is their food .",
+    "label": "[[\"food\", \"more expensive then typical\", \"positive\"]]",
+    "response": "[[\"price\", \"a bit more expensive\", \"negative\"], [\"food\", \"so is their\", \"positive\"]]"
+  },
+  {
+    "id": 87,
+    "input": "I can say that the wraps , burgers and salads were all fresh , tasty and the mango margareta at $ 9 was WELL WORTH the money .",
+    "label": "[[\"wraps\", \"fresh\", \"positive\"], [\"wraps\", \"tasty\", \"positive\"], [\"burgers\", \"fresh\", \"positive\"], [\"burgers\", \"tasty\", \"positive\"], [\"salads\", \"fresh\", \"positive\"], [\"salads\", \"tasty\", \"positive\"], [\"mango margareta\", \"WELL WORTH\", \"positive\"]]",
+    "response": "[[\"wraps\", \"fresh\", \"positive\"], [\"wraps\", \"tasty\", \"positive\"], [\"burgers\", \"fresh\", \"positive\"], [\"burgers\", \"tasty\", \"positive\"], [\"salads\", \"fresh\", \"positive\"], [\"salads\", \"tasty\", \"positive\"], [\"mango margareta\", \"well worth the money\", \"positive\"]]"
+  },
+  {
+    "id": 88,
+    "input": "The service we experienced was friendly and good .",
+    "label": "[[\"service\", \"friendly\", \"positive\"], [\"service\", \"good\", \"positive\"]]",
+    "response": "[[ \"service\", \"friendly\", \"positive\"], [\"service\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 89,
+    "input": "Our waiter was friendly and it is a shame that he didnt have a supportive staff to work with .",
+    "label": "[[\"waiter\", \"friendly\", \"positive\"]]",
+    "response": "[[\"waiter\", \"friendly\", \"positive\"], [\"staff\", \"supportive\", \"negative\"]]"
+  },
+  {
+    "id": 90,
+    "input": "The folding chair I was seated at was uncomfortable .",
+    "label": "[[\"folding chair\", \"uncomfortable\", \"negative\"]]",
+    "response": "[[[\"folding chair\", \"uncomfortable\", \"negative\"]]]"
+  },
+  {
+    "id": 91,
+    "input": "Service was among the best I have ever had in NYC .",
+    "label": "[[\"Service\", \"best\", \"positive\"]]",
+    "response": "[[\"Service\", \"among the best\", \"positive\"]]"
+  },
+  {
+    "id": 92,
+    "input": "The fettucino alfredo was amazing .",
+    "label": "[[\"fettucino alfredo\", \"amazing\", \"positive\"]]",
+    "response": "[[\"fettucino alfredo\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 93,
+    "input": "The food was very good and I was pleasantly surprised to see so many vegan options .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"vegan options\", \"many\", \"positive\"]]",
+    "response": "[[\"food\", \"very good\", \"positive\"], [\"vegan options\", \"so many\", \"positive\"]]"
+  },
+  {
+    "id": 94,
+    "input": "Be sure to try the Smoked Trout ... Lamb Chops , Veal Chops , Rabbit , the potato gratin , on and on and on ...",
+    "label": "[[\"Smoked Trout\", \"try\", \"positive\"], [\"Lamb Chops\", \"try\", \"positive\"], [\"Veal Chops\", \"try\", \"positive\"], [\"Rabbit\", \"try\", \"positive\"], [\"potato gratin\", \"try\", \"positive\"]]",
+    "response": "[[\"Smoked Trout\", \"try\", \"positive\"], [\"Lamb Chops\", \"try\", \"positive\"], [\"Veal Chops\", \"try\", \"positive\"], [\"Rabbit\", \"try\", \"positive\"], [\"potato gratin\", \"try\", \"positive\"]]"
+  },
+  {
+    "id": 95,
+    "input": "Even when the chef is not in the house , the food and service are right on target .",
+    "label": "[[\"food\", \"right on target\", \"positive\"], [\"service\", \"right on target\", \"positive\"]]",
+    "response": "[[\"food\", \"right on target\", \"positive\"], [\"service\", \"right on target\", \"positive\"]]"
+  },
+  {
+    "id": 96,
+    "input": "Everything from the eggs benedict to the mussels and even the hamburger were done well and very tasty .",
+    "label": "[[\"eggs benedict\", \"well\", \"positive\"], [\"eggs benedict\", \"tasty\", \"positive\"], [\"mussels\", \"well\", \"positive\"], [\"mussels\", \"tasty\", \"positive\"], [\"hamburger\", \"well\", \"positive\"], [\"hamburger\", \"tasty\", \"positive\"]]",
+    "response": "[[\"eggs benedict\", \"done well\", \"positive\"], [\"eggs benedict\", \"very tasty\", \"positive\"], [\"mussels\", \"done well\", \"positive\"], [\"mussels\", \"very tasty\", \"positive\"], [\"hamburger\", \"done well\", \"positive\"], [\"hamburger\", \"very tasty\", \"positive\"]]"
+  },
+  {
+    "id": 97,
+    "input": "The waiters were very professional , courteous and attentive .",
+    "label": "[[\"waiters\", \"professional\", \"positive\"], [\"waiters\", \"courteous\", \"positive\"], [\"waiters\", \"attentive\", \"positive\"]]",
+    "response": "[[[\"waiters\", \"professional\", \"positive\"], [\"waiters\", \"courteous\", \"positive\"], [\"waiters\", \"attentive\", \"positive\"]]]"
+  },
+  {
+    "id": 98,
+    "input": "The falafal was rather over cooked and dried but the chicken was fine .",
+    "label": "[[\"falafal\", \"over cooked\", \"negative\"], [\"falafal\", \"dried\", \"negative\"], [\"chicken\", \"fine\", \"positive\"]]",
+    "response": "[[\"falafal\", \"over cooked\", \"negative\"], [\"falafal\", \"dried\", \"negative\"], [\"chicken\", \"fine\", \"positive\"]]"
+  },
+  {
+    "id": 99,
+    "input": "I highly recommend the grand marnier shrimp , it 's insanely good .",
+    "label": "[[\"grand marnier shrimp\", \"recommend\", \"positive\"], [\"grand marnier shrimp\", \"good\", \"positive\"]]",
+    "response": "[[\"grand marnier shrimp\", \"highly recommend\", \"positive\"], [\"grand marnier shrimp\", \"insanely good\", \"positive\"]]"
+  },
+  {
+    "id": 100,
+    "input": "We been there and we really enjoy the food , was areally great food , and the service was really good .",
+    "label": "[[\"food\", \"enjoy\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"service\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"enjoy\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"service\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 101,
+    "input": "I was starving and the small portions were driving me crazy !",
+    "label": "[[\"portions\", \"small\", \"negative\"]]",
+    "response": "[[\"portions\", \"small\", \"negative\"], [\"portions\", \"driving me crazy\", \"negative\"]]"
+  },
+  {
+    "id": 102,
+    "input": "The wait staff was loud and inconsiderate .",
+    "label": "[[\"wait staff\", \"loud\", \"negative\"], [\"wait staff\", \"inconsiderate\", \"negative\"]]",
+    "response": "[[\"wait staff\", \"loud\", \"negative\"], [\"wait staff\", \"inconsiderate\", \"negative\"]]"
+  },
+  {
+    "id": 103,
+    "input": "However , the food and service and dramatically lacking .",
+    "label": "[[\"food\", \"lacking\", \"negative\"], [\"service\", \"lacking\", \"negative\"]]",
+    "response": "[[[\"food\", \"dramatically lacking\", \"negative\"], [\"service\", \"dramatically lacking\", \"negative\"]]]"
+  },
+  {
+    "id": 104,
+    "input": "The sushi is cut in blocks bigger than my cell phone .",
+    "label": "[[\"sushi\", \"bigger\", \"negative\"]]",
+    "response": "[[\"size\", \"bigger\", \"negative\"]]"
+  },
+  {
+    "id": 105,
+    "input": "The service is great , my soup always arrives nice and hot .",
+    "label": "[[\"service\", \"great\", \"positive\"], [\"soup\", \"great\", \"positive\"], [\"soup\", \"hot\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"soup\", \"nice\", \"positive\"], [\"soup\", \"hot\", \"positive\"]]"
+  },
+  {
+    "id": 106,
+    "input": "It had been awhile and I forgot just how delicious crepes can be .",
+    "label": "[[\"crepes\", \"delicious\", \"positive\"]]",
+    "response": "[[[\"crepes\", \"delicious\", \"positive\"]]]"
+  },
+  {
+    "id": 107,
+    "input": "Montparnasse 's desserts -- especially the silken creme brulee and paper -- thin apple tart -- are good enough on their own to make the restaurant worth the trip .",
+    "label": "[[\"desserts\", \"good\", \"positive\"], [\"creme brulee\", \"silken\", \"positive\"], [\"apple tart\", \"thin\", \"positive\"]]",
+    "response": "[[\"desserts\", \"good enough\", \"positive\"], [\"creme brulee\", \"silken\", \"positive\"], [\"apple tart\", \"paper-thin\", \"positive\"]]"
+  },
+  {
+    "id": 108,
+    "input": "i had a delicious shrimp creole .",
+    "label": "[[\"shrimp creole\", \"delicious\", \"positive\"]]",
+    "response": "[[\"shrimp creole\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 109,
+    "input": "The chicken dinner was real good .",
+    "label": "[[\"chicken dinner\", \"good\", \"positive\"]]",
+    "response": "[[\"chicken dinner\", \"real good\", \"positive\"]]"
+  },
+  {
+    "id": 110,
+    "input": "but the food was delicious .",
+    "label": "[[\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 111,
+    "input": "Try the ribs , sizzling beef and couple it with coconut rice .",
+    "label": "[[\"ribs\", \"Try\", \"positive\"], [\"beef\", \"Try\", \"positive\"]]",
+    "response": "[[\"ribs\", \"Try\", \"positive\"], [\"beef\", \"sizzling\", \"positive\"], [\"coconut rice\", \"couple it with\", \"positive\"]]"
+  },
+  {
+    "id": 112,
+    "input": "The avocado salad is a personal fave .",
+    "label": "[[\"avocado salad\", \"fave\", \"positive\"]]",
+    "response": "[[\"avocado salad\", \"personal fave\", \"positive\"]]"
+  },
+  {
+    "id": 113,
+    "input": "And , the honey BBQ rib tips are yummy !",
+    "label": "[[\"honey BBQ rib tips\", \"yummy\", \"positive\"]]",
+    "response": "[[[\"honey BBQ rib tips\", \"yummy\", \"positive\"]]]"
+  },
+  {
+    "id": 114,
+    "input": "The BEST Chinese food Uptown !",
+    "label": "[[\"Chinese food\", \"BEST\", \"positive\"]]",
+    "response": "[[[\"Chinese food\", \"BEST\", \"positive\"]]]"
+  },
+  {
+    "id": 115,
+    "input": "Service is known for bending over backwards to make everyone happy .",
+    "label": "[[\"Service\", \"happy\", \"positive\"]]",
+    "response": "[[\"Service\", \"bending over backwards\", \"positive\"]]"
+  },
+  {
+    "id": 116,
+    "input": "The staff is very friendly .",
+    "label": "[[\"staff\", \"friendly\", \"positive\"]]",
+    "response": "[[\"staff\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 117,
+    "input": "Waiters are very friendly and the pasta is out of this world .",
+    "label": "[[\"Waiters\", \"friendly\", \"positive\"], [\"pasta\", \"out of this world\", \"positive\"]]",
+    "response": "[[[\"Waiters\", \"very friendly\", \"positive\"], [\"pasta\", \"out of this world\", \"positive\"]]"
+  },
+  {
+    "id": 118,
+    "input": "Great wine list and great cocktail menu .",
+    "label": "[[\"wine list\", \"Great\", \"positive\"], [\"cocktail menu\", \"great\", \"positive\"]]",
+    "response": "[[\"wine list\", \"great\", \"positive\"], [\"cocktail menu\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 119,
+    "input": "The crab cakes are delicious and the BBQ rib was perfect .",
+    "label": "[[\"crab cakes\", \"delicious\", \"positive\"], [\"BBQ rib\", \"perfect\", \"positive\"]]",
+    "response": "[[\"crab cakes\", \"delicious\", \"positive\"], [\"BBQ rib\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 120,
+    "input": "The food is wonderful , artfully done and simply delicious .",
+    "label": "[[\"food\", \"wonderful\", \"positive\"], [\"food\", \"artfully\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"food\", \"wonderful\", \"positive\"], [\"food\", \"artfully done\", \"positive\"], [\"food\", \"simply delicious\", \"positive\"]]"
+  },
+  {
+    "id": 121,
+    "input": "Tiny restaurant with very fast service .",
+    "label": "[[\"service\", \"fast\", \"positive\"]]",
+    "response": "[[\"size\", \"tiny\", \"negative\"], [\"service\", \"very fast\", \"positive\"]]"
+  },
+  {
+    "id": 122,
+    "input": "My husband and I have been there at least 6 times and we 've always been given the highest service and often free desserts .",
+    "label": "[[\"service\", \"highest\", \"positive\"], [\"desserts\", \"free\", \"positive\"]]",
+    "response": "[[\"service\", \"highest\", \"positive\"], [\"desserts\", \"free\", \"positive\"]]"
+  },
+  {
+    "id": 123,
+    "input": "A beautiful atmosphere , perfect for drinks and/or appetizers .",
+    "label": "[[\"atmosphere\", \"beautiful\", \"positive\"], [\"drinks\", \"perfect\", \"neutral\"], [\"appetizers\", \"perfect\", \"neutral\"]]",
+    "response": "[[\"atmosphere\", \"beautiful\", \"positive\"], [\"drinks\", \"perfect\", \"positive\"], [\"appetizers\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 124,
+    "input": "They make the best pizza in New Jersey .",
+    "label": "[[\"pizza\", \"best\", \"positive\"]]",
+    "response": "[[\"pizza\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 125,
+    "input": "What a difference , the service was very comforting and the food was better than average , but what really standed out was such a dynamic and extensive beer list .",
+    "label": "[[\"service\", \"comforting\", \"positive\"], [\"food\", \"better than average\", \"positive\"], [\"beer list\", \"extensive\", \"positive\"]]",
+    "response": "[[\"service\", \"comforting\", \"positive\"], [\"food\", \"better than average\", \"positive\"], [\"beer list\", \"dynamic\", \"positive\"], [\"beer list\", \"extensive\", \"positive\"]]"
+  },
+  {
+    "id": 126,
+    "input": "Not to be overlooked , the service is excellent .",
+    "label": "[[\"service\", \"excellent\", \"positive\"]]",
+    "response": "[[\"service\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 127,
+    "input": "this without question is one of the worst hotdogs i have ever had .",
+    "label": "[[\"hotdogs\", \"worst\", \"negative\"]]",
+    "response": "[[\"hotdogs\", \"worst\", \"negative\"]]"
+  },
+  {
+    "id": 128,
+    "input": "The staff is unbelievably friendly , and I dream about their Saag gosht ... so good .",
+    "label": "[[\"staff\", \"friendly\", \"positive\"], [\"Saag gosht\", \"good\", \"positive\"]]",
+    "response": "[[\"staff\", \"unbelievably friendly\", \"positive\"], [\"Saag gosht\", \"so good\", \"positive\"]]"
+  },
+  {
+    "id": 129,
+    "input": "I also recommend the garlic knots .",
+    "label": "[[\"garlic knots\", \"recommend\", \"positive\"]]",
+    "response": "[[[\"garlic knots\", \"recommend\", \"positive\"]]]"
+  },
+  {
+    "id": 130,
+    "input": "Best Indian food I have ever eaten .",
+    "label": "[[\"Indian food\", \"Best\", \"positive\"]]",
+    "response": "[[\"Indian food\", \"Best\", \"positive\"]]"
+  },
+  {
+    "id": 131,
+    "input": "This place has the best pizza .",
+    "label": "[[\"pizza\", \"best\", \"positive\"]]",
+    "response": "[[[\"pizza\", \"best\", \"positive\"]]]"
+  },
+  {
+    "id": 132,
+    "input": "The music which is sometimes a little too heavy for my taste .",
+    "label": "[[\"music\", \"too heavy\", \"negative\"]]",
+    "response": "[[\"music\", \"heavy\", \"negative\"]]"
+  },
+  {
+    "id": 133,
+    "input": "The service is excellent and always informative without an air .",
+    "label": "[[\"service\", \"excellent\", \"positive\"], [\"service\", \"informative\", \"positive\"]]",
+    "response": "[[\"service\", \"excellent\", \"positive\"], [\"service\", \"informative\", \"positive\"], [\"service\", \"without an air\", \"positive\"]]"
+  },
+  {
+    "id": 134,
+    "input": "The sushi is always fresh and yummy and the menu is pretty varied .",
+    "label": "[[\"sushi\", \"fresh\", \"positive\"], [\"sushi\", \"yummy\", \"positive\"], [\"menu\", \"varied\", \"positive\"]]",
+    "response": "[[\"sushi\", \"fresh\", \"positive\"], [\"sushi\", \"yummy\", \"positive\"], [\"menu\", \"varied\", \"positive\"]]"
+  },
+  {
+    "id": 135,
+    "input": "The food was great - sushi was good , but the cooked food amazed us .",
+    "label": "[[\"food\", \"great\", \"positive\"], [\"sushi\", \"good\", \"positive\"], [\"cooked food\", \"amazed\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"sushi\", \"good\", \"positive\"], [\"cooked food\", \"amazed\", \"positive\"]]"
+  },
+  {
+    "id": 136,
+    "input": "their dinner specials are fantastic .",
+    "label": "[[\"dinner specials\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"dinner specials\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 137,
+    "input": "Great food , great drinks , nice dining atmosphere .",
+    "label": "[[\"food\", \"Great\", \"positive\"], [\"drinks\", \"great\", \"positive\"], [\"dining atmosphere\", \"nice\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"drinks\", \"great\", \"positive\"], [\"dining atmosphere\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 138,
+    "input": "Food portion was SMALL and below average .",
+    "label": "[[\"Food portion\", \"SMALL\", \"negative\"], [\"Food portion\", \"below average\", \"negative\"]]",
+    "response": "[[[\"Food portion\", \"SMALL\", \"negative\"], [\"Food portion\", \"below average\", \"negative\"]]]"
+  },
+  {
+    "id": 139,
+    "input": "Sit back in one of those comfortable chairs .",
+    "label": "[[\"chairs\", \"comfortable\", \"positive\"]]",
+    "response": "[[\"chairs\", \"comfortable\", \"positive\"]]"
+  },
+  {
+    "id": 140,
+    "input": "My favs here are the Tacos Pastor and the Tostada de Tinga ...",
+    "label": "[[\"Tacos Pastor\", \"favs\", \"positive\"], [\"Tostada de Tinga\", \"favs\", \"positive\"]]",
+    "response": "[[\"Tacos Pastor\", \"favs\", \"positive\"], [\"Tostada de Tinga\", \"favs\", \"positive\"]]"
+  },
+  {
+    "id": 141,
+    "input": "The bartenders and the managers are really nice and the decor is very comfy and laid-back , all the while being trendy .",
+    "label": "[[\"bartenders\", \"nice\", \"positive\"], [\"managers\", \"nice\", \"positive\"], [\"decor\", \"comfy\", \"positive\"], [\"decor\", \"laid-back\", \"positive\"]]",
+    "response": "[[\"bartenders\", \"nice\", \"positive\"], [\"managers\", \"nice\", \"positive\"], [\"decor\", \"comfy\", \"positive\"], [\"decor\", \"laid-back\", \"positive\"], [\"decor\", \"trendy\", \"positive\"]]"
+  },
+  {
+    "id": 142,
+    "input": "For a savory take on the soup and sandwich meal , try the hot and sour soup .",
+    "label": "[[\"hot and sour soup\", \"try\", \"positive\"], [\"soup and sandwich meal\", \"savory\", \"positive\"]]",
+    "response": "[[\"soup and sandwich meal\", \"savory\", \"positive\"], [\"hot and sour soup\", \"try\", \"positive\"]]"
+  },
+  {
+    "id": 143,
+    "input": "This bar has it all - great drinks , cool atmosphere , excellent service and delicious food .",
+    "label": "[[\"drinks\", \"great\", \"positive\"], [\"atmosphere\", \"cool\", \"positive\"], [\"service\", \"excellent\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"drinks\", \"great\", \"positive\"], [\"atmosphere\", \"cool\", \"positive\"], [\"service\", \"excellent\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 144,
+    "input": "Also , the chick peas with shrimp ( appetizer ) is divine .",
+    "label": "[[\"chick peas with shrimp ( appetizer )\", \"divine\", \"positive\"]]",
+    "response": "[[\"chick peas with shrimp\", \"divine\", \"positive\"]]"
+  },
+  {
+    "id": 145,
+    "input": "Finally , I got sick of the bad service , obnoxious smirks , and snotty back talk .",
+    "label": "[[\"service\", \"bad\", \"negative\"]]",
+    "response": "[[\"service\", \"bad\", \"negative\"], [\"smirks\", \"obnoxious\", \"negative\"], [\"back talk\", \"snotty\", \"negative\"]]"
+  },
+  {
+    "id": 146,
+    "input": "We ordered lamb which was perfectly cooked and tasted awesome .",
+    "label": "[[\"lamb\", \"perfectly cooked\", \"positive\"], [\"lamb\", \"awesome\", \"positive\"]]",
+    "response": "[[\"lamb\", \"perfectly cooked\", \"positive\"], [\"lamb\", \"tasted awesome\", \"positive\"]]"
+  },
+  {
+    "id": 147,
+    "input": "i especially like their soft shell crab sandwich with fries .",
+    "label": "[[\"soft shell crab sandwich with fries\", \"like\", \"positive\"]]",
+    "response": "[[\"soft shell crab sandwich\", \"like\", \"positive\"], [\"fries\", \"like\", \"positive\"]]"
+  },
+  {
+    "id": 148,
+    "input": "if you 're looking for authentic hong kong-style food , look no further .",
+    "label": "[[\"hong kong-style food\", \"authentic\", \"positive\"]]",
+    "response": "[[\"hong kong-style food\", \"authentic\", \"positive\"]]"
+  },
+  {
+    "id": 149,
+    "input": "good food good wine that 's it .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"wine\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"wine\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 150,
+    "input": "The staff was extremely friendly and pleasant .",
+    "label": "[[\"staff\", \"friendly\", \"positive\"], [\"staff\", \"pleasant\", \"positive\"]]",
+    "response": "[[\"staff\", \"extremely friendly\", \"positive\"], [\"staff\", \"pleasant\", \"positive\"]]"
+  },
+  {
+    "id": 151,
+    "input": "While their kitchen food is delicious , their Sushi is out of this world .",
+    "label": "[[\"kitchen food\", \"delicious\", \"positive\"], [\"Sushi\", \"out of this world\", \"positive\"]]",
+    "response": "[[\"kitchen food\", \"delicious\", \"positive\"], [\"Sushi\", \"out of this world\", \"positive\"]]"
+  },
+  {
+    "id": 152,
+    "input": "everything is scrumptious , from the excellent service by cute waitresses , to the extremely lush atmosphere .",
+    "label": "[[\"service\", \"excellent\", \"positive\"], [\"waitresses\", \"cute\", \"positive\"], [\"atmosphere\", \"lush\", \"positive\"]]",
+    "response": "[[\"service\", \"excellent\", \"positive\"], [\"waitresses\", \"cute\", \"positive\"], [\"atmosphere\", \"lush\", \"positive\"]]"
+  },
+  {
+    "id": 153,
+    "input": "It 's traditional , simple italian food .",
+    "label": "[[\"italian food\", \"traditional\", \"positive\"], [\"italian food\", \"simple\", \"positive\"]]",
+    "response": "[[\"food\", \"traditional\", \"positive\"], [\"food\", \"simple\", \"positive\"]]"
+  },
+  {
+    "id": 154,
+    "input": "The food is all-around good , with the rolls usually excellent and the sushi/sashimi not quite on the same level .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"rolls\", \"excellent\", \"positive\"]]",
+    "response": "[[[\"food\", \"all-around good\", \"positive\"], [\"rolls\", \"excellent\", \"positive\"], [\"sushi/sashimi\", \"not quite on the same level\", \"negative\"]]"
+  },
+  {
+    "id": 155,
+    "input": "( The sashimi is cut a little thinly .",
+    "label": "[[\"sashimi\", \"thinly\", \"negative\"]]",
+    "response": "[[\"cut\", \"a little thinly\", \"negative\"]]"
+  },
+  {
+    "id": 156,
+    "input": "In addition to great hot dogs , DOTP has wonderful breakfast sandwiches that feature , in addition to great things like tator tots and English muffins , a delicious NJ-based pork product know to us Jersey girls and boys as Taylor ham .",
+    "label": "[[\"hot dogs\", \"great\", \"positive\"], [\"breakfast sandwiches\", \"wonderful\", \"positive\"], [\"tator tots\", \"great\", \"positive\"], [\"English muffins\", \"great\", \"positive\"], [\"pork product\", \"delicious\", \"positive\"]]",
+    "response": "[[\"hot dogs\", \"great\", \"positive\"], [\"breakfast sandwiches\", \"wonderful\", \"positive\"], [\"tator tots\", \"great\", \"positive\"], [\"English muffins\", \"great\", \"positive\"], [\"Taylor ham\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 157,
+    "input": "Well , it happened because of a graceless manager and a rude bartender who had us waiting 20 minutes for drinks , and then tells us to chill out .",
+    "label": "[[\"manager\", \"graceless\", \"negative\"], [\"bartender\", \"rude\", \"negative\"], [\"drinks\", \"waiting\", \"neutral\"], [\"waiting\", \"rude\", \"negative\"]]",
+    "response": "[[\"manager\", \"graceless\", \"negative\"], [\"bartender\", \"rude\", \"negative\"], [\"drinks\", \"waiting 20 minutes\", \"negative\"], [\"bartender\", \"tells us to chill out\", \"negative\"]]"
+  },
+  {
+    "id": 158,
+    "input": "Not only is the service great , but forming conversation around a table is so easy beacuse the atmosphere can be both romantic and comfortable .",
+    "label": "[[\"service\", \"great\", \"positive\"], [\"atmosphere\", \"romantic\", \"positive\"], [\"atmosphere\", \"comfortable\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"conversation\", \"easy\", \"positive\"], [\"atmosphere\", \"romantic\", \"positive\"], [\"atmosphere\", \"comfortable\", \"positive\"]]"
+  },
+  {
+    "id": 159,
+    "input": "When the dish arrived it was blazing with green chillis , definitely not edible by a human .",
+    "label": "[[\"green chillis\", \"not edible\", \"negative\"], [\"dish\", \"edible\", \"negative\"]]",
+    "response": "[[ \"green chillis\", \"blazing\", \"negative\" ], [ \"edible\", \"not\", \"negative\" ]]"
+  },
+  {
+    "id": 160,
+    "input": "The absolute worst service I 've ever experienced and the food was below average ( when they actually gave people the meals they ordered ) .",
+    "label": "[[\"service\", \"worst\", \"negative\"], [\"food\", \"below average\", \"negative\"]]",
+    "response": "[[\"service\", \"absolute worst\", \"negative\"], [\"food\", \"below average\", \"negative\"]]"
+  },
+  {
+    "id": 161,
+    "input": "Be sure to accompany your food with one of their fresh juice concoctions .",
+    "label": "[[\"fresh juice concoctions\", \"fresh\", \"positive\"]]",
+    "response": "[[[\"juice concoctions\", \"fresh\", \"positive\"]]]"
+  },
+  {
+    "id": 162,
+    "input": "The food is great and the prices are reasonable .",
+    "label": "[[\"food\", \"great\", \"positive\"], [\"prices\", \"reasonable\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"prices\", \"reasonable\", \"positive\"]]"
+  },
+  {
+    "id": 163,
+    "input": "The place is clean , and if you like soul food , then this is the place to be !",
+    "label": "[[\"place\", \"clean\", \"positive\"], [\"soul food\", \"like\", \"positive\"]]",
+    "response": "[[\"place\", \"clean\", \"positive\"], [\"soul food\", \"place to be\", \"positive\"]]"
+  },
+  {
+    "id": 164,
+    "input": "They have a very good chicken with avocado and good tuna as well .",
+    "label": "[[\"chicken with avocado\", \"good\", \"positive\"], [\"tuna\", \"good\", \"positive\"]]",
+    "response": "[[\"chicken with avocado\", \"very good\", \"positive\"], [\"tuna\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 165,
+    "input": "But the meals were terrible .",
+    "label": "[[\"meals\", \"terrible\", \"negative\"]]",
+    "response": "[[\"meals\", \"terrible\", \"negative\"]]"
+  },
+  {
+    "id": 166,
+    "input": "My chicken was completely dried out and on the cold side and the sauce was not very flavorful .",
+    "label": "[[\"chicken\", \"dried out\", \"negative\"], [\"sauce\", \"not very flavorful\", \"negative\"]]",
+    "response": "[[\"chicken\", \"completely dried out\", \"negative\"], [\"chicken\", \"cold\", \"negative\"], [\"sauce\", \"not very flavorful\", \"negative\"]]"
+  },
+  {
+    "id": 167,
+    "input": "Malted Milk Ball Gelato - have you ever in your life heard of anything so ridiculously wonderful ?",
+    "label": "[[\"Malted Milk Ball Gelato\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"Malted Milk Ball Gelato\", \"ridiculously wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 168,
+    "input": "Way too much money for such a terrible meal .",
+    "label": "[[\"meal\", \"terrible\", \"negative\"]]",
+    "response": "[[\"money\", \"way too much\", \"negative\"], [\"meal\", \"terrible\", \"negative\"]]"
+  },
+  {
+    "id": 169,
+    "input": "However , the service is absolutely horrible .",
+    "label": "[[\"service\", \"horrible\", \"negative\"]]",
+    "response": "[[\"service\", \"horrible\", \"negative\"]]"
+  },
+  {
+    "id": 170,
+    "input": "A con was the slow bar service .",
+    "label": "[[\"bar service\", \"slow\", \"negative\"]]",
+    "response": "[[\"bar service\", \"slow\", \"negative\"]]"
+  },
+  {
+    "id": 171,
+    "input": "Dessert was also to die for !",
+    "label": "[[\"Dessert\", \"die for\", \"positive\"]]",
+    "response": "[[\"dessert\", \"to die for\", \"positive\"]]"
+  },
+  {
+    "id": 172,
+    "input": "BTW , the service is very good .",
+    "label": "[[\"service\", \"good\", \"positive\"]]",
+    "response": "[[\"service\", \"very good\", \"positive\"]]"
+  },
+  {
+    "id": 173,
+    "input": "The unattractive lighting made me want to gag , the food was overpriced , there was the most awful disco pop duo performing-and my escargot looked like it might crawl off the plate .",
+    "label": "[[\"lighting\", \"unattractive\", \"negative\"], [\"food\", \"overpriced\", \"negative\"], [\"disco pop duo\", \"awful\", \"negative\"]]",
+    "response": "[[\"lighting\", \"unattractive\", \"negative\"], [\"food\", \"overpriced\", \"negative\"], [\"disco pop duo\", \"awful\", \"negative\"], [\"escargot\", \"looked like it might crawl off the plate\", \"negative\"]]"
+  },
+  {
+    "id": 174,
+    "input": "it is a cozy place to go with a couple of friends .",
+    "label": "[[\"place\", \"cozy\", \"positive\"]]",
+    "response": "[[\"place\", \"cozy\", \"positive\"]]"
+  },
+  {
+    "id": 175,
+    "input": "The service is always great , and the owner walks around to make sure you enjoy .",
+    "label": "[[\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"owner\", \"walks around to make sure you enjoy\", \"positive\"]]"
+  },
+  {
+    "id": 176,
+    "input": "the food is delicious and highly recommended .",
+    "label": "[[\"food\", \"delicious\", \"positive\"], [\"food\", \"recommended\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"], [\"food\", \"highly recommended\", \"positive\"]]"
+  },
+  {
+    "id": 177,
+    "input": "So for a filling and healthy meal give it a go .",
+    "label": "[[\"meal\", \"filling\", \"positive\"], [\"meal\", \"healthy\", \"positive\"]]",
+    "response": "[[\"meal\", \"filling\", \"positive\"], [\"meal\", \"healthy\", \"positive\"]]"
+  },
+  {
+    "id": 178,
+    "input": "Since I cook for a living , I 'm very fussy about the food I eat in restaurants .",
+    "label": "[[\"food\", \"fussy\", \"neutral\"]]",
+    "response": "[[\"food\", \"fussy\", \"negative\"]]"
+  },
+  {
+    "id": 179,
+    "input": "The service was outstanding .",
+    "label": "[[\"service\", \"outstanding\", \"positive\"]]",
+    "response": "[[ \"service\", \"outstanding\", \"positive\" ]]"
+  },
+  {
+    "id": 180,
+    "input": "We always enjoy the pizza .",
+    "label": "[[\"pizza\", \"enjoy\", \"positive\"]]",
+    "response": "[[\"pizza\", \"enjoy\", \"positive\"]]"
+  },
+  {
+    "id": 181,
+    "input": "The service is pretty good .",
+    "label": "[[\"service\", \"good\", \"positive\"]]",
+    "response": "[[ \"service\", \"good\", \"positive\" ]]"
+  },
+  {
+    "id": 182,
+    "input": "Yum , the chicken is great here .",
+    "label": "[[\"chicken\", \"great\", \"positive\"]]",
+    "response": "[[\"chicken\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 183,
+    "input": "The food here was great , a treat from beginning to end .",
+    "label": "[[\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"food\", \"a treat from beginning to end\", \"positive\"]]"
+  },
+  {
+    "id": 184,
+    "input": "The host ( owner ) and servers are personable and caring .",
+    "label": "[[\"host ( owner )\", \"personable\", \"positive\"], [\"host ( owner )\", \"caring\", \"positive\"], [\"servers\", \"personable\", \"positive\"], [\"servers\", \"caring\", \"positive\"]]",
+    "response": "[[\"host ( owner )\", \"personable\", \"positive\"], [\"host ( owner )\", \"caring\", \"positive\"], [\"servers\", \"personable\", \"positive\"], [\"servers\", \"caring\", \"positive\"]]"
+  },
+  {
+    "id": 185,
+    "input": "It 's just everything ... the food , the atmosphere ... the incrediby kind and gracious hostess .",
+    "label": "[[\"hostess\", \"kind\", \"positive\"], [\"hostess\", \"gracious\", \"positive\"]]",
+    "response": "[[\"food\", \"everything\", \"positive\"], [\"atmosphere\", \"everything\", \"positive\"], [\"hostess\", \"incrediby kind and gracious\", \"positive\"]]"
+  },
+  {
+    "id": 186,
+    "input": "The food is very good and the service is great .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 187,
+    "input": "We were wondering why they were there to make our dining experience miserable ?",
+    "label": "[[\"dining experience\", \"miserable\", \"negative\"]]",
+    "response": "[[\"dining experience\", \"miserable\", \"negative\"], [\"staff\", \"to make our dining experience miserable\", \"negative\"]]"
+  },
+  {
+    "id": 188,
+    "input": "This place has the best Indian food in New York , hands down .",
+    "label": "[[\"Indian food\", \"best\", \"positive\"]]",
+    "response": "[[\"Indian food\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 189,
+    "input": "The waiters are very friendly and helpful and if you frequent they will remember you .",
+    "label": "[[\"waiters\", \"friendly\", \"positive\"], [\"waiters\", \"helpful\", \"positive\"]]",
+    "response": "[[\"waiters\", \"friendly\", \"positive\"], [\"waiters\", \"helpful\", \"positive\"], [\"waiters\", \"remember you\", \"positive\"]]"
+  },
+  {
+    "id": 190,
+    "input": "Intimate but charming interior with extremely friendly and attentive service .",
+    "label": "[[\"interior\", \"charming\", \"positive\"], [\"service\", \"friendly\", \"positive\"], [\"service\", \"attentive\", \"positive\"]]",
+    "response": "[[\"interior\", \"intimate\", \"positive\"], [\"interior\", \"charming\", \"positive\"], [\"service\", \"friendly\", \"positive\"], [\"service\", \"attentive\", \"positive\"]]"
+  },
+  {
+    "id": 191,
+    "input": "The food was as creative as the decor and both worked .",
+    "label": "[[\"food\", \"creative\", \"positive\"], [\"decor\", \"creative\", \"positive\"]]",
+    "response": "[[[\"food\", \"creative\", \"positive\"], [\"decor\", \"creative\", \"positive\"], [\"both\", \"worked\", \"positive\"]]]"
+  },
+  {
+    "id": 192,
+    "input": "The menu is great , with a good selection , and everything that I have tried is absolutely delicious .",
+    "label": "[[\"menu\", \"great\", \"positive\"], [\"selection\", \"good\", \"positive\"]]",
+    "response": "[[\"menu\", \"great\", \"positive\"], [\"selection\", \"good\", \"positive\"], [\"everything\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 193,
+    "input": "The sauce is zesty and flavorful and the crust is nice and crispy .",
+    "label": "[[\"sauce\", \"zesty\", \"positive\"], [\"sauce\", \"flavorful\", \"positive\"], [\"crust\", \"nice\", \"positive\"], [\"crust\", \"crispy\", \"positive\"]]",
+    "response": "[[\"sauce\", \"zesty\", \"positive\"], [\"sauce\", \"flavorful\", \"positive\"], [\"crust\", \"nice\", \"positive\"], [\"crust\", \"crispy\", \"positive\"]]"
+  },
+  {
+    "id": 194,
+    "input": "This place has the best sushi in the city .",
+    "label": "[[\"sushi\", \"best\", \"positive\"]]",
+    "response": "[[[\"sushi\", \"best\", \"positive\"]]]"
+  },
+  {
+    "id": 195,
+    "input": "They have an excellent selection ( the rolls with crab are really great ) .",
+    "label": "[[\"selection\", \"excellent\", \"positive\"], [\"rolls with crab\", \"great\", \"positive\"]]",
+    "response": "[[\"selection\", \"excellent\", \"positive\"], [\"rolls with crab\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 196,
+    "input": "Everyone who works there ( the host , the bartender , the servers ) is so helpful .",
+    "label": "[[\"host\", \"helpful\", \"positive\"], [\"bartender\", \"helpful\", \"positive\"], [\"servers\", \"helpful\", \"positive\"]]",
+    "response": "[[ \"staff\", \"helpful\", \"positive\" ]]"
+  },
+  {
+    "id": 197,
+    "input": "And the food is fantastic .",
+    "label": "[[\"food\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"food\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 198,
+    "input": "Favourites include : potato spinach gnocchi and the lamb .",
+    "label": "[[\"potato spinach gnocchi\", \"Favourites\", \"positive\"], [\"lamb\", \"Favourites\", \"positive\"]]",
+    "response": "[[\"potato spinach gnocchi\", \"favourites\", \"positive\"], [\"lamb\", \"favourites\", \"positive\"]]"
+  },
+  {
+    "id": 199,
+    "input": "But regulars know that the sandwiches are the real star here .",
+    "label": "[[\"sandwiches\", \"star\", \"positive\"]]",
+    "response": "[[\"sandwiches\", \"real star\", \"positive\"]]"
+  },
+  {
+    "id": 200,
+    "input": "The skillfully chosen Portuguese cheese cart paired with quality port provides the perfect Iberian ending .",
+    "label": "[[\"port\", \"quality\", \"positive\"], [\"Portuguese cheese cart\", \"perfect\", \"positive\"]]",
+    "response": "[[\"Portuguese cheese cart\", \"skillfully chosen\", \"positive\"], [\"port\", \"quality\", \"positive\"], [\"Iberian ending\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 201,
+    "input": "My friend had a burger and I had these wonderful blueberry pancakes .",
+    "label": "[[\"blueberry pancakes\", \"wonderful\", \"positive\"]]",
+    "response": "[[[\"blueberry pancakes\", \"wonderful\", \"positive\"]]]"
+  },
+  {
+    "id": 202,
+    "input": "We were so happy with our food and were even more thrilled when we saw the bill .",
+    "label": "[[\"food\", \"happy\", \"positive\"], [\"bill\", \"thrilled\", \"positive\"]]",
+    "response": "[[\"food\", \"happy\", \"positive\"], [\"bill\", \"thrilled\", \"positive\"]]"
+  },
+  {
+    "id": 203,
+    "input": "All toppings are so fresh you 'd think they had their own vegetable garden and the crust is so perfect , that one actually thinks of how it was made .",
+    "label": "[[\"toppings\", \"fresh\", \"positive\"], [\"crust\", \"perfect\", \"positive\"]]",
+    "response": "[[[\"toppings\", \"fresh\", \"positive\"], [\"crust\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 204,
+    "input": "We 've always gotten amazing service and we love the food .",
+    "label": "[[\"service\", \"amazing\", \"positive\"], [\"food\", \"love\", \"positive\"]]",
+    "response": "[[\"service\", \"amazing\", \"positive\"], [\"food\", \"love\", \"positive\"]]"
+  },
+  {
+    "id": 205,
+    "input": "The waitstaff is solicitous and friendly and always seems glad to see us , and the food is wonderful , if not stunningly creative .",
+    "label": "[[\"waitstaff\", \"solicitous\", \"positive\"], [\"waitstaff\", \"friendly\", \"positive\"], [\"food\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"waitstaff\", \"solicitous\", \"positive\"], [\"waitstaff\", \"friendly\", \"positive\"], [\"waitstaff\", \"glad to see us\", \"positive\"], [\"food\", \"wonderful\", \"positive\"], [\"food\", \"not stunningly creative\", \"negative\"]]"
+  },
+  {
+    "id": 206,
+    "input": "I 'm in love with the lobster ravioli !",
+    "label": "[[\"lobster ravioli\", \"love\", \"positive\"]]",
+    "response": "[[\"lobster ravioli\", \"in love\", \"positive\"]]"
+  },
+  {
+    "id": 207,
+    "input": "We came across this restaurant by accident while at a DUMBO art festival and thoroughly enjoyed our meal .",
+    "label": "[[\"meal\", \"enjoyed\", \"positive\"]]",
+    "response": "[[\"meal\", \"thoroughly enjoyed\", \"positive\"]]"
+  },
+  {
+    "id": 208,
+    "input": "Service is excellent , no wait , and you get a lot for the price .",
+    "label": "[[\"Service\", \"excellent\", \"positive\"], [\"wait\", \"no\", \"positive\"]]",
+    "response": "[[\"service\", \"excellent\", \"positive\"], [\"wait\", \"no wait\", \"positive\"], [\"price\", \"a lot\", \"positive\"]]"
+  },
+  {
+    "id": 209,
+    "input": "I thought the food is n't cheap at all compared to Chinatown .",
+    "label": "[[\"food\", \"is n't cheap\", \"negative\"]]",
+    "response": "[[\"food\", \"not cheap\", \"negative\"]]"
+  },
+  {
+    "id": 210,
+    "input": "Coffee is a better deal than overpriced Cosi sandwiches .",
+    "label": "[[\"Coffee\", \"better\", \"positive\"], [\"Cosi sandwiches\", \"overpriced\", \"negative\"]]",
+    "response": "[[\"Coffee\", \"better deal\", \"positive\"], [\"Cosi sandwiches\", \"overpriced\", \"negative\"]]"
+  },
+  {
+    "id": 211,
+    "input": ") It 's not the best Japanese restaurant in the East Village , but it 's a pretty solid one for its modest prices , and worth repeat visits .",
+    "label": "[[\"prices\", \"modest\", \"positive\"]]",
+    "response": "[[\"Japanese restaurant\", \"not the best\", \"negative\"], [\"prices\", \"modest\", \"positive\"], [\"restaurant\", \"solid\", \"positive\"], [\"repeat visits\", \"worth\", \"positive\"]]"
+  },
+  {
+    "id": 212,
+    "input": "The food is so good and so popular that waiting can really be a nightmare .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"food\", \"popular\", \"positive\"], [\"waiting\", \"nightmare\", \"negative\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"food\", \"popular\", \"positive\"], [\"waiting\", \"nightmare\", \"negative\"]]"
+  },
+  {
+    "id": 213,
+    "input": "First walking in the place seemed to have great ambience .",
+    "label": "[[\"ambience\", \"great\", \"positive\"]]",
+    "response": "[[\"ambience\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 214,
+    "input": "Even for two very hungry people there is plenty of food left to be taken home ( it reheats really well also ) .",
+    "label": "[[\"food\", \"plenty\", \"positive\"]]",
+    "response": "[[[\"food\", \"plenty of\", \"positive\"], [\"reheats\", \"well\", \"positive\"]]]"
+  },
+  {
+    "id": 215,
+    "input": "Then they somehow made a dry and burnt crust , around a raw and cold inside .",
+    "label": "[[\"crust\", \"dry\", \"negative\"], [\"crust\", \"burnt\", \"negative\"]]",
+    "response": "[[\"crust\", \"dry\", \"negative\"], [\"crust\", \"burnt\", \"negative\"], [\"inside\", \"raw\", \"negative\"], [\"inside\", \"cold\", \"negative\"]]"
+  },
+  {
+    "id": 216,
+    "input": "It 's just good food , nothing more and that 's all we want !",
+    "label": "[[\"food\", \"good\", \"positive\"]]",
+    "response": "[[[\"food\", \"good\", \"positive\"]]]"
+  },
+  {
+    "id": 217,
+    "input": "Average cake thats been courted by a LOT of hype .",
+    "label": "[[\"cake\", \"Average\", \"negative\"]]",
+    "response": "[[\"cake\", \"average\", \"negative\"], [\"hype\", \"a LOT of\", \"neutral\"]]"
+  },
+  {
+    "id": 218,
+    "input": "My wife and I recently visited the bistro for dinner and had a wonderful experience .",
+    "label": "[[\"dinner\", \"wonderful\", \"neutral\"]]",
+    "response": "[[\"experience\", \"wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 219,
+    "input": "THE SERVICE IS PERFECT TOO NOTHING WRONG IN THIS ITALIAN/FRENCH RESTAURANT",
+    "label": "[[\"SERVICE\", \"PERFECT\", \"positive\"]]",
+    "response": "[[\"service\", \"perfect\", \"positive\"], [\"restaurant\", \"nothing wrong\", \"positive\"]]"
+  },
+  {
+    "id": 220,
+    "input": "The $ 72 Delmonico steak had to be sent back because it was not cooked to order .",
+    "label": "[[\"Delmonico steak\", \"not cooked\", \"negative\"]]",
+    "response": "[[\"Delmonico steak\", \"had to be sent back\", \"negative\"], [\"cooking\", \"not cooked to order\", \"negative\"]]"
+  },
+  {
+    "id": 221,
+    "input": "The service is really fast and friendly , and the value is great .",
+    "label": "[[\"service\", \"fast\", \"positive\"], [\"service\", \"friendly\", \"positive\"], [\"value\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"fast\", \"positive\"], [\"service\", \"friendly\", \"positive\"], [\"value\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 222,
+    "input": "We were very impressed with the food and value .",
+    "label": "[[\"food\", \"impressed\", \"positive\"], [\"value\", \"impressed\", \"positive\"]]",
+    "response": "[[[\"food\", \"very impressed\", \"positive\"], [\"value\", \"very impressed\", \"positive\"]]]"
+  },
+  {
+    "id": 223,
+    "input": "You must try the garlic soup !",
+    "label": "[[\"garlic soup\", \"try\", \"positive\"]]",
+    "response": "[[\"garlic soup\", \"must try\", \"positive\"]]"
+  },
+  {
+    "id": 224,
+    "input": "Casablanca servces delicious falafel , tabouleh , humus and other Mediterranean delights , which are all very inexpensive .",
+    "label": "[[\"falafel\", \"delicious\", \"positive\"], [\"tabouleh\", \"delicious\", \"positive\"], [\"humus\", \"delicious\", \"positive\"], [\"Mediterranean delights\", \"delicious\", \"positive\"], [\"Mediterranean delights\", \"inexpensive\", \"positive\"]]",
+    "response": "[[\"falafel\", \"delicious\", \"positive\"], [\"tabouleh\", \"delicious\", \"positive\"], [\"humus\", \"delicious\", \"positive\"], [\"Mediterranean delights\", \"delicious\", \"positive\"], [\"price\", \"inexpensive\", \"positive\"]]"
+  },
+  {
+    "id": 225,
+    "input": "The pizza 's are made fresh , crispy , and ready to serve .",
+    "label": "[[\"pizza 's\", \"fresh\", \"positive\"], [\"pizza 's\", \"crispy\", \"positive\"], [\"pizza 's\", \"ready to serve\", \"positive\"]]",
+    "response": "[[[\"pizza\", \"fresh\", \"positive\"], [\"pizza\", \"crispy\", \"positive\"], [\"pizza\", \"ready to serve\", \"positive\"]]]"
+  },
+  {
+    "id": 226,
+    "input": "Staff is accomodating make sure you are satified .",
+    "label": "[[\"Staff\", \"accomodating\", \"positive\"]]",
+    "response": "[[\"Staff\", \"accomodating\", \"positive\"], [\"Staff\", \"satified\", \"positive\"]]"
+  },
+  {
+    "id": 227,
+    "input": "Reasonably priced with very fresh sushi .",
+    "label": "[[\"sushi\", \"fresh\", \"positive\"], [\"priced\", \"Reasonably\", \"positive\"]]",
+    "response": "[[\"price\", \"reasonably priced\", \"positive\"], [\"sushi\", \"very fresh\", \"positive\"]]"
+  },
+  {
+    "id": 228,
+    "input": "All of the apetizers are good and the Sangria is very good .",
+    "label": "[[\"apetizers\", \"good\", \"positive\"], [\"Sangria\", \"good\", \"positive\"]]",
+    "response": "[[\"appetizers\", \"good\", \"positive\"], [\"Sangria\", \"very good\", \"positive\"]]"
+  },
+  {
+    "id": 229,
+    "input": "The one positive thing I can say is that the service was prompt , we got seated right away and the server was very friendly .",
+    "label": "[[\"service\", \"prompt\", \"positive\"], [\"server\", \"friendly\", \"positive\"]]",
+    "response": "[[\"service\", \"prompt\", \"positive\"], [\"seating\", \"right away\", \"positive\"], [\"server\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 230,
+    "input": "The staff greeted me warmly at the door and I was seated promptly and the food was excellent .",
+    "label": "[[\"staff\", \"warmly\", \"positive\"], [\"food\", \"excellent\", \"positive\"]]",
+    "response": "[[\"staff\", \"greeted me warmly\", \"positive\"], [\"seating\", \"seated promptly\", \"positive\"], [\"food\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 231,
+    "input": "Service is usually pretty good .",
+    "label": "[[\"Service\", \"good\", \"positive\"]]",
+    "response": "[[\"Service\", \"pretty good\", \"positive\"]]"
+  },
+  {
+    "id": 232,
+    "input": "Host and Hostess was quite rude .",
+    "label": "[[\"Host\", \"rude\", \"negative\"], [\"Hostess\", \"rude\", \"negative\"]]",
+    "response": "[[\"Host and Hostess\", \"rude\", \"negative\"]]"
+  },
+  {
+    "id": 233,
+    "input": "the wait staff is very friendly , if your not rude or picky ... ... .our meal at Leon last weekend was great - .",
+    "label": "[[\"wait staff\", \"friendly\", \"positive\"], [\"meal\", \"great\", \"positive\"]]",
+    "response": "[[\"wait staff\", \"very friendly\", \"positive\"], [\"meal\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 234,
+    "input": "I recommend any of their salmon dishes ... ...",
+    "label": "[[\"salmon dishes\", \"recommend\", \"positive\"]]",
+    "response": "[[\"salmon dishes\", \"recommend\", \"positive\"]]"
+  },
+  {
+    "id": 235,
+    "input": "The foie gras was sweet and luscious .",
+    "label": "[[\"foie gras\", \"sweet\", \"positive\"], [\"foie gras\", \"luscious\", \"positive\"]]",
+    "response": "[[\"foie gras\", \"sweet\", \"positive\"], [\"foie gras\", \"luscious\", \"positive\"]]"
+  },
+  {
+    "id": 236,
+    "input": "The menu , which changes seasonally , shows both regional and international influences .",
+    "label": "[[\"menu\", \"changes\", \"neutral\"]]",
+    "response": "[[\"menu\", \"changes seasonally\", \"positive\"], [\"menu\", \"regional and international influences\", \"positive\"]]"
+  },
+  {
+    "id": 237,
+    "input": "but their mac cheese was YUMMY !",
+    "label": "[[\"mac cheese\", \"YUMMY\", \"positive\"]]",
+    "response": "[[\"mac cheese\", \"YUMMY\", \"positive\"]]"
+  },
+  {
+    "id": 238,
+    "input": "jazz singer had a nice voice + she made us all get up to dance to shake some cals to eat some more .",
+    "label": "[[\"jazz singer\", \"nice\", \"positive\"]]",
+    "response": "[[\"jazz singer\", \"nice\", \"positive\"], [\"dance\", \"get up to\", \"positive\"]]"
+  },
+  {
+    "id": 239,
+    "input": "They have very quick service which is great when you do n't have much time .",
+    "label": "[[\"service\", \"quick\", \"positive\"], [\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"quick\", \"positive\"], [\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 240,
+    "input": "The food is average : breakfast food , soups , salads , sandwiches , etc .",
+    "label": "[[\"food\", \"average\", \"neutral\"], [\"breakfast food\", \"average\", \"neutral\"], [\"soups\", \"average\", \"neutral\"], [\"salads\", \"average\", \"neutral\"], [\"sandwiches\", \"average\", \"neutral\"]]",
+    "response": "[[\"food\", \"average\", \"neutral\"], [\"breakfast food\", \"average\", \"neutral\"], [\"soups\", \"average\", \"neutral\"], [\"salads\", \"average\", \"neutral\"], [\"sandwiches\", \"average\", \"neutral\"]]"
+  },
+  {
+    "id": 241,
+    "input": "I WAS HIGHLY DISAPPOINTED BY THE FOOD .",
+    "label": "[[\"FOOD\", \"DISAPPOINTED\", \"negative\"]]",
+    "response": "[[\"food\", \"highly disappointed\", \"negative\"]]"
+  },
+  {
+    "id": 242,
+    "input": "THE BANANA PUDDING THEY SERVE HAS NEVER SEEN AN OVEN , THE CRABCAKES ARE WAY OVER SALTED AND DO N'T GET ME STARTED ON THE VERY GREASY MAC AND CHEESE .",
+    "label": "[[\"CRABCAKES\", \"OVER SALTED\", \"negative\"], [\"MAC AND CHEESE\", \"GREASY\", \"negative\"]]",
+    "response": "[[\"banana pudding\", \"never seen an oven\", \"negative\"], [\"crabcakes\", \"over salted\", \"negative\"], [\"mac and cheese\", \"very greasy\", \"negative\"]]"
+  },
+  {
+    "id": 243,
+    "input": "The staff is arrogant , the prices are way high for Brooklyn .",
+    "label": "[[\"staff\", \"arrogant\", \"negative\"], [\"prices\", \"high\", \"negative\"]]",
+    "response": "[[\"staff\", \"arrogant\", \"negative\"], [\"prices\", \"way high\", \"negative\"]]"
+  },
+  {
+    "id": 244,
+    "input": "the service is prompt friendly .",
+    "label": "[[\"service\", \"prompt friendly\", \"positive\"]]",
+    "response": "[[[\"service\", \"prompt\", \"positive\"], [\"service\", \"friendly\", \"positive\"]]]"
+  },
+  {
+    "id": 245,
+    "input": "This is literally a hot spot when it comes to the food .",
+    "label": "[[\"food\", \"hot spot\", \"positive\"]]",
+    "response": "[[\"food\", \"hot spot\", \"positive\"]]"
+  },
+  {
+    "id": 246,
+    "input": "The downstairs bar scene is very cool and chill ...",
+    "label": "[[\"downstairs bar scene\", \"cool\", \"positive\"], [\"downstairs bar scene\", \"chill\", \"positive\"]]",
+    "response": "[[\"downstairs bar scene\", \"cool\", \"positive\"], [\"downstairs bar scene\", \"chill\", \"positive\"]]"
+  },
+  {
+    "id": 247,
+    "input": "The food was definitely good , but when all was said and done , I just could n't justify it for the price ( including 2 drinks , $ 100/person ) ...",
+    "label": "[[\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"price\", \"couldn't justify\", \"negative\"]]"
+  },
+  {
+    "id": 248,
+    "input": "If you are a Tequila fan you will not be disappointed .",
+    "label": "[[\"Tequila\", \"not be disappointed\", \"positive\"]]",
+    "response": "[[\"Tequila\", \"not disappointed\", \"positive\"]]"
+  },
+  {
+    "id": 249,
+    "input": "Great beer selection too , something like 50 beers .",
+    "label": "[[\"beer selection\", \"Great\", \"positive\"], [\"beers\", \"Great\", \"neutral\"]]",
+    "response": "[[\"beer selection\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 250,
+    "input": "Not to sound too negative but be wary of the delivary .",
+    "label": "[[\"delivary\", \"wary\", \"negative\"]]",
+    "response": "[[\"delivery\", \"be wary of\", \"negative\"]]"
+  },
+  {
+    "id": 251,
+    "input": "I found the food to be just as good as its owner , Da Silvano , just much less expensive .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"food\", \"much less expensive\", \"positive\"], [\"owner\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"owner\", \"good\", \"positive\"], [\"price\", \"much less expensive\", \"positive\"]]"
+  },
+  {
+    "id": 252,
+    "input": "They have homemade pastas of all kinds -- I recommend the gnocchi -- yum !",
+    "label": "[[\"gnocchi\", \"recommend\", \"positive\"], [\"gnocchi\", \"yum\", \"positive\"]]",
+    "response": "[[\"homemade pastas\", \"of all kinds\", \"positive\"], [\"gnocchi\", \"recommend\", \"positive\"], [\"gnocchi\", \"yum\", \"positive\"]]"
+  },
+  {
+    "id": 253,
+    "input": "My vegetable risotto was burnt , and infused totally in a burnt flavor .",
+    "label": "[[\"vegetable risotto\", \"burnt\", \"negative\"], [\"flavor\", \"burnt\", \"negative\"]]",
+    "response": "[[\"vegetable risotto\", \"burnt\", \"negative\"], [\"flavor\", \"burnt\", \"negative\"]]"
+  },
+  {
+    "id": 254,
+    "input": "The main draw of this place is the price .",
+    "label": "[[\"price\", \"draw\", \"positive\"]]",
+    "response": "[[\"price\", \"main draw\", \"positive\"]]"
+  },
+  {
+    "id": 255,
+    "input": "But dinner here is never disappointing , even if the prices are a bit over the top .",
+    "label": "[[\"dinner\", \"never disappointing\", \"positive\"], [\"prices\", \"over the top\", \"negative\"]]",
+    "response": "[[ \"dinner\", \"never disappointing\", \"positive\"], [\"prices\", \"a bit over the top\", \"negative\"]]"
+  },
+  {
+    "id": 256,
+    "input": "Not only did they have amazing , sandwiches , soup , pizza etc , but their homemade sorbets are out of this world !",
+    "label": "[[\"sandwiches\", \"amazing\", \"positive\"], [\"soup\", \"amazing\", \"positive\"], [\"pizza\", \"amazing\", \"positive\"], [\"homemade sorbets\", \"out of this world\", \"positive\"]]",
+    "response": "[[\"sandwiches\", \"amazing\", \"positive\"], [\"soup\", \"amazing\", \"positive\"], [\"pizza\", \"amazing\", \"positive\"], [\"homemade sorbets\", \"out of this world\", \"positive\"]]"
+  },
+  {
+    "id": 257,
+    "input": "the homemade Guacamole , the unbelievable entree , and thee most amazing deserts .",
+    "label": "[[\"homemade Guacamole\", \"unbelievable\", \"positive\"], [\"homemade Guacamole\", \"amazing\", \"positive\"], [\"entree\", \"unbelievable\", \"positive\"], [\"deserts\", \"amazing\", \"positive\"]]",
+    "response": "[[\"Guacamole\", \"homemade\", \"positive\"], [\"entree\", \"unbelievable\", \"positive\"], [\"deserts\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 258,
+    "input": "The sushi is reasonably priced and fresh .",
+    "label": "[[\"sushi\", \"reasonably priced\", \"positive\"], [\"sushi\", \"fresh\", \"positive\"], [\"priced\", \"reasonably\", \"positive\"]]",
+    "response": "[[\"price\", \"reasonably priced\", \"positive\"], [\"freshness\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 259,
+    "input": "Save room for deserts - they 're to die for .",
+    "label": "[[\"deserts\", \"die for\", \"positive\"]]",
+    "response": "[[\"deserts\", \"to die for\", \"positive\"]]"
+  },
+  {
+    "id": 260,
+    "input": "The traditional Italian items are great - cheap and served in a cozy setting .",
+    "label": "[[\"traditional Italian items\", \"great\", \"positive\"], [\"traditional Italian items\", \"cheap\", \"positive\"], [\"setting\", \"cozy\", \"positive\"]]",
+    "response": "[[\"traditional Italian items\", \"great\", \"positive\"], [\"price\", \"cheap\", \"positive\"], [\"setting\", \"cozy\", \"positive\"]]"
+  },
+  {
+    "id": 261,
+    "input": "The service was a bit slow and the portions are a bit small so if you are hungry and in a rush , this is not the place for you .",
+    "label": "[[\"service\", \"slow\", \"negative\"], [\"portions\", \"small\", \"negative\"]]",
+    "response": "[[\"service\", \"slow\", \"negative\"], [\"portions\", \"small\", \"negative\"]]"
+  },
+  {
+    "id": 262,
+    "input": "El Nidos one of the best restaurants in New York which I 've ever been to , has a great variety of tasty , mouth watering pizza 's .",
+    "label": "[[\"pizza 's\", \"great\", \"positive\"], [\"pizza 's\", \"tasty\", \"positive\"], [\"pizza 's\", \"mouth watering\", \"positive\"]]",
+    "response": "[[\"restaurant\", \"best\", \"positive\"], [\"variety\", \"great\", \"positive\"], [\"pizza's\", \"tasty\", \"positive\"], [\"pizza's\", \"mouth watering\", \"positive\"]]"
+  },
+  {
+    "id": 263,
+    "input": "The service was pretty poor all around , the food was well below average relative to the cost , and outside there is a crazy bum who harasses every customer who leaves the place .",
+    "label": "[[\"service\", \"poor\", \"negative\"], [\"food\", \"below average\", \"negative\"]]",
+    "response": "[[\"service\", \"pretty poor\", \"negative\"], [\"food\", \"well below average\", \"negative\"], [\"outside\", \"crazy bum who harasses every customer\", \"negative\"]]"
+  },
+  {
+    "id": 264,
+    "input": "Although I moved uptown I try to stop in as often as possible for the GREAT cheap food and to pay the friendly staff a visit .",
+    "label": "[[\"food\", \"GREAT cheap\", \"positive\"], [\"staff\", \"friendly\", \"positive\"]]",
+    "response": "[[ \"food\", \"GREAT cheap\", \"positive\"], [\"staff\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 265,
+    "input": "Chef Vincenzo , always there if you need him , is a real talent and a real Roman .",
+    "label": "[[\"Chef\", \"talent\", \"positive\"]]",
+    "response": "[[\"Chef Vincenzo\", \"real talent\", \"positive\"], [\"Chef Vincenzo\", \"always there if you need him\", \"positive\"], [\"Chef Vincenzo\", \"real Roman\", \"positive\"]]"
+  },
+  {
+    "id": 266,
+    "input": "If you 're looking to taste some great Indian food and want good service , definitely visit Curry Leaf .",
+    "label": "[[\"Indian food\", \"great\", \"positive\"], [\"service\", \"good\", \"positive\"]]",
+    "response": "[[\"Indian food\", \"great\", \"positive\"], [\"service\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 267,
+    "input": "You must try Odessa stew or Rabbit stew ; salads -all good ; and kompot is soo refreshing during the hot summer day ( they make it the way my mom does , reminds me of home a lot ) .",
+    "label": "[[\"Odessa stew\", \"good\", \"positive\"], [\"Rabbit stew\", \"good\", \"positive\"], [\"salads\", \"good\", \"positive\"], [\"kompot\", \"refreshing\", \"positive\"]]",
+    "response": "[[\"Odessa stew\", \"must try\", \"positive\"], [\"Rabbit stew\", \"must try\", \"positive\"], [\"salads\", \"all good\", \"positive\"], [\"kompot\", \"soo refreshing\", \"positive\"], [\"kompot\", \"make it the way my mom does\", \"positive\"], [\"kompot\", \"reminds me of home a lot\", \"positive\"]]"
+  },
+  {
+    "id": 268,
+    "input": "My daughter and I left feeling satisfied ( not stuffed ) and it felt good to know we had a healthy lunch .",
+    "label": "[[\"lunch\", \"healthy\", \"positive\"]]",
+    "response": "[[\"satisfaction level\", \"satisfied\", \"positive\"], [\"lunch healthiness\", \"healthy\", \"positive\"]]"
+  },
+  {
+    "id": 269,
+    "input": "The quality of the meat was on par with your local grocery store .",
+    "label": "[[\"quality of the meat\", \"on par\", \"negative\"]]",
+    "response": "[[\"quality of the meat\", \"on par with your local grocery store\", \"neutral\"]]"
+  },
+  {
+    "id": 270,
+    "input": "I recommend the black roasted codfish , it was the best dish of the evening .",
+    "label": "[[\"black roasted codfish\", \"recommend\", \"positive\"], [\"black roasted codfish\", \"best\", \"positive\"], [\"dish\", \"best\", \"positive\"]]",
+    "response": "[[\"black roasted codfish\", \"recommend\", \"positive\"], [\"black roasted codfish\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 271,
+    "input": "The manager then told us we could order from whatever menu we wanted but by that time we were so annoyed with the waiter and the resturant that we let and went some place else .",
+    "label": "[[\"waiter\", \"annoyed\", \"negative\"]]",
+    "response": "[[[\"waiter\", \"annoyed\", \"negative\"], [\"restaurant\", \"annoyed\", \"negative\"]]]"
+  },
+  {
+    "id": 272,
+    "input": "In mi burrito , here was nothing but dark chicken that had that cooked last week and just warmed up in a microwave taste .",
+    "label": "[[\"taste\", \"microwave\", \"negative\"], [\"chicken\", \"dark\", \"negative\"]]",
+    "response": "[[\"dark chicken\", \"cooked last week\", \"negative\"], [\"taste\", \"microwave\", \"negative\"]]"
+  },
+  {
+    "id": 273,
+    "input": "during busy hrs , i recommend that you make a reservation .",
+    "label": "[[\"reservation\", \"recommend\", \"neutral\"]]",
+    "response": "[[\"reservation\", \"recommend\", \"positive\"]]"
+  },
+  {
+    "id": 274,
+    "input": "I went to Common Stock for brunch and I was so impressed .",
+    "label": "[[\"brunch\", \"impressed\", \"neutral\"]]",
+    "response": "[[[\"brunch\", \"impressed\", \"positive\"]]]"
+  },
+  {
+    "id": 275,
+    "input": "now called nikki sushi , sushi is OK .",
+    "label": "[[\"sushi\", \"OK\", \"neutral\"]]",
+    "response": "[[\"sushi\", \"OK\", \"neutral\"]]"
+  },
+  {
+    "id": 276,
+    "input": "The food is also outstanding and is served quite quickly .",
+    "label": "[[\"food\", \"outstanding\", \"positive\"], [\"served\", \"quickly\", \"positive\"]]",
+    "response": "[[\"food\", \"outstanding\", \"positive\"], [\"service\", \"quickly\", \"positive\"]]"
+  },
+  {
+    "id": 277,
+    "input": "The food is delicious and the bar has a great vibe .",
+    "label": "[[\"food\", \"delicious\", \"positive\"], [\"bar\", \"great\", \"positive\"], [\"vibe\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"], [\"vibe\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 278,
+    "input": "Simple healthy unglamorous food cheap .",
+    "label": "[[\"food\", \"Simple healthy unglamorous\", \"positive\"], [\"food\", \"cheap\", \"positive\"]]",
+    "response": "[[\"food\", \"simple\", \"neutral\"], [\"food\", \"healthy\", \"positive\"], [\"food\", \"unglamorous\", \"negative\"], [\"price\", \"cheap\", \"positive\"]]"
+  },
+  {
+    "id": 279,
+    "input": "It was such a fantastic dining experience , that I returned again the same week .",
+    "label": "[[\"dining experience\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"dining experience\", \"fantastic\", \"positive\"], [\"return frequency\", \"returned again the same week\", \"positive\"]]"
+  },
+  {
+    "id": 280,
+    "input": "To be fair , the food still is good and the service is quick and attentative even though its usually very busy .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"service\", \"quick\", \"positive\"], [\"service\", \"attentative\", \"positive\"], [\"service\", \"busy\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"service\", \"quick\", \"positive\"], [\"service\", \"attentative\", \"positive\"], [\"busyness\", \"very busy\", \"neutral\"]]"
+  },
+  {
+    "id": 281,
+    "input": "The place is absolutely adorable and the food is delicious .",
+    "label": "[[\"place\", \"adorable\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"place\", \"absolutely adorable\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 282,
+    "input": "I 've had better Japanese food at a mall food court .",
+    "label": "[[\"Japanese food\", \"better\", \"negative\"]]",
+    "response": "[[\"Japanese food\", \"better\", \"negative\"]]"
+  },
+  {
+    "id": 283,
+    "input": "The staff members are extremely friendly and even replaced my drink once when I dropped it outside .",
+    "label": "[[\"staff members\", \"friendly\", \"positive\"]]",
+    "response": "[[\"staff members\", \"extremely friendly\", \"positive\"], [\"staff members\", \"replaced my drink\", \"positive\"]]"
+  },
+  {
+    "id": 284,
+    "input": "Cool atmosphere but such a let down .",
+    "label": "[[\"atmosphere\", \"Cool\", \"positive\"]]",
+    "response": "[[\"atmosphere\", \"cool\", \"positive\"], [\"experience\", \"let down\", \"negative\"]]"
+  },
+  {
+    "id": 285,
+    "input": "The Sashimi portion are big enough to appease most people , but I did n't like the fact they used artifical lobster meat .",
+    "label": "[[\"Sashimi portion\", \"big\", \"positive\"], [\"artifical lobster meat\", \"did n't like\", \"negative\"], [\"artifical lobster meat\", \"artifical\", \"negative\"]]",
+    "response": "[[ \"Sashimi portion\", \"big enough\", \"positive\"], [\"artificial lobster meat\", \"didn't like\", \"negative\"]]"
+  },
+  {
+    "id": 286,
+    "input": "They have wheat crusted pizza made with really fresh and yummy ingredients .",
+    "label": "[[\"ingredients\", \"fresh\", \"positive\"], [\"ingredients\", \"yummy\", \"positive\"]]",
+    "response": "[[\"crust\", \"wheat crusted\", \"neutral\"], [\"ingredients\", \"fresh\", \"positive\"], [\"ingredients\", \"yummy\", \"positive\"]]"
+  },
+  {
+    "id": 287,
+    "input": "Had a lovely dinner in this dedicated seafood joint , food was well-prepared and -presented and the service was pleasant and prompt .",
+    "label": "[[\"dinner\", \"lovely\", \"positive\"], [\"food\", \"well-prepared and -presented\", \"positive\"], [\"service\", \"pleasant\", \"positive\"], [\"service\", \"prompt\", \"positive\"]]",
+    "response": "[[\"dinner\", \"lovely\", \"positive\"], [\"food\", \"well-prepared\", \"positive\"], [\"food\", \"well-presented\", \"positive\"], [\"service\", \"pleasant\", \"positive\"], [\"service\", \"prompt\", \"positive\"]]"
+  },
+  {
+    "id": 288,
+    "input": "the icing MADE this cake , it was fluffy , not ultra sweet , creamy and light .",
+    "label": "[[\"cake\", \"fluffy\", \"positive\"], [\"cake\", \"not ultra sweet\", \"positive\"], [\"cake\", \"creamy\", \"positive\"], [\"cake\", \"light\", \"positive\"]]",
+    "response": "[[\"icing\", \"fluffy\", \"positive\"], [\"icing\", \"not ultra sweet\", \"positive\"], [\"icing\", \"creamy\", \"positive\"], [\"icing\", \"light\", \"positive\"]]"
+  },
+  {
+    "id": 289,
+    "input": "Finally let into the store 5 at a time , to buy expensive slices from a harried staff .",
+    "label": "[[\"staff\", \"harried\", \"negative\"], [\"slices\", \"expensive\", \"negative\"]]",
+    "response": "[[\"slices\", \"expensive\", \"negative\"], [\"staff\", \"harried\", \"negative\"], [\"entry process\", \"finally let into 5 at a time\", \"negative\"]]"
+  },
+  {
+    "id": 290,
+    "input": "We ended up having to just leave because we were essentially being ignored by the wait staff -- even though the rest of the restaurant was largely empty .",
+    "label": "[[\"wait staff\", \"ignored\", \"negative\"]]",
+    "response": "[[\"wait staff\", \"ignored\", \"negative\"]]"
+  },
+  {
+    "id": 291,
+    "input": "The wine list is extensive , well priced and covers alot of regions .",
+    "label": "[[\"wine list\", \"extensive\", \"positive\"], [\"priced\", \"well\", \"positive\"]]",
+    "response": "[[\"wine list\", \"extensive\", \"positive\"], [\"wine list\", \"well priced\", \"positive\"], [\"wine list\", \"covers alot of regions\", \"positive\"]]"
+  },
+  {
+    "id": 292,
+    "input": "Go here if you want fresh and tasty salads of any type you can imagine .",
+    "label": "[[\"salads\", \"fresh\", \"positive\"], [\"salads\", \"tasty\", \"positive\"]]",
+    "response": "[[\"salads\", \"fresh\", \"positive\"], [\"salads\", \"tasty\", \"positive\"], [\"variety\", \"any type you can imagine\", \"positive\"]]"
+  },
+  {
+    "id": 293,
+    "input": "Everything about this place is adorable - even the bathroom !",
+    "label": "[[\"bathroom\", \"adorable\", \"positive\"]]",
+    "response": "[[\"place\", \"adorable\", \"positive\"], [\"bathroom\", \"adorable\", \"positive\"]]"
+  },
+  {
+    "id": 294,
+    "input": "Speedy delivers , great food , decent prices , and friendly service combine to ensure an enjoyable repast .",
+    "label": "[[\"delivers\", \"Speedy\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"prices\", \"decent\", \"positive\"], [\"service\", \"friendly\", \"positive\"], [\"repast\", \"enjoyable\", \"positive\"]]",
+    "response": "[[\"delivery\", \"speedy\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"prices\", \"decent\", \"positive\"], [\"service\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 295,
+    "input": "IT WAS OUR ONLY OPPORTUNITY TO VISIT AND WANTED AN AUTHENTIC ITALIAN MEAL .",
+    "label": "[[\"ITALIAN MEAL\", \"AUTHENTIC\", \"neutral\"]]",
+    "response": "[[\"opportunity\", \"only\", \"neutral\"], [\"Italian meal\", \"authentic\", \"positive\"]]"
+  },
+  {
+    "id": 296,
+    "input": "It took 100 years for Parisi to get around to making pizza ( at least I do n't think they ever made it before this year ) ... but it was worth the wait .",
+    "label": "[[\"pizza\", \"worth the wait\", \"positive\"]]",
+    "response": "[[\"making pizza\", \"took 100 years\", \"negative\"], [\"pizza\", \"worth the wait\", \"positive\"]]"
+  },
+  {
+    "id": 297,
+    "input": "I asked for a simple medium rare steak .",
+    "label": "[[\"steak\", \"simple medium rare\", \"neutral\"]]",
+    "response": "[[\"steak\", \"medium rare\", \"neutral\"], [\"request\", \"simple\", \"neutral\"]]"
+  },
+  {
+    "id": 298,
+    "input": "Generously garnished , organic grilled burgers are the most popular dish , but the Jerusalem market-style falafel wraps and Mediterranean salads -- layered with beets , goat cheese and walnuts -- are equally scrumptious .",
+    "label": "[[\"organic grilled burgers\", \"Generously garnished\", \"positive\"], [\"organic grilled burgers\", \"popular\", \"positive\"], [\"dish\", \"popular\", \"positive\"], [\"Jerusalem market-style falafel wraps\", \"equally scrumptious\", \"positive\"]]",
+    "response": "[[\"organic grilled burgers\", \"generously garnished\", \"positive\"], [\"organic grilled burgers\", \"most popular\", \"positive\"], [\"Jerusalem market-style falafel wraps\", \"scrumptious\", \"positive\"], [\"Mediterranean salads\", \"scrumptious\", \"positive\"]]"
+  },
+  {
+    "id": 299,
+    "input": "Probably my worst dining experience in new york , and I 'm a former waiter so I know what I 'm talking about .",
+    "label": "[[\"dining experience\", \"worst\", \"negative\"]]",
+    "response": "[[\"dining experience\", \"worst\", \"negative\"]]"
+  },
+  {
+    "id": 300,
+    "input": "Result ( red velvet ) : Great texture , soft and velvety , nice hint of cocoa .",
+    "label": "[[\"texture\", \"Great\", \"positive\"], [\"texture\", \"soft\", \"positive\"], [\"texture\", \"velvety\", \"positive\"], [\"hint of cocoa\", \"nice\", \"positive\"]]",
+    "response": "[[\"texture\", \"Great\", \"positive\"], [\"texture\", \"soft\", \"positive\"], [\"texture\", \"velvety\", \"positive\"], [\"cocoa\", \"nice hint\", \"positive\"]]"
+  },
+  {
+    "id": 301,
+    "input": "Their twist on pizza is healthy , but full of flavor .",
+    "label": "[[\"flavor\", \"full\", \"positive\"], [\"twist on pizza\", \"healthy\", \"positive\"]]",
+    "response": "[[\"twist on pizza\", \"healthy\", \"positive\"], [\"twist on pizza\", \"full of flavor\", \"positive\"]]"
+  },
+  {
+    "id": 302,
+    "input": "The lack of AC and the fact that there are a million swarming bodies ( although everyone is polite and no one is pushing ) is a slight turn off .",
+    "label": "[[\"AC\", \"lack\", \"negative\"]]",
+    "response": "[\n  [\"AC\", \"lack of\", \"negative\"], \n  [\"crowd\", \"million swarming bodies\", \"negative\"], \n  [\"crowd behavior\", \"polite\", \"positive\"], \n  [\"crowd behavior\", \"no one pushing\", \"positive\"]\n]"
+  },
+  {
+    "id": 303,
+    "input": "I love the Little Pie Company as much as anyone else who has written reviews , but must discourage anyone from visiting the Grand Central location due to their RUDE service from two sales people .",
+    "label": "[[\"service\", \"RUDE\", \"negative\"], [\"sales people\", \"RUDE\", \"negative\"]]",
+    "response": "[[\"Little Pie Company\", \"love\", \"positive\"], [\"service\", \"RUDE\", \"negative\"]]"
+  },
+  {
+    "id": 304,
+    "input": "Unfortunately , unless you live in the neighborhood , it 's not in a convenient location but is more like a hidden treasure .",
+    "label": "[[\"location\", \"convenient\", \"negative\"]]",
+    "response": "[[\"location\", \"not convenient\", \"negative\"], [\"place\", \"hidden treasure\", \"positive\"]]"
+  },
+  {
+    "id": 305,
+    "input": "The food -- though mostly deep-fried -- is simple and satisfying .",
+    "label": "[[\"food\", \"simple\", \"positive\"], [\"food\", \"satisfying\", \"positive\"]]",
+    "response": "[[\"food\", \"mostly deep-fried\", \"neutral\"], [\"food\", \"simple\", \"positive\"], [\"food\", \"satisfying\", \"positive\"]]"
+  },
+  {
+    "id": 306,
+    "input": "Glechik might be way too tiny for a restaurant by Russian standards , but it is cozy and the food is simply GREAT .",
+    "label": "[[\"food\", \"GREAT\", \"positive\"]]",
+    "response": "[[\"size\", \"way too tiny\", \"negative\"], [\"ambiance\", \"cozy\", \"positive\"], [\"food\", \"GREAT\", \"positive\"]]"
+  },
+  {
+    "id": 307,
+    "input": "The food was excellent - authentic Italian cuisine made absolutely fresh .",
+    "label": "[[\"food\", \"excellent\", \"positive\"], [\"Italian cuisine\", \"authentic\", \"positive\"], [\"Italian cuisine\", \"fresh\", \"positive\"]]",
+    "response": "[[\"food\", \"excellent\", \"positive\"], [\"Italian cuisine\", \"authentic\", \"positive\"], [\"food\", \"absolutely fresh\", \"positive\"]]"
+  },
+  {
+    "id": 308,
+    "input": "At night the atmoshere changes turning into this hidden jewel that is waiting to be discovered .",
+    "label": "[[\"atmoshere\", \"changes\", \"positive\"]]",
+    "response": "[[\"atmosphere\", \"hidden jewel\", \"positive\"]]"
+  },
+  {
+    "id": 309,
+    "input": "The other times I 've gone it 's romantic date heaven , you can walk in get a booth by the windows , be treated like a VIP in a not-crowded place , with great food and service .",
+    "label": "[[\"place\", \"not-crowded\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"romantic date\", \"heaven\", \"positive\"], [\"booth by the windows\", \"get\", \"positive\"], [\"treatment\", \"treated like a VIP\", \"positive\"], [\"place\", \"not-crowded\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 310,
+    "input": "I would only go for the coffee which is way better than Starbucks or the like .",
+    "label": "[[\"coffee\", \"better\", \"positive\"]]",
+    "response": "[[\"coffee\", \"way better\", \"positive\"]]"
+  },
+  {
+    "id": 311,
+    "input": "Somewhat disappointing wine list ( only new vintages .",
+    "label": "[[\"wine list\", \"disappointing\", \"negative\"]]",
+    "response": "[[\"wine list\", \"disappointing\", \"negative\"], [\"vintages\", \"only new\", \"negative\"]]"
+  },
+  {
+    "id": 312,
+    "input": "If your looking for nasty high priced food with a dash of ghetto scenery cheap BX A $ $ this is the place to be ! !",
+    "label": "[[\"priced\", \"high\", \"negative\"], [\"food\", \"nasty high priced\", \"negative\"]]",
+    "response": "[[\"food\", \"nasty\", \"negative\"], [\"food\", \"high priced\", \"negative\"], [\"scenery\", \"ghetto\", \"negative\"], [\"scenery\", \"cheap\", \"negative\"]]"
+  },
+  {
+    "id": 313,
+    "input": "new hamburger with special sauce is ok - at least better than big mac !",
+    "label": "[[\"new hamburger with special sauce\", \"ok\", \"positive\"], [\"big mac\", \"better than\", \"negative\"]]",
+    "response": "[[\"hamburger\", \"ok\", \"neutral\"], [\"hamburger\", \"better than big mac\", \"positive\"]]"
+  },
+  {
+    "id": 314,
+    "input": "Perfectly al dente pasta , not drowned in sauce -- generous portions .",
+    "label": "[[\"pasta\", \"Perfectly\", \"positive\"], [\"sauce\", \"not drowned in\", \"neutral\"], [\"portions\", \"generous\", \"positive\"]]",
+    "response": "[[\"pasta\", \"Perfectly al dente\", \"positive\"], [\"sauce\", \"not drowned in\", \"positive\"], [\"portions\", \"generous\", \"positive\"]]"
+  },
+  {
+    "id": 315,
+    "input": "Service was awful - mostly because staff were overwhelmed on a Saturday night .",
+    "label": "[[\"Service\", \"awful\", \"negative\"], [\"staff\", \"overwhelmed\", \"negative\"]]",
+    "response": "[[\"Service\", \"awful\", \"negative\"], [\"staff\", \"overwhelmed\", \"negative\"]]"
+  },
+  {
+    "id": 316,
+    "input": "To the owners ; good job guys , this place is a keeper !",
+    "label": "[[\"owners\", \"good\", \"positive\"]]",
+    "response": "[[\"owners\", \"good job\", \"positive\"], [\"place\", \"keeper\", \"positive\"]]"
+  },
+  {
+    "id": 317,
+    "input": "and the owner is simply lovely and friendly .",
+    "label": "[[\"owner\", \"lovely\", \"positive\"], [\"owner\", \"friendly\", \"positive\"]]",
+    "response": "[[[\"owner\", \"lovely\", \"positive\"], [\"owner\", \"friendly\", \"positive\"]]]"
+  },
+  {
+    "id": 318,
+    "input": "This little place is wonderfully warm welcoming .",
+    "label": "[[\"place\", \"wonderfully warm welcoming\", \"positive\"]]",
+    "response": "[[\"place\", \"wonderfully warm\", \"positive\"], [\"place\", \"welcoming\", \"positive\"]]"
+  },
+  {
+    "id": 319,
+    "input": "perfect for a quick meal .",
+    "label": "[[\"meal\", \"perfect\", \"positive\"], [\"meal\", \"quick\", \"positive\"]]",
+    "response": "[[\"quick meal\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 320,
+    "input": "Has the warmth of a family local yet it is a great place to watch sporting events .",
+    "label": "[[\"place\", \"great\", \"positive\"]]",
+    "response": "[[\"atmosphere\", \"warmth of a family local\", \"positive\"], [\"sporting events\", \"great place to watch\", \"positive\"]]"
+  },
+  {
+    "id": 321,
+    "input": "The service was great , and they have a whole great deal for birthdays .",
+    "label": "[[\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"deal for birthdays\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 322,
+    "input": "The staff is 100 % Italian and the food is as authentic as it gets .",
+    "label": "[[\"food\", \"authentic\", \"positive\"]]",
+    "response": "[[[\"staff\", \"100% Italian\", \"positive\"], [\"food\", \"authentic\", \"positive\"]]]"
+  },
+  {
+    "id": 323,
+    "input": "My only complaint might be the fortune cookies - I 've never had a cookie predict bad luck for me before I visited Kar .",
+    "label": "[[\"fortune cookies\", \"complaint\", \"negative\"]]",
+    "response": "[[[\"fortune cookies\", \"predict bad luck\", \"negative\"]]]"
+  },
+  {
+    "id": 324,
+    "input": "Good for a quick sushi lunch .",
+    "label": "[[\"sushi lunch\", \"Good\", \"positive\"], [\"sushi lunch\", \"quick\", \"positive\"]]",
+    "response": "[[\"sushi lunch\", \"Good\", \"positive\"], [\"sushi lunch\", \"quick\", \"positive\"]]"
+  },
+  {
+    "id": 325,
+    "input": "The service was dreadfully slow ( the place was only half full ) and a smile would have been nice ...",
+    "label": "[[\"service\", \"dreadfully slow\", \"negative\"]]",
+    "response": "[[\"service\", \"dreadfully slow\", \"negative\"], [\"place\", \"half full\", \"neutral\"], [\"smile\", \"would have been nice\", \"negative\"]]"
+  },
+  {
+    "id": 326,
+    "input": "I went this past Saturday and had a excellent meal of consisting of a braised lamb shank with mashed potatoes .",
+    "label": "[[\"meal\", \"excellent\", \"positive\"]]",
+    "response": "[[\"meal\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 327,
+    "input": "I reccomend the fried pork dumplings , the orange chicken/beef , and the fried rice .",
+    "label": "[[\"fried pork dumplings\", \"reccomend\", \"positive\"], [\"orange chicken/beef\", \"reccomend\", \"positive\"], [\"fried rice\", \"reccomend\", \"positive\"]]",
+    "response": "[[\"fried pork dumplings\", \"recommend\", \"positive\"], [\"orange chicken/beef\", \"recommend\", \"positive\"], [\"fried rice\", \"recommend\", \"positive\"]]"
+  },
+  {
+    "id": 328,
+    "input": "You will not be dissapointed by any of the choices in the menu .",
+    "label": "[[\"menu\", \"not be dissapointed\", \"positive\"]]",
+    "response": "[[\"choices\", \"not disappointed\", \"positive\"]]"
+  },
+  {
+    "id": 329,
+    "input": "The french fries -- with the kalmata dip were terrific !",
+    "label": "[[\"french fries -- with the kalmata dip\", \"terrific\", \"positive\"]]",
+    "response": "[[\"french fries\", \"terrific\", \"positive\"], [\"kalmata dip\", \"terrific\", \"positive\"]]"
+  },
+  {
+    "id": 330,
+    "input": "The boutique selection of wines covers a wide variety without being imposeing .",
+    "label": "[[\"boutique selection of wines\", \"wide\", \"neutral\"]]",
+    "response": "[[\"selection\", \"wide variety\", \"positive\"], [\"selection\", \"not imposing\", \"positive\"]]"
+  },
+  {
+    "id": 331,
+    "input": "They also have a great assortment of wraps if your not in the mood for traditional Mediterranean fare .",
+    "label": "[[\"assortment of wraps\", \"great\", \"positive\"], [\"traditional Mediterranean fare\", \"great\", \"neutral\"]]",
+    "response": "[[\"assortment of wraps\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 332,
+    "input": "Fresh veggies , all sorts of middle eastern spreads , cheese and falafel , soup , fish , rice , root vegetables , a rice medley , some spinach thing , lamb kebabs , cheese baclava ... soooo much fooood , and all of it delicious .",
+    "label": "[[\"Fresh veggies\", \"Fresh\", \"positive\"], [\"Fresh veggies\", \"delicious\", \"positive\"], [\"middle eastern spreads\", \"delicious\", \"positive\"], [\"cheese\", \"delicious\", \"positive\"], [\"falafel\", \"delicious\", \"positive\"], [\"soup\", \"delicious\", \"positive\"], [\"fish\", \"delicious\", \"positive\"], [\"rice\", \"delicious\", \"positive\"], [\"root vegetables\", \"delicious\", \"positive\"], [\"rice medley\", \"delicious\", \"positive\"], [\"spinach thing\", \"delicious\", \"positive\"], [\"lamb kebabs\", \"delicious\", \"positive\"], [\"cheese baclava\", \"delicious\", \"positive\"], [\"fooood\", \"delicious\", \"positive\"]]",
+    "response": "[[\"veggies\", \"fresh\", \"positive\"], [\"middle eastern spreads\", \"all sorts of\", \"positive\"], [\"food\", \"soooo much\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 333,
+    "input": "Disappointingly , their wonderful Saketini has been taken off the bar menu .",
+    "label": "[[\"Saketini\", \"wonderful\", \"positive\"], [\"bar menu\", \"Disappointingly\", \"negative\"]]",
+    "response": "[[\"Saketini\", \"wonderful\", \"positive\"], [\"bar menu\", \"Disappointingly\", \"negative\"]]"
+  },
+  {
+    "id": 334,
+    "input": "I would definitely go back -- if only for some of those exotic martinis on the blackboard .",
+    "label": "[[\"martinis\", \"exotic\", \"positive\"]]",
+    "response": "[[\"martinis\", \"exotic\", \"positive\"]]"
+  },
+  {
+    "id": 335,
+    "input": "The happy hour is so cheap , but that does not reflect the service or the atmosphere .",
+    "label": "[[\"happy hour\", \"cheap\", \"positive\"]]",
+    "response": "[[\"happy hour\", \"cheap\", \"positive\"], [\"service\", \"does not reflect\", \"negative\"], [\"atmosphere\", \"does not reflect\", \"negative\"]]"
+  },
+  {
+    "id": 336,
+    "input": "After waiting for almost an hour , the waiter brusquely told us he 'd forgotten to give the kitchen our order .",
+    "label": "[[\"waiter\", \"brusquely\", \"negative\"]]",
+    "response": "[[\"waiting time\", \"almost an hour\", \"negative\"], [\"waiter\", \"brusquely\", \"negative\"], [\"order handling\", \"forgotten to give the kitchen our order\", \"negative\"]]"
+  },
+  {
+    "id": 337,
+    "input": "With all the mundane or mediocre places on 8th avenue it is nice to have one that is a step above in quaility and atmosphere .",
+    "label": "[[\"quaility\", \"above\", \"positive\"], [\"atmosphere\", \"above\", \"positive\"]]",
+    "response": "[[[\"quality\", \"a step above\", \"positive\"], [\"atmosphere\", \"a step above\", \"positive\"]]]"
+  },
+  {
+    "id": 338,
+    "input": "A mix of students and area residents crowd into this narrow , barely there space for its quick , tasty treats at dirt-cheap prices .",
+    "label": "[[\"space\", \"quick\", \"negative\"], [\"space\", \"tasty\", \"negative\"], [\"prices\", \"dirt-cheap\", \"positive\"], [\"treats\", \"tasty\", \"positive\"]]",
+    "response": "[[\"space\", \"narrow\", \"negative\"], [\"space\", \"barely there\", \"negative\"], [\"treats\", \"quick\", \"positive\"], [\"treats\", \"tasty\", \"positive\"], [\"prices\", \"dirt-cheap\", \"positive\"]]"
+  },
+  {
+    "id": 339,
+    "input": "Give it a try , menu is typical French but varied .",
+    "label": "[[\"menu\", \"typical French\", \"neutral\"], [\"menu\", \"varied\", \"neutral\"]]",
+    "response": "[[\"menu\", \"typical French\", \"neutral\"], [\"menu\", \"varied\", \"positive\"]]"
+  },
+  {
+    "id": 340,
+    "input": "It gets crowded at lunchtime but there are lots of seats in back and everyone who works there is so nice .",
+    "label": "[[\"seats\", \"lots\", \"positive\"]]",
+    "response": "[[\"crowd\", \"crowded\", \"negative\"], [\"seats in back\", \"lots of\", \"positive\"], [\"everyone who works there\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 341,
+    "input": "the negative reviews on city search are probably from jealous competing restaurants who realize they ca n't compete with Temple 's entire positive attitude about the proper way to treat their customers and deliver top quality food .",
+    "label": "[[\"food\", \"top quality\", \"positive\"], [\"attitude\", \"positive\", \"positive\"]]",
+    "response": "[[\"reviews\", \"jealous\", \"negative\"], [\"attitude\", \"positive\", \"positive\"], [\"food\", \"top quality\", \"positive\"]]"
+  },
+  {
+    "id": 342,
+    "input": "Overall , this is a nice place to take a few friends to hang out at and the service is excellent .",
+    "label": "[[\"place\", \"nice\", \"positive\"], [\"service\", \"excellent\", \"positive\"]]",
+    "response": "[[\"place\", \"nice\", \"positive\"], [\"service\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 343,
+    "input": "Food is excellent quality for a good restaurant price .",
+    "label": "[[\"Food\", \"excellent\", \"positive\"], [\"price\", \"good\", \"positive\"]]",
+    "response": "[[\"Food\", \"excellent quality\", \"positive\"], [\"price\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 344,
+    "input": "for about eleven bucks you get a gigantic burrito ( or tacos ) , margarita , and dessert .",
+    "label": "[[\"burrito\", \"gigantic\", \"positive\"], [\"tacos\", \"gigantic\", \"positive\"]]",
+    "response": "[[\"price\", \"eleven bucks\", \"positive\"], [\"burrito\", \"gigantic\", \"positive\"]]"
+  },
+  {
+    "id": 345,
+    "input": "The space is traditional in feel .",
+    "label": "[[\"space\", \"traditional\", \"neutral\"]]",
+    "response": "[[\"space\", \"traditional in feel\", \"neutral\"]]"
+  },
+  {
+    "id": 346,
+    "input": "the food was mediocre to be kind - the interior is small and average - the owners are a tag-team of unpleasantries - so rude and snotty i actually let out a hearty guffaw whilst dining .",
+    "label": "[[\"food\", \"mediocre\", \"negative\"], [\"interior\", \"small\", \"negative\"], [\"interior\", \"average\", \"negative\"], [\"owners\", \"unpleasantries\", \"negative\"], [\"owners\", \"rude\", \"negative\"], [\"owners\", \"snotty\", \"negative\"]]",
+    "response": "[[\"food\", \"mediocre\", \"negative\"], [\"interior\", \"small\", \"negative\"], [\"interior\", \"average\", \"neutral\"], [\"owners\", \"tag-team of unpleasantries\", \"negative\"], [\"owners\", \"rude\", \"negative\"], [\"owners\", \"snotty\", \"negative\"]]"
+  },
+  {
+    "id": 347,
+    "input": "Good service , great food , good value , and never have to wait in line !",
+    "label": "[[\"service\", \"Good\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"value\", \"good\", \"positive\"], [\"wait\", \"never\", \"positive\"]]",
+    "response": "[[\"service\", \"good\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"value\", \"good\", \"positive\"], [\"line\", \"never have to wait in\", \"positive\"]]"
+  },
+  {
+    "id": 348,
+    "input": "Offerings like hot cakes and the Egg McMuffin sandwich are available for breakfast .",
+    "label": "[[\"Egg McMuffin sandwich\", \"available\", \"neutral\"], [\"hot cakes\", \"available\", \"neutral\"]]",
+    "response": "[[\"hot cakes\", \"available\", \"positive\"], [\"Egg McMuffin sandwich\", \"available\", \"positive\"]]  \n\n**Explanation:**  \n- **Aspect terms:** \"hot cakes\" and \"Egg McMuffin sandwich\" are explicitly mentioned as breakfast items.  \n- **Opinion term:** \"available\" indicates their presence on the menu. Though neutral in isolation, the context implies a **positive sentiment**, as availability of popular/desired items is typically framed as a positive attribute in reviews.  \n- **Sentiment polarity:** \"Positive\" is assigned because highlighting availability often serves to satisfy customer expectations or preferences."
+  },
+  {
+    "id": 349,
+    "input": "I have been going to this restaurant for years , in the past the service was average and the food inconsistant .",
+    "label": "[[\"service\", \"average\", \"neutral\"], [\"food\", \"inconsistant\", \"negative\"]]",
+    "response": "[[\"service\", \"average\", \"neutral\"], [\"food\", \"inconsistant\", \"negative\"]]"
+  },
+  {
+    "id": 350,
+    "input": "The music was fascinating , but left room for conversation , and the bartender made superb drinks .",
+    "label": "[[\"music\", \"fascinating\", \"positive\"], [\"bartender\", \"superb\", \"positive\"], [\"drinks\", \"superb\", \"positive\"]]",
+    "response": "[[\"music\", \"fascinating\", \"positive\"], [\"music volume\", \"left room for conversation\", \"positive\"], [\"drinks\", \"superb\", \"positive\"]]"
+  },
+  {
+    "id": 351,
+    "input": "rice dishes and noodle dishes rarely exceed $ 5 and add on a refreshing ice drink for $ 2 and you 're set for the night !",
+    "label": "[[\"ice drink\", \"refreshing\", \"positive\"]]",
+    "response": "[[\"rice dishes\", \"rarely exceed $5\", \"positive\"], [\"noodle dishes\", \"rarely exceed $5\", \"positive\"], [\"ice drink\", \"refreshing\", \"positive\"]]"
+  },
+  {
+    "id": 352,
+    "input": "Creative dishes like king crab salad with passion fruit vinaigrette and fettuccine with grilled seafood in a rosemary-orange sauce are unexpected elements on an otherwise predictable bistro menu .",
+    "label": "[[\"dishes\", \"Creative\", \"positive\"], [\"king crab salad with passion fruit vinaigrette\", \"Creative\", \"positive\"], [\"fettuccine with grilled seafood in a rosemary-orange sauce\", \"unexpected\", \"positive\"], [\"bistro menu\", \"unexpected\", \"neutral\"]]",
+    "response": "[[\"dishes\", \"creative\", \"positive\"], [\"dishes\", \"unexpected\", \"positive\"], [\"bistro menu\", \"predictable\", \"negative\"]]"
+  },
+  {
+    "id": 353,
+    "input": "Dishes denoted as `` Roy 's Classics '' ( marked on the menu with asterisks ) are tried-and-true recipes , such as macadamia-crusted mahi mahi , or subtly sweet honey-mustard beef short ribs .",
+    "label": "[[\"Dishes\", \"tried-and-true\", \"positive\"], [\"recipes\", \"tried-and-true\", \"positive\"], [\"macadamia-crusted mahi mahi\", \"tried-and-true\", \"positive\"], [\"sweet honey-mustard beef short ribs\", \"tried-and-true\", \"positive\"], [\"sweet honey-mustard beef short ribs\", \"sweet\", \"positive\"]]",
+    "response": "[[\"Roy's Classics\", \"tried-and-true\", \"positive\"], [\"honey-mustard beef short ribs\", \"subtly sweet\", \"positive\"]]"
+  },
+  {
+    "id": 354,
+    "input": "The cold sesame noodles , which are a freebie when you order $ 10+ , are delectable .",
+    "label": "[[\"cold sesame noodles\", \"delectable\", \"positive\"]]",
+    "response": "[[\"cold sesame noodles\", \"delectable\", \"positive\"], [\"freebie\", \"freebie when you order $10+\", \"positive\"]]"
+  },
+  {
+    "id": 355,
+    "input": "I came to fresh expecting a great meal , and all I got was marginally so-so food served in a restaurant that was just so freezing we could n't enjoy eating .",
+    "label": "[[\"food\", \"marginally so-so\", \"negative\"]]",
+    "response": "[[\"food\", \"so-so\", \"negative\"], [\"restaurant\", \"freezing\", \"negative\"]]"
+  },
+  {
+    "id": 356,
+    "input": "The lone argentine chorizo appetizer at $ 8.95 was a heavy fennel flavored Italian sausage like the ones that sell for $ 2.99/lb at the store .",
+    "label": "[[\"fennel flavored Italian sausage\", \"heavy\", \"negative\"]]",
+    "response": "[[\"argentine chorizo appetizer\", \"heavy fennel flavored Italian sausage like\", \"negative\"], [\"price\", \"$8.95\", \"negative\"]]"
+  },
+  {
+    "id": 357,
+    "input": "I went to Swiftys with some friends of the family and we had a very nice dinner , but nothing amazing .",
+    "label": "[[\"dinner\", \"nice\", \"positive\"]]",
+    "response": "[[\"dinner\", \"very nice\", \"positive\"], [\"dinner\", \"nothing amazing\", \"negative\"]]"
+  },
+  {
+    "id": 358,
+    "input": "Best Chinese on the Upper East , prompt delivery , good value .",
+    "label": "[[\"delivery\", \"prompt\", \"positive\"], [\"value\", \"good\", \"positive\"]]",
+    "response": "[[\"Chinese\", \"Best\", \"positive\"], [\"delivery\", \"prompt\", \"positive\"], [\"value\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 359,
+    "input": "Most of the sandwiches are made with soy mayonaise which is actually pretty good .",
+    "label": "[[\"sandwiches\", \"good\", \"positive\"]]",
+    "response": "[[\"soy mayonnaise\", \"pretty good\", \"positive\"]]"
+  },
+  {
+    "id": 360,
+    "input": "i went in one day asking for a table for a group and was greeted by a very rude hostess .",
+    "label": "[[\"hostess\", \"rude\", \"negative\"]]",
+    "response": "[[[\"hostess\", \"rude\", \"negative\"]]]"
+  },
+  {
+    "id": 361,
+    "input": "It 's worthwhile to take a cab to Chelsea just for an awesome dinner at My Chelsea .",
+    "label": "[[\"dinner\", \"awesome\", \"positive\"]]",
+    "response": "[[\"dinner\", \"awesome\", \"positive\"], [\"cab to Chelsea\", \"worthwhile\", \"positive\"]]"
+  },
+  {
+    "id": 362,
+    "input": "Not only is the food authentic , but the staff here are practically off-the-boat , they are young and hip and know what they are doing when it comes to food and wine .",
+    "label": "[[\"food\", \"authentic\", \"positive\"], [\"staff\", \"off-the-boat\", \"positive\"], [\"staff\", \"young\", \"positive\"], [\"staff\", \"hip\", \"positive\"]]",
+    "response": "[[\"food\", \"authentic\", \"positive\"], [\"staff\", \"practically off-the-boat\", \"positive\"], [\"staff\", \"young and hip\", \"positive\"], [\"staff\", \"know what they are doing\", \"positive\"]]"
+  },
+  {
+    "id": 363,
+    "input": "It has good music , nice tapas , an interesting selection of wines ( primarily Spanish ) and a lowkey hip neighborhood clientele .",
+    "label": "[[\"music\", \"good\", \"positive\"], [\"tapas\", \"nice\", \"positive\"], [\"selection of wines ( primarily Spanish )\", \"interesting\", \"positive\"], [\"clientele\", \"lowkey hip\", \"positive\"]]",
+    "response": "[[\"music\", \"good\", \"positive\"], [\"tapas\", \"nice\", \"positive\"], [\"selection of wines\", \"interesting\", \"positive\"], [\"neighborhood clientele\", \"lowkey hip\", \"positive\"]]"
+  },
+  {
+    "id": 364,
+    "input": "The food is great , I love their dumplings , cold sesame noodles , chicken and shrimp dishs .",
+    "label": "[[\"food\", \"great\", \"positive\"], [\"dumplings\", \"love\", \"positive\"], [\"cold sesame noodles\", \"love\", \"positive\"], [\"chicken\", \"love\", \"positive\"], [\"shrimp dishs\", \"love\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"dumplings\", \"love\", \"positive\"], [\"cold sesame noodles\", \"love\", \"positive\"], [\"chicken and shrimp dishs\", \"love\", \"positive\"]]"
+  },
+  {
+    "id": 365,
+    "input": "It 's the conversations that make this a fun place to be .",
+    "label": "[[\"place\", \"fun\", \"positive\"]]",
+    "response": "[[\"conversations\", \"fun\", \"positive\"], [\"place\", \"fun\", \"positive\"]]"
+  },
+  {
+    "id": 366,
+    "input": "My gf 's duck confitte was very solid as well , although i have little base of reference .",
+    "label": "[[\"duck confitte\", \"solid\", \"positive\"]]",
+    "response": "[[\"duck confitte\", \"very solid\", \"positive\"]]"
+  },
+  {
+    "id": 367,
+    "input": "The wine list was superb , our tapas delightful , and the quiet atmosphere perfect for good conversation .",
+    "label": "[[\"wine list\", \"superb\", \"positive\"], [\"tapas\", \"delightful\", \"positive\"], [\"atmosphere\", \"quiet\", \"positive\"], [\"atmosphere\", \"perfect\", \"positive\"]]",
+    "response": "[[\"wine list\", \"superb\", \"positive\"], [\"tapas\", \"delightful\", \"positive\"], [\"atmosphere\", \"quiet\", \"positive\"], [\"atmosphere\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 368,
+    "input": "You can eat gourmet food at a fast food price .",
+    "label": "[[\"food\", \"gourmet\", \"positive\"]]",
+    "response": "[[\"food\", \"gourmet\", \"positive\"], [\"price\", \"fast food\", \"positive\"]]"
+  },
+  {
+    "id": 369,
+    "input": "I 've eaten at all three locations and I always love , love the food , the service is always wonderful and the prices are really reasonable .",
+    "label": "[[\"food\", \"love\", \"positive\"], [\"service\", \"wonderful\", \"positive\"], [\"prices\", \"reasonable\", \"positive\"]]",
+    "response": "[[\"food\", \"love\", \"positive\"], [\"service\", \"wonderful\", \"positive\"], [\"prices\", \"reasonable\", \"positive\"]]"
+  },
+  {
+    "id": 370,
+    "input": "Not because I was pregnant , but the food here is always delicious .",
+    "label": "[[\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 371,
+    "input": "Had a great meal there this weekend before heading to the movies !",
+    "label": "[[\"meal\", \"great\", \"positive\"]]",
+    "response": "[[\"meal\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 372,
+    "input": "We had a birthday party here recently and the food and service was amazing .",
+    "label": "[[\"food\", \"amazing\", \"positive\"], [\"service\", \"amazing\", \"positive\"]]",
+    "response": "[[[\"food\", \"amazing\", \"positive\"], [\"service\", \"amazing\", \"positive\"]]]"
+  },
+  {
+    "id": 373,
+    "input": "the dinner menu offers a variety of great entrees , including fresh seafood and huge steaks , there 's also a couple of non-meat alternatives .",
+    "label": "[[\"dinner menu\", \"variety\", \"positive\"], [\"dinner menu\", \"great\", \"positive\"], [\"entrees\", \"great\", \"positive\"], [\"seafood\", \"fresh\", \"positive\"], [\"steaks\", \"huge\", \"positive\"]]",
+    "response": "[[\"dinner menu\", \"variety of great entrees\", \"positive\"], [\"seafood\", \"fresh\", \"positive\"], [\"steaks\", \"huge\", \"positive\"], [\"non-meat alternatives\", \"couple of\", \"neutral\"]]"
+  },
+  {
+    "id": 374,
+    "input": "This place has the strangest menu and the restaurants tries too hard to make fancy food .",
+    "label": "[[\"menu\", \"strangest\", \"negative\"], [\"food\", \"fancy\", \"negative\"]]",
+    "response": "[[ \"menu\", \"strangest\", \"negative\"], [\"food\", \"tries too hard to make fancy\", \"negative\"]]"
+  },
+  {
+    "id": 375,
+    "input": "The appetizers are ok , but the service is slow .",
+    "label": "[[\"appetizers\", \"ok\", \"neutral\"], [\"service\", \"slow\", \"negative\"]]",
+    "response": "[[\"appetizers\", \"ok\", \"neutral\"], [\"service\", \"slow\", \"negative\"]]"
+  },
+  {
+    "id": 376,
+    "input": "the food - not worth the price .",
+    "label": "[[\"food\", \"not worth\", \"negative\"], [\"price\", \"not worth\", \"negative\"]]",
+    "response": "[[\"food\", \"not worth the price\", \"negative\"]]"
+  },
+  {
+    "id": 377,
+    "input": "What can you say about a place where the waitress brings out the wrong entree , then verbally assaults your 80 year old grandmother and gives her lip about sending it back ( which she did politely , by the way ) .",
+    "label": "[[\"entree\", \"wrong\", \"neutral\"]]",
+    "response": "[[\"service\", \"wrong entree\", \"negative\"], [\"service\", \"verbally assaults\", \"negative\"], [\"service\", \"gives her lip\", \"negative\"]]"
+  },
+  {
+    "id": 378,
+    "input": "The prices are not terrible .",
+    "label": "[[\"prices\", \"not terrible\", \"positive\"]]",
+    "response": "[[\"prices\", \"terrible\", \"positive\"]]"
+  },
+  {
+    "id": 379,
+    "input": "The halibut cheek appetizer came with a generous portion of foie gras , but that 's about the only positive thing I can say about the meal .",
+    "label": "[[\"halibut cheek appetizer\", \"positive\", \"neutral\"], [\"portion of foie gras\", \"generous\", \"positive\"]]",
+    "response": "[[\"halibut cheek appetizer\", \"generous portion of foie gras\", \"positive\"], [\"meal\", \"only positive thing\", \"negative\"]]"
+  },
+  {
+    "id": 380,
+    "input": "Food is excellent and they also have empenadas and plaintains which are good for an afternoon snack .",
+    "label": "[[\"Food\", \"excellent\", \"positive\"], [\"empenadas\", \"excellent\", \"positive\"], [\"plaintains\", \"good\", \"positive\"], [\"afternoon snack\", \"good\", \"positive\"]]",
+    "response": "[[\"Food\", \"excellent\", \"positive\"], [\"empenadas\", \"good\", \"positive\"], [\"plaintains\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 381,
+    "input": "Both a number of the appetizer and pasta specials were amazing .",
+    "label": "[[\"pasta specials\", \"amazing\", \"positive\"], [\"appetizer\", \"amazing\", \"positive\"]]",
+    "response": "[[\"appetizer\", \"amazing\", \"positive\"], [\"pasta specials\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 382,
+    "input": "All-time favorites include the Big Mac , Chicken McNuggets , Filet-O-Fish sandwich and McDonald 's famous french fries ; lighter options like entree-sized salads are also available .",
+    "label": "[[\"Big Mac\", \"favorites\", \"positive\"], [\"Chicken McNuggets\", \"favorites\", \"positive\"], [\"Filet-O-Fish sandwich\", \"favorites\", \"positive\"], [\"McDonald 's famous french fries\", \"favorites\", \"positive\"], [\"entree-sized salads\", \"lighter options\", \"neutral\"]]",
+    "response": "[[\"Big Mac\", \"All-time favorites\", \"positive\"], [\"Chicken McNuggets\", \"All-time favorites\", \"positive\"], [\"Filet-O-Fish sandwich\", \"All-time favorites\", \"positive\"], [\"french fries\", \"All-time favorites\", \"positive\"], [\"french fries\", \"famous\", \"positive\"], [\"lighter options\", \"lighter\", \"positive\"]]"
+  },
+  {
+    "id": 383,
+    "input": "It 's a basic pizza joint , not much to look at , but the pizza is what I go for .",
+    "label": "[[\"pizza\", \"go for\", \"positive\"]]",
+    "response": "[[\"pizza joint\", \"basic\", \"neutral\"], [\"appearance\", \"not much to look at\", \"negative\"], [\"pizza\", \"what I go for\", \"positive\"]]"
+  },
+  {
+    "id": 384,
+    "input": "Tables are close , so you better be comfortable bumping elbows with other patrons .",
+    "label": "[[\"Tables\", \"close\", \"negative\"]]",
+    "response": "[[\"tables\", \"close\", \"negative\"], [\"seating comfort\", \"bumping elbows\", \"negative\"]]"
+  },
+  {
+    "id": 385,
+    "input": "Not too much so , but enough that there 's a great scene .",
+    "label": "[[\"scene\", \"great\", \"positive\"]]",
+    "response": "[[\"scene\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 386,
+    "input": "Meat-phobes are in luck with the extraordinary veggie burger , made from a distinctive blend of chickpeas , carrots and other vegetables and spices .",
+    "label": "[[\"veggie burger\", \"extraordinary\", \"positive\"], [\"chickpeas\", \"distinctive\", \"positive\"], [\"carrots\", \"distinctive\", \"positive\"], [\"vegetables\", \"distinctive\", \"positive\"], [\"spices\", \"distinctive\", \"positive\"]]",
+    "response": "[[\"veggie burger\", \"extraordinary\", \"positive\"], [\"blend of chickpeas, carrots, vegetables and spices\", \"distinctive\", \"positive\"]]"
+  },
+  {
+    "id": 387,
+    "input": "At peak times , the restaurant is overcrowded and tables are uncomfortably close .",
+    "label": "[[\"tables\", \"uncomfortably close\", \"negative\"]]",
+    "response": "[[\"restaurant\", \"overcrowded\", \"negative\"], [\"tables\", \"uncomfortably close\", \"negative\"]]"
+  },
+  {
+    "id": 388,
+    "input": "The service was on point - what else you would expect from a Ritz ?",
+    "label": "[[\"service\", \"on point\", \"positive\"]]",
+    "response": "[[\"service\", \"on point\", \"positive\"], [\"Ritz\", \"what else you would expect\", \"positive\"]]"
+  },
+  {
+    "id": 389,
+    "input": "Menus feature seasonal picks , like sweet corn-foie gras brulee .",
+    "label": "[[\"Menus\", \"seasonal\", \"neutral\"]]",
+    "response": "[[\"menus\", \"feature seasonal picks\", \"positive\"], [\"sweet corn-foie gras brulee\", \"sweet\", \"positive\"]]"
+  },
+  {
+    "id": 390,
+    "input": "Innovations are just as assured , from the simple Carinthia cheese ravioli with wild mushrooms to the caviar-topped sturgeon , beautifully matched with a bright green spinach-vodka sauce .",
+    "label": "[[\"Carinthia cheese ravioli with wild mushrooms\", \"simple\", \"positive\"], [\"green spinach-vodka sauce\", \"bright\", \"positive\"]]",
+    "response": "[[\"Innovations\", \"assured\", \"positive\"], [\"Carinthia cheese ravioli with wild mushrooms\", \"simple\", \"positive\"], [\"caviar-topped sturgeon\", \"beautifully matched\", \"positive\"], [\"spinach-vodka sauce\", \"bright green\", \"positive\"]]"
+  },
+  {
+    "id": 391,
+    "input": "And these are not small , wimpy fast food type burgers - these are real , full sized patties .",
+    "label": "[[\"burgers\", \"small\", \"positive\"], [\"burgers\", \"wimpy fast food type\", \"positive\"], [\"patties\", \"real\", \"positive\"], [\"patties\", \"full sized\", \"positive\"]]",
+    "response": "[[\"burgers\", \"not small\", \"positive\"], [\"burgers\", \"not wimpy\", \"positive\"], [\"patties\", \"real\", \"positive\"], [\"patties\", \"full sized\", \"positive\"]]"
+  },
+  {
+    "id": 392,
+    "input": "There restaurant is very casual , but perfect for lunch , and their delivery service is always very fast .",
+    "label": "[[\"lunch\", \"perfect\", \"neutral\"], [\"delivery service\", \"fast\", \"positive\"]]",
+    "response": "[[\"ambiance\", \"casual\", \"neutral\"], [\"lunch\", \"perfect\", \"positive\"], [\"delivery service\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 393,
+    "input": "Chinatown definitely has better quality with cheaper prices .",
+    "label": "[[\"quality\", \"better\", \"positive\"], [\"prices\", \"cheaper\", \"positive\"]]",
+    "response": "[[\"quality\", \"better\", \"positive\"], [\"prices\", \"cheaper\", \"positive\"]]"
+  },
+  {
+    "id": 394,
+    "input": "Go with the specials , and stay away from the salmon .",
+    "label": "[[\"specials\", \"Go with\", \"positive\"], [\"salmon\", \"stay away\", \"negative\"]]",
+    "response": "[[\"specials\", \"go with\", \"positive\"], [\"salmon\", \"stay away from\", \"negative\"]]"
+  },
+  {
+    "id": 395,
+    "input": "The pastas were pretty good .",
+    "label": "[[\"pastas\", \"good\", \"positive\"]]",
+    "response": "[[\"pastas\", \"pretty good\", \"positive\"]]"
+  },
+  {
+    "id": 396,
+    "input": "Atmosphere is a bore .",
+    "label": "[[\"Atmosphere\", \"bore\", \"negative\"]]",
+    "response": "[[\"Atmosphere\", \"a bore\", \"negative\"]]"
+  },
+  {
+    "id": 397,
+    "input": "The wait staff was very attentive and polite .",
+    "label": "[[\"wait staff\", \"attentive\", \"positive\"], [\"wait staff\", \"polite\", \"positive\"]]",
+    "response": "[[\"wait staff\", \"attentive\", \"positive\"], [\"wait staff\", \"polite\", \"positive\"]]"
+  },
+  {
+    "id": 398,
+    "input": "Great restaurant , and even greater food !",
+    "label": "[[\"food\", \"greater\", \"positive\"]]",
+    "response": "[[\"restaurant\", \"Great\", \"positive\"], [\"food\", \"greater\", \"positive\"]]"
+  },
+  {
+    "id": 399,
+    "input": "The dishes are remarkably tasty and such a cozy and intimate place !",
+    "label": "[[\"dishes\", \"tasty\", \"positive\"], [\"place\", \"cozy\", \"positive\"], [\"place\", \"intimate\", \"positive\"]]",
+    "response": "[[\"dishes\", \"tasty\", \"positive\"], [\"place\", \"cozy\", \"positive\"], [\"place\", \"intimate\", \"positive\"]]"
+  },
+  {
+    "id": 400,
+    "input": "I love the simplicity and respect which was given to the food , as well the staff was freindly and knowledgable .",
+    "label": "[[\"food\", \"love\", \"positive\"], [\"food\", \"simplicity\", \"positive\"], [\"food\", \"respect\", \"positive\"], [\"staff\", \"love\", \"positive\"], [\"staff\", \"freindly\", \"positive\"], [\"staff\", \"knowledgable\", \"positive\"]]",
+    "response": "[[\"food\", \"simplicity\", \"positive\"], [\"food\", \"respect\", \"positive\"], [\"staff\", \"freindly\", \"positive\"], [\"staff\", \"knowledgable\", \"positive\"]]"
+  },
+  {
+    "id": 401,
+    "input": "Service was good and so was the atmosphere .",
+    "label": "[[\"Service\", \"good\", \"positive\"], [\"atmosphere\", \"good\", \"positive\"]]",
+    "response": "[[[\"Service\", \"good\", \"positive\"], [\"atmosphere\", \"good\", \"positive\"]]]"
+  },
+  {
+    "id": 402,
+    "input": "MY date and I both ordered the Branzini and both felt the fish was very average .",
+    "label": "[[\"Branzini\", \"average\", \"neutral\"], [\"fish\", \"average\", \"negative\"]]",
+    "response": "[[\"Branzini\", \"very average\", \"neutral\"], [\"fish\", \"very average\", \"neutral\"]]"
+  },
+  {
+    "id": 403,
+    "input": "The food was good , the service prompt , and the price very reasonable .",
+    "label": "[[\"food\", \"good\", \"positive\"], [\"service\", \"prompt\", \"positive\"], [\"price\", \"reasonable\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"service\", \"prompt\", \"positive\"], [\"price\", \"reasonable\", \"positive\"]]"
+  },
+  {
+    "id": 404,
+    "input": "Wonderful menu , warm inviting ambiance , great service the FOOD keeps me coming back !",
+    "label": "[[\"menu\", \"Wonderful\", \"positive\"], [\"ambiance\", \"warm inviting\", \"positive\"], [\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"menu\", \"wonderful\", \"positive\"], [\"ambiance\", \"warm\", \"positive\"], [\"ambiance\", \"inviting\", \"positive\"], [\"service\", \"great\", \"positive\"], [\"FOOD\", \"keeps me coming back\", \"positive\"]]"
+  },
+  {
+    "id": 405,
+    "input": "Great food , good wine and an excellent host .",
+    "label": "[[\"food\", \"Great\", \"positive\"], [\"wine\", \"good\", \"positive\"], [\"host\", \"excellent\", \"positive\"]]",
+    "response": "[[\"food\", \"Great\", \"positive\"], [\"wine\", \"good\", \"positive\"], [\"host\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 406,
+    "input": "Pizzas were excellent in addition to appetizers and main courses .",
+    "label": "[[\"Pizzas\", \"excellent\", \"positive\"]]",
+    "response": "[[\"pizzas\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 407,
+    "input": "Definitely try the calamari , any pasta , or even the Sliced steak entree .",
+    "label": "[[\"calamari\", \"try\", \"positive\"], [\"pasta\", \"try\", \"positive\"], [\"Sliced steak entree\", \"try\", \"positive\"]]",
+    "response": "[[[\"calamari\", \"try\", \"positive\"], [\"pasta\", \"try\", \"positive\"], [\"Sliced steak entree\", \"try\", \"positive\"]]"
+  },
+  {
+    "id": 408,
+    "input": "The caeser salad was great .",
+    "label": "[[\"caeser salad\", \"great\", \"positive\"]]",
+    "response": "[[\"caeser salad\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 409,
+    "input": "The fried calamari was even better !",
+    "label": "[[\"fried calamari\", \"better\", \"positive\"]]",
+    "response": "[[\"fried calamari\", \"better\", \"positive\"]]"
+  },
+  {
+    "id": 410,
+    "input": "The food was good overall .",
+    "label": "[[\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 411,
+    "input": "The food was outstanding and the service was tops .",
+    "label": "[[\"food\", \"outstanding\", \"positive\"], [\"service\", \"tops\", \"positive\"]]",
+    "response": "[[\"food\", \"outstanding\", \"positive\"], [\"service\", \"tops\", \"positive\"]]"
+  },
+  {
+    "id": 412,
+    "input": "The portions are very large and the service is fantastic ! !",
+    "label": "[[\"portions\", \"large\", \"positive\"], [\"service\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"portions\", \"very large\", \"positive\"], [\"service\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 413,
+    "input": "I recomend the chicken milanese .",
+    "label": "[[\"chicken milanese\", \"recomend\", \"positive\"]]",
+    "response": "[[\"chicken milanese\", \"recomend\", \"positive\"]]"
+  },
+  {
+    "id": 414,
+    "input": "excellent tapas at great prices , romantic , small but not overly crowed , excellent",
+    "label": "[[\"tapas\", \"excellent\", \"positive\"], [\"prices\", \"great\", \"positive\"]]",
+    "response": "[[\"tapas\", \"excellent\", \"positive\"], [\"prices\", \"great\", \"positive\"], [\"ambiance\", \"romantic\", \"positive\"], [\"size\", \"small but not overly crowded\", \"positive\"]]"
+  },
+  {
+    "id": 415,
+    "input": "The chocolate raspberry cake is heavenly -- not too sweet , but full of flavor .",
+    "label": "[[\"chocolate raspberry cake\", \"heavenly\", \"positive\"], [\"chocolate raspberry cake\", \"not too sweet\", \"positive\"], [\"chocolate raspberry cake\", \"full of flavor\", \"positive\"], [\"flavor\", \"full\", \"positive\"]]",
+    "response": "[[\"chocolate raspberry cake\", \"heavenly\", \"positive\"], [\"sweetness\", \"not too sweet\", \"positive\"], [\"flavor\", \"full of flavor\", \"positive\"]]"
+  },
+  {
+    "id": 416,
+    "input": "Our waiter was helpful and charming , the food was perfect , and the wine was good , too .",
+    "label": "[[\"waiter\", \"helpful\", \"positive\"], [\"waiter\", \"charming\", \"positive\"], [\"food\", \"perfect\", \"positive\"], [\"wine\", \"good\", \"positive\"]]",
+    "response": "[[\"waiter\", \"helpful\", \"positive\"], [\"waiter\", \"charming\", \"positive\"], [\"food\", \"perfect\", \"positive\"], [\"wine\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 417,
+    "input": "Best hot dogs in the tri-state area .",
+    "label": "[[\"hot dogs\", \"Best\", \"positive\"]]",
+    "response": "[[\"hot dogs\", \"Best\", \"positive\"]]"
+  },
+  {
+    "id": 418,
+    "input": "The service was very attentive and very generous .",
+    "label": "[[\"service\", \"attentive\", \"positive\"], [\"service\", \"generous\", \"positive\"]]",
+    "response": "[[\"service\", \"attentive\", \"positive\"], [\"service\", \"generous\", \"positive\"]]"
+  },
+  {
+    "id": 419,
+    "input": "We had tons of great food , wine , and desserts .",
+    "label": "[[\"food\", \"great\", \"positive\"], [\"wine\", \"great\", \"positive\"], [\"desserts\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"wine\", \"great\", \"positive\"], [\"desserts\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 420,
+    "input": "Really Lovely dining experience in the midst of buzzing midtown area .",
+    "label": "[[\"dining experience\", \"Lovely\", \"positive\"]]",
+    "response": "[[\"dining experience\", \"Really Lovely\", \"positive\"], [\"midtown area\", \"buzzing\", \"positive\"]]"
+  },
+  {
+    "id": 421,
+    "input": "The food really is n't very good and the service is terrible .",
+    "label": "[[\"food\", \"is n't very good\", \"negative\"], [\"service\", \"terrible\", \"negative\"]]",
+    "response": "[[\"food\", \"isn't very good\", \"negative\"], [\"service\", \"terrible\", \"negative\"]]"
+  },
+  {
+    "id": 422,
+    "input": "Not only do they have the best escargot in town , they always try to accomodate our toddler .",
+    "label": "[[\"escargot\", \"best\", \"positive\"]]",
+    "response": "[[\"escargot\", \"best\", \"positive\"], [\"service\", \"try to accommodate\", \"positive\"]]"
+  },
+  {
+    "id": 423,
+    "input": "The Deco and ambiance was really romantic .",
+    "label": "[[\"Deco\", \"romantic\", \"positive\"], [\"ambiance\", \"romantic\", \"positive\"]]",
+    "response": "[[\"Deco\", \"romantic\", \"positive\"], [\"ambiance\", \"romantic\", \"positive\"]]"
+  },
+  {
+    "id": 424,
+    "input": "Just go in and sample the greatest french food west of Daniel .",
+    "label": "[[\"french food\", \"greatest\", \"positive\"]]",
+    "response": "[[\"french food\", \"greatest\", \"positive\"]]"
+  },
+  {
+    "id": 425,
+    "input": "Finally a curry that I can eat , enjoy and not suffer from gastritis from 3 hours later .",
+    "label": "[[\"curry\", \"enjoy\", \"positive\"]]",
+    "response": "[[\"curry\", \"can eat\", \"positive\"], [\"curry\", \"enjoy\", \"positive\"], [\"curry\", \"not suffer from gastritis\", \"positive\"]]"
+  },
+  {
+    "id": 426,
+    "input": "All are GREAT - poori , naan , paratha all FRESH .",
+    "label": "[[\"poori\", \"GREAT\", \"positive\"], [\"naan\", \"GREAT\", \"positive\"], [\"paratha\", \"FRESH\", \"positive\"]]",
+    "response": "[[\"poori\", \"GREAT\", \"positive\"], [\"poori\", \"FRESH\", \"positive\"], [\"naan\", \"GREAT\", \"positive\"], [\"naan\", \"FRESH\", \"positive\"], [\"paratha\", \"GREAT\", \"positive\"], [\"paratha\", \"FRESH\", \"positive\"]]"
+  },
+  {
+    "id": 427,
+    "input": "Try the homemade breads .",
+    "label": "[[\"homemade breads\", \"Try\", \"positive\"]]",
+    "response": "[[\"breads\", \"homemade\", \"positive\"]]"
+  },
+  {
+    "id": 428,
+    "input": "This place has beautiful sushi , and it 's delicious CHEAP .",
+    "label": "[[\"sushi\", \"beautiful\", \"positive\"], [\"sushi\", \"delicious CHEAP\", \"positive\"]]",
+    "response": "[[\"sushi\", \"beautiful\", \"positive\"], [\"sushi\", \"delicious\", \"positive\"], [\"price\", \"cheap\", \"positive\"]]"
+  },
+  {
+    "id": 429,
+    "input": "It also has lots of other Korean dishes that are affordable and just as yummy .",
+    "label": "[[\"Korean dishes\", \"affordable\", \"positive\"], [\"Korean dishes\", \"yummy\", \"positive\"]]",
+    "response": "[[\"Korean dishes\", \"affordable\", \"positive\"], [\"Korean dishes\", \"yummy\", \"positive\"]]"
+  },
+  {
+    "id": 430,
+    "input": "Not only was the waiter efficient and courteous , but also extremely helpful .",
+    "label": "[[\"waiter\", \"efficient\", \"positive\"], [\"waiter\", \"helpful\", \"positive\"]]",
+    "response": "[[[\"waiter\", \"efficient\", \"positive\"], [\"waiter\", \"courteous\", \"positive\"], [\"waiter\", \"extremely helpful\", \"positive\"]]"
+  },
+  {
+    "id": 431,
+    "input": "This place is classy , chic , the service is warm and hospitable , and the food is outstanding .",
+    "label": "[[\"place\", \"classy\", \"positive\"], [\"place\", \"chic\", \"positive\"], [\"service\", \"warm\", \"positive\"], [\"service\", \"hospitable\", \"positive\"], [\"food\", \"outstanding\", \"positive\"]]",
+    "response": "[[\"place\", \"classy\", \"positive\"], [\"place\", \"chic\", \"positive\"], [\"service\", \"warm\", \"positive\"], [\"service\", \"hospitable\", \"positive\"], [\"food\", \"outstanding\", \"positive\"]]"
+  },
+  {
+    "id": 432,
+    "input": "Great burgers , grilled cheeses and french fries .",
+    "label": "[[\"burgers\", \"Great\", \"positive\"], [\"grilled cheeses\", \"Great\", \"positive\"], [\"french fries\", \"Great\", \"positive\"]]",
+    "response": "[[\"burgers\", \"Great\", \"positive\"]]"
+  },
+  {
+    "id": 433,
+    "input": "The Yellowfin Tuna and Calf 's liver are my favorites !",
+    "label": "[[\"Yellowfin Tuna\", \"favorites\", \"positive\"], [\"Calf 's liver\", \"favorites\", \"positive\"]]",
+    "response": "[[\"Yellowfin Tuna\", \"favorites\", \"positive\"], [\"Calf's liver\", \"favorites\", \"positive\"]]"
+  },
+  {
+    "id": 434,
+    "input": "Sushi so fresh that it crunches in your mouth .",
+    "label": "[[\"Sushi\", \"fresh\", \"positive\"]]",
+    "response": "[[\"sushi\", \"fresh\", \"positive\"], [\"sushi\", \"crunches\", \"positive\"]]"
+  },
+  {
+    "id": 435,
+    "input": "But make sure you have enough room on your credit card as the bill will leave a big dent in your wallet .",
+    "label": "[[\"bill\", \"big\", \"negative\"]]",
+    "response": "[[\"bill\", \"big dent in your wallet\", \"negative\"]]"
+  },
+  {
+    "id": 436,
+    "input": "Not only was the sushi fresh , they also served other entrees allowed each guest something to choose from and we all left happy ( try the duck !",
+    "label": "[[\"sushi\", \"fresh\", \"positive\"], [\"duck\", \"try\", \"positive\"]]",
+    "response": "[[\"sushi\", \"fresh\", \"positive\"], [\"entrees\", \"something to choose from\", \"positive\"], [\"duck\", \"try\", \"positive\"]]"
+  },
+  {
+    "id": 437,
+    "input": "good variety but nothing surprising .",
+    "label": "[[\"variety\", \"good\", \"positive\"]]",
+    "response": "[[\"variety\", \"good\", \"positive\"], [\"surprise\", \"nothing surprising\", \"negative\"]]"
+  },
+  {
+    "id": 438,
+    "input": "No green beans , no egg , no anchovy dressing , no nicoise olives , no red onion .",
+    "label": "[[\"green beans\", \"No\", \"neutral\"], [\"egg\", \"no\", \"neutral\"], [\"anchovy dressing\", \"no\", \"neutral\"], [\"nicoise olives\", \"no\", \"neutral\"], [\"red onion\", \"no\", \"neutral\"]]",
+    "response": "[[\"green beans\", \"no\", \"negative\"], [\"egg\", \"no\", \"negative\"], [\"anchovy dressing\", \"no\", \"negative\"], [\"nicoise olives\", \"no\", \"negative\"], [\"red onion\", \"no\", \"negative\"]]"
+  },
+  {
+    "id": 439,
+    "input": "Thick fries , meaty chili and stuffed baked potatoes round out a menu that includes a cool , ultra-thick chocolate Frosty .",
+    "label": "[[\"fries\", \"Thick\", \"neutral\"], [\"chocolate Frosty\", \"cool\", \"positive\"], [\"chocolate Frosty\", \"ultra-thick\", \"positive\"]]",
+    "response": "[[\"fries\", \"Thick\", \"positive\"], [\"chili\", \"meaty\", \"positive\"], [\"baked potatoes\", \"stuffed\", \"positive\"], [\"chocolate Frosty\", \"cool\", \"positive\"], [\"chocolate Frosty\", \"ultra-thick\", \"positive\"]]"
+  },
+  {
+    "id": 440,
+    "input": "The homage to India is most evident in the delectable roti canai appetizer , a fried pancake served with pungent curry dipping sauce , while the mango chicken offers a surprisingly sophisticated , fresh take on sweet-and-sour .",
+    "label": "[[\"roti canai appetizer\", \"delectable\", \"positive\"], [\"mango chicken\", \"surprisingly sophisticated\", \"positive\"], [\"mango chicken\", \"fresh\", \"positive\"]]",
+    "response": "[[\"roti canai appetizer\", \"delectable\", \"positive\"], [\"curry dipping sauce\", \"pungent\", \"positive\"], [\"mango chicken\", \"surprisingly sophisticated\", \"positive\"], [\"mango chicken\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 441,
+    "input": "The ground chickpea soup we sampled as a starter tasted somewhat thin .",
+    "label": "[[\"ground chickpea soup\", \"thin\", \"negative\"], [\"starter\", \"thin\", \"neutral\"]]",
+    "response": "[[\"ground chickpea soup\", \"thin\", \"negative\"]]"
+  },
+  {
+    "id": 442,
+    "input": "The service , however , is a peg or two below the quality of food ( horrible bartenders ) , and the clientele , for the most part , are rowdy , loud-mouthed commuters ( this could explain the bad attitudes from the staff ) getting loaded for an AC/DC concert or a Knicks game .",
+    "label": "[[\"service\", \"below\", \"negative\"], [\"bartenders\", \"horrible\", \"negative\"], [\"clientele\", \"rowdy\", \"negative\"], [\"clientele\", \"loud-mouthed\", \"negative\"], [\"staff\", \"bad\", \"negative\"]]",
+    "response": "[[\"service\", \"horrible\", \"negative\"], [\"clientele\", \"rowdy\", \"negative\"], [\"clientele\", \"loud-mouthed\", \"negative\"], [\"staff\", \"bad attitudes\", \"negative\"]]"
+  },
+  {
+    "id": 443,
+    "input": "If you 're in the neighborhood , definitely stop by for a great meal .",
+    "label": "[[\"meal\", \"great\", \"positive\"]]",
+    "response": "[[\"meal\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 444,
+    "input": "Although small , it has beautiful ambience , excellent food ( the catfish is delicious - if ya do n't mind it a lil salty ) and attentive service .",
+    "label": "[[\"ambience\", \"beautiful\", \"positive\"], [\"food\", \"excellent\", \"positive\"], [\"catfish\", \"delicious\", \"positive\"], [\"catfish\", \"salty\", \"positive\"], [\"service\", \"attentive\", \"positive\"]]",
+    "response": "[[\"size\", \"small\", \"neutral\"], [\"ambience\", \"beautiful\", \"positive\"], [\"food\", \"excellent\", \"positive\"], [\"catfish\", \"delicious\", \"positive\"], [\"catfish\", \"salty\", \"negative\"], [\"service\", \"attentive\", \"positive\"]]"
+  },
+  {
+    "id": 445,
+    "input": "Stick to the items the place does best , brisket , ribs , wings , cajun shrimp is good , not great .",
+    "label": "[[\"brisket\", \"good\", \"positive\"], [\"ribs\", \"good\", \"positive\"], [\"wings\", \"good\", \"positive\"], [\"cajun shrimp\", \"good\", \"neutral\"]]",
+    "response": "[[\"brisket\", \"does best\", \"positive\"], [\"ribs\", \"does best\", \"positive\"], [\"wings\", \"does best\", \"positive\"], [\"cajun shrimp\", \"good\", \"positive\"], [\"cajun shrimp\", \"not great\", \"negative\"]]"
+  },
+  {
+    "id": 446,
+    "input": "Hip boutiques and bars on Ludlow add to the artsy , laid-back atmosphere at this Israeli-style takeout and eat-in burger joint .",
+    "label": "[[\"atmosphere\", \"artsy\", \"positive\"], [\"atmosphere\", \"laid-back\", \"positive\"]]",
+    "response": "[[\"boutiques and bars\", \"hip\", \"positive\"], [\"atmosphere\", \"artsy\", \"positive\"], [\"atmosphere\", \"laid-back\", \"positive\"]]"
+  },
+  {
+    "id": 447,
+    "input": "My Chelsea 's impressive and creative menu includes modern , Westernized Japanese dishes such as Foie Gras Unagi Napolean , Jap style hamburger steak , spicy cod roe spaghetti , black cod with miso base , and rack of lamb in black truffle sauce , to name a few .",
+    "label": "[[\"menu\", \"impressive\", \"positive\"], [\"menu\", \"creative\", \"positive\"], [\"Japanese dishes\", \"modern\", \"neutral\"], [\"Japanese dishes\", \"Westernized\", \"neutral\"], [\"Foie Gras Unagi Napolean\", \"modern\", \"neutral\"], [\"Foie Gras Unagi Napolean\", \"Westernized\", \"neutral\"], [\"Jap style hamburger steak\", \"modern\", \"neutral\"], [\"Jap style hamburger steak\", \"Westernized\", \"neutral\"], [\"spicy cod roe spaghetti\", \"modern\", \"neutral\"], [\"spicy cod roe spaghetti\", \"Westernized\", \"neutral\"], [\"black cod with miso base\", \"modern\", \"neutral\"], [\"black cod with miso base\", \"Westernized\", \"neutral\"], [\"rack of lamb in black truffle sauce\", \"modern\", \"neutral\"], [\"rack of lamb in black truffle sauce\", \"Westernized\", \"neutral\"]]",
+    "response": "[[\"menu\", \"impressive\", \"positive\"], [\"menu\", \"creative\", \"positive\"], [\"Japanese dishes\", \"modern\", \"positive\"], [\"Japanese dishes\", \"Westernized\", \"positive\"], [\"cod roe spaghetti\", \"spicy\", \"positive\"]]"
+  },
+  {
+    "id": 448,
+    "input": "His food is excellent ( and not expensive by NYC standards- no entrees over $ 30 , most appetizers $ 12 to 14 ) .",
+    "label": "[[\"food\", \"excellent\", \"positive\"], [\"appetizers\", \"not expensive\", \"positive\"]]",
+    "response": "[[[\"food\", \"excellent\", \"positive\"], [\"price\", \"not expensive\", \"positive\"]]]"
+  },
+  {
+    "id": 449,
+    "input": "The food is consistant and good but how it got name Best Diner In Manhattan is beyond me .",
+    "label": "[[\"food\", \"consistant\", \"positive\"], [\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"consistent\", \"positive\"], [\"food\", \"good\", \"positive\"], [\"Best Diner In Manhattan\", \"beyond me\", \"negative\"]]"
+  },
+  {
+    "id": 450,
+    "input": "The pasta primavera was outstanding as well , lots of fresh veggies .",
+    "label": "[[\"pasta primavera\", \"outstanding\", \"positive\"], [\"fresh veggies\", \"lots\", \"positive\"]]",
+    "response": "[[\"pasta primavera\", \"outstanding\", \"positive\"], [\"veggies\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 451,
+    "input": "do n't get me wrong - sushi was good , just not fantastic .",
+    "label": "[[\"sushi\", \"good\", \"positive\"], [\"sushi\", \"not fantastic\", \"positive\"]]",
+    "response": "[[\"sushi\", \"good\", \"positive\"], [\"sushi\", \"not fantastic\", \"negative\"]]"
+  },
+  {
+    "id": 452,
+    "input": "Been to the one in Brooklyn for over 25 years , now I dont have to go over the bridge for the best pizza ... .Hanx",
+    "label": "[[\"pizza\", \"best\", \"positive\"]]",
+    "response": "[[\"pizza\", \"best\", \"positive\"], [\"location\", \"dont have to go over the bridge\", \"positive\"]]"
+  },
+  {
+    "id": 453,
+    "input": "Had dinner here on a Friday and the food was great .",
+    "label": "[[\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 454,
+    "input": "We recently spent New Year 's Eve at the restaurant , and had a great experience , from the wine to the dessert menu .",
+    "label": "[[\"wine\", \"great\", \"positive\"], [\"dessert menu\", \"great\", \"positive\"]]",
+    "response": "[[\"experience\", \"great\", \"positive\"], [\"wine\", \"great\", \"positive\"], [\"dessert menu\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 455,
+    "input": "Highly recommended ... As stated , I have n't dined *in* the restaurant but stopped by there to pick up takeout and it seems a very relaxing place ; also , the bar looks nice .",
+    "label": "[[\"place\", \"relaxing\", \"positive\"], [\"bar\", \"nice\", \"positive\"]]",
+    "response": "[[ \"restaurant\", \"relaxing\", \"positive\"], [\"bar\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 456,
+    "input": "The ambiance was fine , a little loud but still nice and romantic .",
+    "label": "[[\"ambiance\", \"fine\", \"positive\"], [\"ambiance\", \"loud\", \"positive\"], [\"ambiance\", \"nice\", \"positive\"], [\"ambiance\", \"romantic\", \"positive\"]]",
+    "response": "[[\"ambiance\", \"fine\", \"neutral\"], [\"ambiance\", \"loud\", \"negative\"], [\"ambiance\", \"nice\", \"positive\"], [\"ambiance\", \"romantic\", \"positive\"]]"
+  },
+  {
+    "id": 457,
+    "input": "but , the filet mignon was not very good at all cocktail hour includes free appetizers ( nice non-sushi selection ) .",
+    "label": "[[\"filet mignon\", \"not very good\", \"negative\"], [\"non-sushi selection\", \"nice\", \"positive\"], [\"appetizers\", \"free\", \"positive\"]]",
+    "response": "[[\"filet mignon\", \"not very good\", \"negative\"], [\"appetizers\", \"free\", \"positive\"], [\"non-sushi selection\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 458,
+    "input": "Can be a bit busy around peak times because of the size .",
+    "label": "[[\"size\", \"busy\", \"negative\"]]",
+    "response": "[[\"peak times\", \"busy\", \"negative\"], [\"size\", \"busy\", \"negative\"]] \n\n**Note:** While the second triplet might seem less direct, the aspect \"size\" is implied to contribute to the negative sentiment (busyness) as the root cause. However, if strict explicit opinion terms are required, only the first triplet would apply:  \n[[\"peak times\", \"busy\", \"negative\"]].  \nThe ambiguity arises from whether \"size\" warrants an implicit sentiment due to its causal role. The chosen answer reflects a balance between explicitness and contextual inference."
+  },
+  {
+    "id": 459,
+    "input": "I was on jury duty , rode my bike up Centre Street on my lunch break and came across this great little place with awesome chicken tacos and Hibiscus lemonade .",
+    "label": "[[\"chicken tacos\", \"awesome\", \"positive\"], [\"Hibiscus lemonade\", \"awesome\", \"positive\"], [\"place\", \"great\", \"positive\"]]",
+    "response": "[[\"place\", \"great\", \"positive\"], [\"chicken tacos\", \"awesome\", \"positive\"]]"
+  },
+  {
+    "id": 460,
+    "input": "good place to hang out during the day after shopping or to grab a simple soup or classic french dish over a glass of wine .",
+    "label": "[[\"place\", \"good\", \"positive\"], [\"soup\", \"simple\", \"neutral\"], [\"french dish\", \"classic\", \"neutral\"]]",
+    "response": "[[\"place\", \"good\", \"positive\"], [\"soup\", \"simple\", \"positive\"], [\"classic french dish\", \"classic\", \"positive\"]]"
+  },
+  {
+    "id": 461,
+    "input": "Very nice touch that very much fits the place .",
+    "label": "[[\"place\", \"nice\", \"positive\"]]",
+    "response": "[[\"touch\", \"very nice\", \"positive\"], [\"touch\", \"very much fits the place\", \"positive\"]]"
+  },
+  {
+    "id": 462,
+    "input": "However , there is just something so great about being outdoors , in great landscaping , enjoying a casual drink that makes going to this place worthwhile .",
+    "label": "[[\"casual drink\", \"enjoying\", \"positive\"], [\"outdoors\", \"great\", \"positive\"]]",
+    "response": "[[\"outdoors\", \"great\", \"positive\"], [\"landscaping\", \"great\", \"positive\"], [\"drink\", \"casual\", \"positive\"]]"
+  },
+  {
+    "id": 463,
+    "input": "The comments about fried foods is correct ( below ) but the other dishes , including the lamb entree and many of the salads ( avocado shrimp ) were quite good .",
+    "label": "[[\"dishes\", \"good\", \"positive\"], [\"lamb entree\", \"good\", \"positive\"], [\"salads ( avocado shrimp )\", \"good\", \"positive\"]]",
+    "response": "[[\"fried foods\", \"correct\", \"negative\"], [\"lamb entree\", \"quite good\", \"positive\"], [\"salads\", \"quite good\", \"positive\"]]"
+  },
+  {
+    "id": 464,
+    "input": "Slow service , but when you 're hanging around with groups of 10 or 20 , who really notices ?",
+    "label": "[[\"service\", \"Slow\", \"negative\"]]",
+    "response": "[[\"service\", \"slow\", \"negative\"]]"
+  },
+  {
+    "id": 465,
+    "input": "The sauce is excellent ( very fresh ) with dabs of real mozzarella .",
+    "label": "[[\"sauce\", \"excellent\", \"positive\"], [\"sauce\", \"fresh\", \"positive\"]]",
+    "response": "[[\"sauce\", \"excellent\", \"positive\"], [\"sauce\", \"very fresh\", \"positive\"], [\"mozzarella\", \"real\", \"positive\"]]"
+  },
+  {
+    "id": 466,
+    "input": "Do n't ever bother - the drinks were awful , but it was the people who work there that really made this the worst experience at dining .",
+    "label": "[[\"drinks\", \"awful\", \"negative\"], [\"people\", \"worst\", \"negative\"], [\"dining\", \"worst\", \"negative\"]]",
+    "response": "[[\"drinks\", \"awful\", \"negative\"], [\"people\", \"worst experience\", \"negative\"]]"
+  },
+  {
+    "id": 467,
+    "input": "The room is a little plain , but it 's difficult to make such a small place exciting and I would not suggest that as a reason not to go .",
+    "label": "[[\"room\", \"plain\", \"negative\"]]",
+    "response": "[[\"room\", \"plain\", \"negative\"], [\"size\", \"small\", \"neutral\"]]"
+  },
+  {
+    "id": 468,
+    "input": "Prices even outside of restaurant week were great .",
+    "label": "[[\"Prices\", \"great\", \"positive\"]]",
+    "response": "[[ \"Prices\", \"great\", \"positive\" ]]"
+  },
+  {
+    "id": 469,
+    "input": "A small , outdoor eating area makes for a private , comfortable space to study alone or meet up with friends .",
+    "label": "[[\"space\", \"private\", \"positive\"], [\"space\", \"comfortable\", \"positive\"], [\"outdoor eating area\", \"small\", \"positive\"]]",
+    "response": "[[\"eating area\", \"small\", \"neutral\"], [\"eating area\", \"outdoor\", \"neutral\"], [\"space\", \"private\", \"positive\"], [\"space\", \"comfortable\", \"positive\"]]"
+  },
+  {
+    "id": 470,
+    "input": "The best dessert , a chocolate and peanut butter tart , is n't particularly Hawaiian , but it 's a small world when it comes to sweets .",
+    "label": "[[\"dessert\", \"best\", \"positive\"]]",
+    "response": "[[\"chocolate and peanut butter tart\", \"best\", \"positive\"], [\"Hawaiian\", \"isn't particularly\", \"negative\"], [\"sweets\", \"small world\", \"neutral\"]]"
+  },
+  {
+    "id": 471,
+    "input": "for an appetizer , their calamari is a winner .",
+    "label": "[[\"appetizer\", \"winner\", \"neutral\"], [\"calamari\", \"winner\", \"positive\"]]",
+    "response": "[[\"calamari\", \"winner\", \"positive\"]]"
+  },
+  {
+    "id": 472,
+    "input": "The room is a gorgeous , bi-level space and the long bar perfect for a drink .",
+    "label": "[[\"room\", \"gorgeous\", \"positive\"], [\"bi-level space\", \"gorgeous\", \"positive\"], [\"long bar\", \"perfect\", \"positive\"]]",
+    "response": "[[\"room\", \"gorgeous\", \"positive\"], [\"long bar\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 473,
+    "input": "Two complaints- their appetizer selection stinks , it would be nice to get some mozzarella sticks on the menu .",
+    "label": "[[\"appetizer selection\", \"stinks\", \"negative\"]]",
+    "response": "[[\"appetizer selection\", \"stinks\", \"negative\"], [\"mozzarella sticks\", \"it would be nice to get\", \"positive\"]]"
+  },
+  {
+    "id": 474,
+    "input": "I was especially impressed during the bday party when the waitstaff went above and beyond in helping me decorate and bring out a bday cake as well as offering prompt and friendly service to a 15 person party .",
+    "label": "[[\"service\", \"prompt\", \"positive\"], [\"service\", \"friendly\", \"positive\"]]",
+    "response": "[[\"waitstaff\", \"went above and beyond\", \"positive\"], [\"service\", \"prompt\", \"positive\"], [\"service\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 475,
+    "input": "The chicken and falafel platters were nondescript combinations with fresh leaf salad .",
+    "label": "[[\"chicken and falafel platters\", \"nondescript\", \"neutral\"], [\"fresh leaf salad\", \"fresh\", \"neutral\"]]",
+    "response": "[[\"chicken and falafel platters\", \"nondescript combinations\", \"negative\"], [\"salad\", \"fresh leaf\", \"positive\"]]"
+  },
+  {
+    "id": 476,
+    "input": "several times and put up with the waiters ' bad manners , knowing that their job is n't easy .",
+    "label": "[[\"waiters\", \"bad\", \"negative\"]]",
+    "response": "[[\"manners\", \"bad\", \"negative\"], [\"job\", \"isn't easy\", \"neutral\"]]"
+  },
+  {
+    "id": 477,
+    "input": "The service is great ( maybe even borderline nagging but at least you get attention ) , the desserts are excellent and the coffee is so very good ...",
+    "label": "[[\"desserts\", \"excellent\", \"positive\"], [\"coffee\", \"good\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"desserts\", \"excellent\", \"positive\"], [\"coffee\", \"so very good\", \"positive\"]]"
+  },
+  {
+    "id": 478,
+    "input": "They are served on Focacchia bread and are to die for .",
+    "label": "[[\"Focacchia bread\", \"die for\", \"neutral\"]]",
+    "response": "[[\"Focacchia bread\", \"to die for\", \"positive\"]]"
+  },
+  {
+    "id": 479,
+    "input": "While the smoothies are a little big for me , the fresh juices are the best I have ever had !",
+    "label": "[[\"smoothies\", \"big\", \"negative\"], [\"fresh juices\", \"best\", \"positive\"]]",
+    "response": "[[\"smoothies\", \"a little big\", \"negative\"], [\"fresh juices\", \"the best\", \"positive\"]]"
+  },
+  {
+    "id": 480,
+    "input": "The food is just OKAY , and it 's almost not worth going unless you 're getting the pialla , which is the only dish that 's really good .",
+    "label": "[[\"pialla\", \"good\", \"positive\"], [\"dish\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"OKAY\", \"neutral\"], [\"pialla\", \"really good\", \"positive\"]]"
+  },
+  {
+    "id": 481,
+    "input": "The guac is fresh , yet lacking flavor , we like to add our fresh salsa into it .",
+    "label": "[[\"flavor\", \"lacking\", \"negative\"]]",
+    "response": "[[\"guac\", \"fresh\", \"positive\"], [\"flavor\", \"lacking\", \"negative\"]]"
+  },
+  {
+    "id": 482,
+    "input": "The new menu has a few creative items , they were smart enough to keep some of the old favorites ( but they raised the prices ) , the staff is friendly most of the time , but I must agree with the person that wrote about their favorite words : No , ca n't , sorry ... , boy , they wo n't bend the rules for anyone .",
+    "label": "[[\"prices\", \"raised\", \"negative\"], [\"new menu\", \"creative\", \"positive\"]]",
+    "response": "[[\"menu items\", \"creative\", \"positive\"], [\"old favorites\", \"kept\", \"positive\"], [\"prices\", \"raised\", \"negative\"], [\"staff\", \"friendly\", \"positive\"], [\"rules\", \"won't bend\", \"negative\"]]"
+  },
+  {
+    "id": 483,
+    "input": "It ' only open for lunch but the food is so good !",
+    "label": "[[\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"hours\", \"only open for lunch\", \"negative\"], [\"food\", \"so good\", \"positive\"]]"
+  },
+  {
+    "id": 484,
+    "input": "How can they survive serving mediocre food at exorbitant prices ? !",
+    "label": "[[\"food\", \"mediocre\", \"neutral\"], [\"prices\", \"exorbitant\", \"negative\"]]",
+    "response": "[[ \"food\", \"mediocre\", \"negative\"], [\"prices\", \"exorbitant\", \"negative\"]]"
+  },
+  {
+    "id": 485,
+    "input": "The food was mediocre and the service was severely slow .",
+    "label": "[[\"service\", \"severely slow\", \"negative\"], [\"food\", \"mediocre\", \"neutral\"]]",
+    "response": "[[[\"food\", \"mediocre\", \"negative\"], [\"service\", \"severely slow\", \"negative\"]]]"
+  },
+  {
+    "id": 486,
+    "input": "i have eaten here on a different occasion - the food is mediocre for the prices .",
+    "label": "[[\"food\", \"mediocre\", \"neutral\"]]",
+    "response": "[[\"food\", \"mediocre\", \"negative\"], [\"prices\", \"mediocre for the prices\", \"negative\"]] \n\nWait, but the second part's opinion term isn't explicitly about the prices. Maybe the correct answer is only the first aspect. However, given the structure of the sentence, the aspect \"prices\" is linked to the negative sentiment because the food's quality doesn't justify the cost. But since there's no explicit opinion term for \"prices,\" I think the answer should be only the first one. However, the user's example might expect both. To adhere to the instruction strictly, maybe only the first aspect. But I'm torn. \n\nAfter reconsidering, the answer should be:\n\n[[\"food\", \"mediocre\", \"negative\"]]\n\nBut perhaps the user expects both. Let me check the original instruction again: \"extract its aspect term, opinion term and the corresponding sentiment polarity.\" The aspect term is any aspect discussed, the opinion term is the word or phrase expressing the opinion, and sentiment. \n\nIn the review, \"the food is mediocre for the prices.\" The aspect \"prices\" is mentioned. The opinion term related to prices is the entire phrase \"mediocre for the prices,\" but that's linked to food. Alternatively, the sentiment towards prices is negative because the customer feels they are too high for the mediocre food. However, without an explicit opinion term for prices, maybe it's excluded. \n\nGiven that, the final answer is:\n\n[[\"food\", \"mediocre\", \"negative\"]]\n\nBut I'm still uncertain. To cover all possibilities, perhaps the intended answer includes both aspects. \n\nWait, looking at the example provided by the user: the review is \"the food is mediocre for the prices.\" The aspects are food and prices. The opinion terms are \"mediocre\" (for food) and the relation implies negative for prices. But how to phrase the opinion term for prices. Maybe it's \"for the prices\" as the opinion term, but that's a stretch. \n\nAlternatively, considering that \"for the prices\" modifies the food's mediocrity, but \"prices\" themselves don't have an explicit opinion term. Therefore, only \"food\" is the valid aspect. \n\nAfter careful consideration, I think the correct answer is:\n\n[[\"food\", \"mediocre\", \"negative\"]]\n\nBut I'm not 100% sure. However, given the lack of an explicit opinion term for \"prices,\" it's better to exclude it. \n\n**Final Answer**\n[[\"food\", \"mediocre\", \"negative\"]]"
+  },
+  {
+    "id": 487,
+    "input": "I asked repeatedly what the status of the meal was and was pretty much grunted at by the unbelievably rude waiter .",
+    "label": "[[\"waiter\", \"rude\", \"negative\"]]",
+    "response": "[[\"service\", \"asked repeatedly\", \"negative\"], [\"waiter\", \"grunted at\", \"negative\"], [\"waiter\", \"rude\", \"negative\"]]"
+  },
+  {
+    "id": 488,
+    "input": "Sweet Irish bartender is always happy and able to bring a smile to my friends a my face .",
+    "label": "[[\"bartender\", \"Sweet\", \"positive\"], [\"bartender\", \"happy\", \"positive\"]]",
+    "response": "[[\"bartender\", \"Sweet\", \"positive\"], [\"bartender\", \"always happy\", \"positive\"], [\"bartender\", \"able to bring a smile\", \"positive\"]]"
+  },
+  {
+    "id": 489,
+    "input": "Its good to go there for drinks if you do n't want to get drunk because you 'll be lucky if you can get one drink an hour the service is so bad .",
+    "label": "[[\"service\", \"bad\", \"negative\"], [\"drinks\", \"good\", \"neutral\"]]",
+    "response": "[[\"drinks\", \"good\", \"positive\"], [\"service\", \"bad\", \"negative\"]]"
+  },
+  {
+    "id": 490,
+    "input": "Anyway , the owner was fake .",
+    "label": "[[\"owner\", \"fake\", \"negative\"]]",
+    "response": "[[\"owner\", \"fake\", \"negative\"]]"
+  },
+  {
+    "id": 491,
+    "input": "Owner is pleasant and entertaining .",
+    "label": "[[\"Owner\", \"pleasant\", \"positive\"], [\"Owner\", \"entertaining\", \"positive\"]]",
+    "response": "[[ \"Owner\", \"pleasant\", \"positive\"], [\"Owner\", \"entertaining\", \"positive\"]]"
+  },
+  {
+    "id": 492,
+    "input": "Creamy appetizers -- taramasalata , eggplant salad , and Greek yogurt ( with cuccumber , dill , and garlic ) taste excellent when on warm pitas .",
+    "label": "[[\"Creamy appetizers\", \"Creamy\", \"positive\"], [\"Creamy appetizers\", \"excellent\", \"positive\"], [\"warm pitas\", \"warm\", \"neutral\"], [\"taramasalata\", \"Creamy\", \"positive\"], [\"eggplant salad\", \"excellent\", \"positive\"], [\"Greek yogurt ( with cuccumber , dill , and garlic )\", \"excellent\", \"positive\"]]",
+    "response": "[[\"appetizers\", \"creamy\", \"positive\"], [\"appetizers\", \"taste excellent\", \"positive\"], [\"pitas\", \"warm\", \"positive\"]]"
+  }
+]

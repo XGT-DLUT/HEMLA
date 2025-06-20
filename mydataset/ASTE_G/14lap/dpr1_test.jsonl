@@ -1,0 +1,1970 @@
+[
+  {
+    "id": 1,
+    "input": "Boot time is super fast , around anywhere from 35 seconds to 1 minute .",
+    "label": "[[\"Boot time\", \"fast\", \"positive\"]]",
+    "response": "[[\"Boot time\", \"super fast\", \"positive\"]]"
+  },
+  {
+    "id": 2,
+    "input": "tech support would not fix the problem unless I bought your plan for $ 150 plus .",
+    "label": "[[\"tech support\", \"not fix\", \"negative\"]]",
+    "response": "[[\"tech support\", \"would not fix the problem\", \"negative\"], [\"plan\", \"bought your plan for $150 plus\", \"negative\"]]"
+  },
+  {
+    "id": 3,
+    "input": "Set up was easy .",
+    "label": "[[\"Set up\", \"easy\", \"positive\"]]",
+    "response": "[[ \"set up\", \"easy\", \"positive\" ]]"
+  },
+  {
+    "id": 4,
+    "input": "Did not enjoy the new Windows 8 and touchscreen functions .",
+    "label": "[[\"Windows 8\", \"not enjoy\", \"negative\"], [\"touchscreen functions\", \"not enjoy\", \"negative\"]]",
+    "response": "[[\"new Windows 8\", \"enjoy\", \"negative\"], [\"touchscreen functions\", \"enjoy\", \"negative\"]]"
+  },
+  {
+    "id": 5,
+    "input": "Other than not being a fan of click pads ( industry standard these days ) and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+    "label": "[[\"internal speakers\", \"lousy\", \"negative\"]]",
+    "response": "[[\"click pads\", \"not being a fan of\", \"negative\"], [\"internal speakers\", \"lousy\", \"negative\"], [\"price\", \"$350 price tag\", \"positive\"]]"
+  },
+  {
+    "id": 6,
+    "input": "It 's fast , light , and simple to use .",
+    "label": "[[\"use\", \"fast\", \"positive\"], [\"use\", \"light\", \"positive\"], [\"use\", \"simple\", \"positive\"]]",
+    "response": "[[\"speed\", \"fast\", \"positive\"], [\"weight\", \"light\", \"positive\"], [\"ease of use\", \"simple\", \"positive\"]]"
+  },
+  {
+    "id": 7,
+    "input": "Works well , and I am extremely happy to be back to an apple OS .",
+    "label": "[[\"Works\", \"well\", \"positive\"], [\"apple OS\", \"happy\", \"positive\"]]",
+    "response": "[[\"apple OS\", \"works well\", \"positive\"], [\"apple OS\", \"extremely happy\", \"positive\"]]"
+  },
+  {
+    "id": 8,
+    "input": "Sure it 's not light and slim but the features make up for it 100 % .",
+    "label": "[[\"features\", \"not light and slim\", \"positive\"]]",
+    "response": "[[\"light\", \"not light\", \"negative\"], [\"slim\", \"not slim\", \"negative\"], [\"features\", \"make up for it\", \"positive\"]]"
+  },
+  {
+    "id": 9,
+    "input": "I am pleased with the fast log on , speedy WiFi connection and the long battery life ( > 6 hrs ) .",
+    "label": "[[\"log on\", \"pleased\", \"positive\"], [\"log on\", \"fast\", \"positive\"], [\"WiFi connection\", \"pleased\", \"positive\"], [\"WiFi connection\", \"speedy\", \"positive\"], [\"battery life\", \"pleased\", \"positive\"], [\"battery life\", \"long\", \"positive\"]]",
+    "response": "[[ \"log on\", \"fast\", \"positive\"], [\"WiFi connection\", \"speedy\", \"positive\"], [\"battery life\", \"long\", \"positive\"]]"
+  },
+  {
+    "id": 10,
+    "input": "The Apple engineers have not yet discovered the delete key .",
+    "label": "[[\"delete key\", \"not yet discovered\", \"negative\"]]",
+    "response": "[[\"delete key\", \"not yet discovered\", \"negative\"]]"
+  },
+  {
+    "id": 11,
+    "input": "Made interneting ( part of my business ) very difficult to maintain .",
+    "label": "[[\"interneting\", \"difficult\", \"negative\"]]",
+    "response": "[[[\"interneting\", \"difficult\", \"negative\"]]]"
+  },
+  {
+    "id": 12,
+    "input": "Luckily , for all of us contemplating the decision , the Mac Mini is priced just right .",
+    "label": "[[\"priced\", \"right\", \"positive\"]]",
+    "response": "[[\"price\", \"just right\", \"positive\"]]"
+  },
+  {
+    "id": 13,
+    "input": "Only problem that I had was that the track pad was not very good for me , I only had a problem once or twice with it , But probably my computer was a bit defective .",
+    "label": "[[\"track pad\", \"not very good\", \"negative\"]]",
+    "response": "[[[\"track pad\", \"not very good\", \"negative\"], [\"computer\", \"defective\", \"negative\"]]"
+  },
+  {
+    "id": 14,
+    "input": "It is super fast and has outstanding graphics .",
+    "label": "[[\"graphics\", \"outstanding\", \"positive\"]]",
+    "response": "[[\"speed\", \"super fast\", \"positive\"], [\"graphics\", \"outstanding\", \"positive\"]]"
+  },
+  {
+    "id": 15,
+    "input": "But the mountain lion is just too slow .",
+    "label": "[[\"mountain lion\", \"slow\", \"negative\"]]",
+    "response": "[[\"mountain lion\", \"slow\", \"negative\"]]"
+  },
+  {
+    "id": 16,
+    "input": "Strong build though which really adds to its durability .",
+    "label": "[[\"durability\", \"Strong\", \"positive\"], [\"build\", \"Strong\", \"positive\"]]",
+    "response": "[[\"build\", \"Strong\", \"positive\"], [\"durability\", \"adds to\", \"positive\"]]"
+  },
+  {
+    "id": 17,
+    "input": "The battery life is excellent -- 6-7 hours without charging .",
+    "label": "[[\"battery life\", \"excellent\", \"positive\"]]",
+    "response": "[[\"battery life\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 18,
+    "input": "I 've had my computer for 2 weeks already and it works perfectly .",
+    "label": "[[\"works\", \"perfectly\", \"positive\"]]",
+    "response": "[[\"computer\", \"works perfectly\", \"positive\"]]"
+  },
+  {
+    "id": 19,
+    "input": "And I may be the only one but I am really liking Windows 8 .",
+    "label": "[[\"Windows 8\", \"liking\", \"positive\"]]",
+    "response": "[[ \"Windows 8\", \"liking\", \"positive\" ]]"
+  },
+  {
+    "id": 20,
+    "input": "The baterry is very longer .",
+    "label": "[[\"baterry\", \"longer\", \"positive\"]]",
+    "response": "[[\"battery\", \"very longer\", \"positive\"]]"
+  },
+  {
+    "id": 21,
+    "input": "Its size is ideal and the weight is acceptable .",
+    "label": "[[\"size\", \"ideal\", \"positive\"], [\"weight\", \"acceptable\", \"positive\"]]",
+    "response": "[[\"size\", \"ideal\", \"positive\"], [\"weight\", \"acceptable\", \"neutral\"]]"
+  },
+  {
+    "id": 22,
+    "input": "I can say that I am fully satisfied with the performance that the computer has supplied .",
+    "label": "[[\"performance\", \"satisfied\", \"positive\"]]",
+    "response": "[[\"performance\", \"fully satisfied\", \"positive\"]]"
+  },
+  {
+    "id": 23,
+    "input": "It has so much more speed and the screen is very sharp .",
+    "label": "[[\"speed\", \"much more\", \"positive\"], [\"screen\", \"sharp\", \"positive\"]]",
+    "response": "[[\"speed\", \"so much more\", \"positive\"], [\"screen\", \"very sharp\", \"positive\"]]"
+  },
+  {
+    "id": 24,
+    "input": "Everything I wanted and everything I needed and the price was great !",
+    "label": "[[\"price\", \"great\", \"positive\"]]",
+    "response": "[[\"product\", \"wanted\", \"positive\"], [\"product\", \"needed\", \"positive\"], [\"price\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 25,
+    "input": "It 's not inexpensive but the Hardware performance is impressive for a computer this small .",
+    "label": "[[\"Hardware performance\", \"impressive\", \"positive\"]]",
+    "response": "[[\"price\", \"not inexpensive\", \"negative\"], [\"Hardware performance\", \"impressive\", \"positive\"]]"
+  },
+  {
+    "id": 26,
+    "input": "This thing is awesome , everything always works , everything is always easy to set up , everything is compatible , its literally everything I could ask for .",
+    "label": "[[\"works\", \"always\", \"positive\"], [\"set up\", \"easy\", \"positive\"]]",
+    "response": "[[\"thing\", \"awesome\", \"positive\"], [\"everything\", \"always works\", \"positive\"], [\"everything\", \"easy to set up\", \"positive\"], [\"everything\", \"compatible\", \"positive\"], [\"it\", \"everything I could ask for\", \"positive\"]]"
+  },
+  {
+    "id": 27,
+    "input": "Keyboard responds well to presses .",
+    "label": "[[\"Keyboard\", \"responds well\", \"positive\"]]",
+    "response": "[[\"Keyboard\", \"responds well\", \"positive\"]]"
+  },
+  {
+    "id": 28,
+    "input": "Lastly , Windows 8 is annoying .",
+    "label": "[[\"Windows 8\", \"annoying\", \"negative\"]]",
+    "response": "[[\"Windows 8\", \"annoying\", \"negative\"]]"
+  },
+  {
+    "id": 29,
+    "input": "Everything is so easy and intuitive to setup or configure .",
+    "label": "[[\"setup\", \"easy\", \"positive\"], [\"setup\", \"intuitive\", \"positive\"], [\"configure\", \"easy\", \"positive\"], [\"configure\", \"intuitive\", \"positive\"]]",
+    "response": "[[\"setup or configure\", \"easy\", \"positive\"], [\"setup or configure\", \"intuitive\", \"positive\"]]"
+  },
+  {
+    "id": 30,
+    "input": "Biggest complaint is Windows 8 .",
+    "label": "[[\"Windows 8\", \"complaint\", \"negative\"]]",
+    "response": "[[\"Windows 8\", \"Biggest complaint\", \"negative\"]]"
+  },
+  {
+    "id": 31,
+    "input": "Only 2 usb ports ... seems kind of ... limited .",
+    "label": "[[\"usb ports\", \"limited\", \"negative\"]]",
+    "response": "[[\"usb ports\", \"limited\", \"negative\"]]"
+  },
+  {
+    "id": 32,
+    "input": "It has all the expected features and more +plus a wide screen and more than roomy keyboard .",
+    "label": "[[\"features\", \"expected\", \"positive\"], [\"screen\", \"wide\", \"positive\"], [\"keyboard\", \"roomy\", \"positive\"]]",
+    "response": "[[\"features\", \"expected and more\", \"positive\"], [\"screen\", \"wide\", \"positive\"], [\"keyboard\", \"roomy\", \"positive\"]]"
+  },
+  {
+    "id": 33,
+    "input": "Amazing Performance for anything I throw at it .",
+    "label": "[[\"Performance\", \"Amazing\", \"positive\"]]",
+    "response": "[[\"Performance\", \"Amazing\", \"positive\"]]"
+  },
+  {
+    "id": 34,
+    "input": "The receiver was full of superlatives for the quality and performance .",
+    "label": "[[\"quality\", \"superlatives\", \"positive\"], [\"performance\", \"superlatives\", \"positive\"]]",
+    "response": "[[\"quality\", \"superlatives\", \"positive\"], [\"performance\", \"superlatives\", \"positive\"]]"
+  },
+  {
+    "id": 35,
+    "input": "I was extremely happy with the OS itself .",
+    "label": "[[\"OS\", \"happy\", \"positive\"]]",
+    "response": "[[\"OS\", \"extremely happy\", \"positive\"]]"
+  },
+  {
+    "id": 36,
+    "input": "The new MBP offers great portability and gives us confidence that we are not going to need to purchase a new laptop in 18 months .",
+    "label": "[[\"portability\", \"great\", \"positive\"]]",
+    "response": "[[\"portability\", \"great\", \"positive\"], [\"longevity\", \"confidence\", \"positive\"]]"
+  },
+  {
+    "id": 37,
+    "input": "The criticism has waned , and now I 'd be the first to recommend an Air for truly portable computing .",
+    "label": "[[\"portable computing\", \"recommend\", \"positive\"], [\"portable computing\", \"truly\", \"positive\"]]",
+    "response": "[[\"criticism\", \"waned\", \"neutral\"], [\"Air\", \"recommend\", \"positive\"], [\"portable computing\", \"truly portable\", \"positive\"]]"
+  },
+  {
+    "id": 38,
+    "input": "MS Office 2011 for Mac is wonderful , well worth it .",
+    "label": "[[\"MS Office 2011 for Mac\", \"wonderful\", \"positive\"], [\"MS Office 2011 for Mac\", \"well worth\", \"positive\"]]",
+    "response": "[[\"MS Office 2011 for Mac\", \"wonderful\", \"positive\"], [\"value\", \"well worth it\", \"positive\"]]"
+  },
+  {
+    "id": 39,
+    "input": "But the performance of Mac Mini is a huge disappointment .",
+    "label": "[[\"performance\", \"disappointment\", \"negative\"]]",
+    "response": "[[\"performance\", \"huge disappointment\", \"negative\"]]"
+  },
+  {
+    "id": 40,
+    "input": "They do n't just look good ; they deliver excellent performance .",
+    "label": "[[\"look\", \"good\", \"positive\"], [\"performance\", \"excellent\", \"positive\"]]",
+    "response": "[[\"appearance\", \"good\", \"positive\"], [\"performance\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 41,
+    "input": "I have had it over a year now with out a Glitch of any kind..I love the lit up keys and screen display ... this thing is Fast and clear as can be .",
+    "label": "[[\"lit up keys\", \"love\", \"positive\"], [\"lit up keys\", \"Fast\", \"positive\"], [\"lit up keys\", \"clear\", \"positive\"], [\"screen display\", \"love\", \"positive\"], [\"screen display\", \"Fast\", \"positive\"], [\"screen display\", \"clear\", \"positive\"]]",
+    "response": "[[\"Glitch\", \"without a Glitch of any kind\", \"positive\"], [\"lit up keys\", \"love\", \"positive\"], [\"screen display\", \"love\", \"positive\"], [\"speed\", \"Fast\", \"positive\"], [\"clarity\", \"clear\", \"positive\"]]"
+  },
+  {
+    "id": 42,
+    "input": "The Mountain Lion OS is not hard to figure out if you are familiar with Microsoft Windows .",
+    "label": "[[\"Mountain Lion OS\", \"not hard\", \"positive\"], [\"Microsoft Windows\", \"familiar\", \"neutral\"]]",
+    "response": "[[\"Mountain Lion OS\", \"not hard to figure out\", \"positive\"]]"
+  },
+  {
+    "id": 43,
+    "input": "However , I can refute that OSX is `` FAST '' .",
+    "label": "[[\"OSX\", \"FAST\", \"negative\"]]",
+    "response": "[[[\"OSX\", \"FAST\", \"negative\"]]]"
+  },
+  {
+    "id": 44,
+    "input": "Enjoy using Microsoft Office !",
+    "label": "[[\"Microsoft Office\", \"Enjoy\", \"positive\"]]",
+    "response": "[[\"Microsoft Office\", \"Enjoy\", \"positive\"]]"
+  },
+  {
+    "id": 45,
+    "input": "Incredible graphics and brilliant colors .",
+    "label": "[[\"graphics\", \"Incredible\", \"positive\"], [\"colors\", \"brilliant\", \"positive\"]]",
+    "response": "[[\"graphics\", \"Incredible\", \"positive\"], [\"colors\", \"brilliant\", \"positive\"]]"
+  },
+  {
+    "id": 46,
+    "input": "Built-in apps are purely amazing .",
+    "label": "[[\"Built-in apps\", \"amazing\", \"positive\"]]",
+    "response": "[[\"Built-in apps\", \"purely amazing\", \"positive\"]]"
+  },
+  {
+    "id": 47,
+    "input": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+    "label": "[[\"operating system\", \"beats\", \"positive\"]]",
+    "response": "[[\"speed\", \"beats Windows easily\", \"positive\"], [\"multi touch gestures\", \"beats Windows easily\", \"positive\"]]"
+  },
+  {
+    "id": 48,
+    "input": "I really like the size and I 'm a fan of the ACERS .",
+    "label": "[[\"size\", \"like\", \"positive\"]]",
+    "response": "[[\"size\", \"like\", \"positive\"], [\"ACERS\", \"fan\", \"positive\"]]"
+  },
+  {
+    "id": 49,
+    "input": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty ( $ 1500-2000 ) which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+    "label": "[[\"SquareTrade 3-Year Computer Accidental Protection Warranty\", \"support\", \"positive\"], [\"AppleCare\", \"NOT covered\", \"negative\"]]",
+    "response": "[[\"SquareTrade 3-Year Computer Accidental Protection Warranty\", \"support accidents like drops and spills\", \"positive\"], [\"AppleCare\", \"not covered\", \"negative\"]]"
+  },
+  {
+    "id": 50,
+    "input": "It 's light and easy to transport .",
+    "label": "[[\"transport\", \"light\", \"positive\"], [\"transport\", \"easy\", \"positive\"]]",
+    "response": "[[\"weight\", \"light\", \"positive\"], [\"portability\", \"easy to transport\", \"positive\"]]"
+  },
+  {
+    "id": 51,
+    "input": "Once you get past learning how to use the poorly designed Windows 8 Set-Up you may feel frustrated .",
+    "label": "[[\"Windows 8 Set-Up\", \"poorly designed\", \"negative\"], [\"Windows 8 Set-Up\", \"frustrated\", \"negative\"]]",
+    "response": "[[\"Windows 8 Set-Up\", \"poorly designed\", \"negative\"], [\"Windows 8 Set-Up\", \"frustrated\", \"negative\"]]"
+  },
+  {
+    "id": 52,
+    "input": "The aluminum body sure makes it stand out .",
+    "label": "[[\"aluminum body\", \"stand out\", \"positive\"]]",
+    "response": "[[\"aluminum body\", \"stand out\", \"positive\"]]"
+  },
+  {
+    "id": 53,
+    "input": "It is very easy to integrate bluetooth devices , and USB devices are recognized almost instantly .",
+    "label": "[[\"integrate bluetooth devices\", \"easy\", \"positive\"], [\"USB devices\", \"instantly\", \"positive\"]]",
+    "response": "[[[\"bluetooth devices\", \"very easy to integrate\", \"positive\"], [\"USB devices\", \"recognized almost instantly\", \"positive\"]]]"
+  },
+  {
+    "id": 54,
+    "input": "And the fact that Apple is driving the 13 '' RMBP with the Intel4000 graphic chip seems underpowered ( to me .",
+    "label": "[[\"Intel4000 graphic chip\", \"underpowered\", \"negative\"]]",
+    "response": "[[\"Intel4000 graphic chip\", \"underpowered\", \"negative\"]]"
+  },
+  {
+    "id": 55,
+    "input": "Apple removed the DVD drive Firewire port ( will work with adapter ) and put the SDXC slot in a silly position on the back .",
+    "label": "[[\"DVD drive Firewire port\", \"removed\", \"neutral\"], [\"SDXC slot\", \"silly\", \"negative\"]]",
+    "response": "[[\"DVD drive\", \"removed\", \"negative\"], [\"Firewire port\", \"removed\", \"negative\"], [\"SDXC slot\", \"silly position\", \"negative\"]]"
+  },
+  {
+    "id": 56,
+    "input": "The durability of the laptop will make it worth the money .",
+    "label": "[[\"durability\", \"worth\", \"positive\"]]",
+    "response": "[[\"durability\", \"will make it worth the money\", \"positive\"], [\"price\", \"worth the money\", \"positive\"]]"
+  },
+  {
+    "id": 57,
+    "input": "Well designed and fast .",
+    "label": "[[\"designed\", \"Well\", \"positive\"]]",
+    "response": "[[\"design\", \"Well designed\", \"positive\"], [\"speed\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 58,
+    "input": "But I was completely wrong , this computer is UNBELIEVABLE amazing and easy to use .",
+    "label": "[[\"use\", \"easy\", \"positive\"]]",
+    "response": "[[\"computer\", \"UNBELIEVABLE amazing\", \"positive\"], [\"use\", \"easy\", \"positive\"]]"
+  },
+  {
+    "id": 59,
+    "input": "Exactly as posted plus a great value .",
+    "label": "[[\"value\", \"great\", \"positive\"]]",
+    "response": "[[\"product description\", \"as posted\", \"positive\"], [\"value\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 60,
+    "input": "The specs are pretty good too .",
+    "label": "[[\"specs\", \"good\", \"positive\"]]",
+    "response": "[[\"specs\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 61,
+    "input": "Apple is unmatched in product quality , aesthetics , craftmanship , and customer service .",
+    "label": "[[\"product quality\", \"unmatched\", \"positive\"], [\"aesthetics\", \"unmatched\", \"positive\"], [\"craftmanship\", \"unmatched\", \"positive\"], [\"customer service\", \"unmatched\", \"positive\"]]",
+    "response": "[[\"product quality\", \"unmatched\", \"positive\"], [\"aesthetics\", \"unmatched\", \"positive\"], [\"craftmanship\", \"unmatched\", \"positive\"], [\"customer service\", \"unmatched\", \"positive\"]]"
+  },
+  {
+    "id": 62,
+    "input": "It is a great size and amazing windows 8 included !",
+    "label": "[[\"size\", \"great\", \"positive\"], [\"windows 8\", \"amazing\", \"positive\"]]",
+    "response": "[[\"size\", \"great\", \"positive\"], [\"windows 8\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 63,
+    "input": "I do not like too much Windows 8 .",
+    "label": "[[\"Windows 8\", \"not like\", \"negative\"]]",
+    "response": "[[\"Windows 8\", \"like\", \"negative\"]]"
+  },
+  {
+    "id": 64,
+    "input": "Startup times are incredibly long : over two minutes .",
+    "label": "[[\"Startup times\", \"long\", \"negative\"]]",
+    "response": "[[\"Startup times\", \"incredibly long\", \"negative\"]]"
+  },
+  {
+    "id": 65,
+    "input": "Also stunning colors and speedy",
+    "label": "[[\"colors\", \"stunning\", \"positive\"]]",
+    "response": "[[\"colors\", \"stunning\", \"positive\"], [\"speed\", \"speedy\", \"positive\"]]"
+  },
+  {
+    "id": 66,
+    "input": "great price free shipping what else can i ask for ! !",
+    "label": "[[\"price\", \"great\", \"positive\"], [\"shipping\", \"free\", \"positive\"]]",
+    "response": "[[\"price\", \"great\", \"positive\"], [\"shipping\", \"free\", \"positive\"]]"
+  },
+  {
+    "id": 67,
+    "input": "This mouse is terrific .",
+    "label": "[[\"mouse\", \"terrific\", \"positive\"]]",
+    "response": "[[\"mouse\", \"terrific\", \"positive\"]]"
+  },
+  {
+    "id": 68,
+    "input": "It is really thick around the battery .",
+    "label": "[[\"battery\", \"thick\", \"neutral\"]]",
+    "response": "[[\"around the battery\", \"really thick\", \"negative\"]]"
+  },
+  {
+    "id": 69,
+    "input": "And windows 7 works like a charm .",
+    "label": "[[\"windows 7\", \"charm\", \"positive\"]]",
+    "response": "[[\"windows 7\", \"works like a charm\", \"positive\"]]"
+  },
+  {
+    "id": 70,
+    "input": ": ) Great product , great price , great delivery , and great service .",
+    "label": "[[\"price\", \"great\", \"positive\"], [\"delivery\", \"great\", \"positive\"], [\"service\", \"great\", \"positive\"]]",
+    "response": "[[ \"product\", \"great\", \"positive\"], [\"price\", \"great\", \"positive\"], [\"delivery\", \"great\", \"positive\"], [\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 71,
+    "input": ": ] It arrived so fast and customer service was great .",
+    "label": "[[\"customer service\", \"great\", \"positive\"]]",
+    "response": "[[ \"delivery\", \"fast\", \"positive\"], [\"customer service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 72,
+    "input": "tried windows 8 and hated it ! ! !",
+    "label": "[[\"windows 8\", \"hated\", \"negative\"]]",
+    "response": "[[\"windows 8\", \"hated\", \"negative\"]]"
+  },
+  {
+    "id": 73,
+    "input": "Set up was a breeze .",
+    "label": "[[\"Set up\", \"breeze\", \"positive\"]]",
+    "response": "[[\"set up\", \"a breeze\", \"positive\"]]"
+  },
+  {
+    "id": 74,
+    "input": "But I do NOT like Win8 .",
+    "label": "[[\"Win8\", \"NOT like\", \"negative\"]]",
+    "response": "[[\"Win8\", \"NOT like\", \"negative\"]]"
+  },
+  {
+    "id": 75,
+    "input": "I had the same reasons as most PC users : the price , the overbearing restrictions of OSX and lack of support for games .",
+    "label": "[[\"OSX\", \"overbearing\", \"negative\"], [\"support for games\", \"lack\", \"negative\"]]",
+    "response": "[[\"price\", \"same reasons as most PC users\", \"negative\"], [\"OSX restrictions\", \"overbearing\", \"negative\"], [\"support for games\", \"lack\", \"negative\"]]"
+  },
+  {
+    "id": 76,
+    "input": "I wanted it for it 's mobility and man , this little bad boy is very nice .",
+    "label": "[[\"mobility\", \"nice\", \"positive\"]]",
+    "response": "[[\"mobility\", \"wanted it for\", \"positive\"], [\"product\", \"very nice\", \"positive\"]]  \n\n**Note:** While \"wanted it for\" isn't a direct opinion term, the context implies a positive sentiment toward \"mobility\" (the user prioritizes it as a reason for purchase). The second aspect (\"product\") explicitly pairs with \"very nice\" and a positive sentiment."
+  },
+  {
+    "id": 77,
+    "input": "I found the mini to be : Exceptionally easy to set up",
+    "label": "[[\"set up\", \"easy\", \"positive\"]]",
+    "response": "[[\"set up\", \"Exceptionally easy\", \"positive\"]]"
+  },
+  {
+    "id": 78,
+    "input": "The sound is nice and loud ; I do n't have any problems with hearing anything .",
+    "label": "[[\"sound\", \"nice\", \"positive\"], [\"sound\", \"loud\", \"positive\"]]",
+    "response": "[[\"sound\", \"nice\", \"positive\"], [\"sound\", \"loud\", \"positive\"], [\"hearing\", \"no problems\", \"positive\"]]"
+  },
+  {
+    "id": 79,
+    "input": "It is very slim , the track pad is very much impressed with me .",
+    "label": "[[\"track pad\", \"slim\", \"positive\"], [\"track pad\", \"impressed\", \"positive\"]]",
+    "response": "[[\"size\", \"slim\", \"positive\"], [\"track pad\", \"impressed\", \"positive\"]]"
+  },
+  {
+    "id": 80,
+    "input": "The settings are not user-friendly either .",
+    "label": "[[\"settings\", \"not user-friendly\", \"negative\"]]",
+    "response": "[[\"settings\", \"not user-friendly\", \"negative\"]]"
+  },
+  {
+    "id": 81,
+    "input": "Thank goodness for OpenOffice !",
+    "label": "[[\"OpenOffice\", \"goodness\", \"positive\"]]",
+    "response": "[[[\"OpenOffice\", \"Thank goodness\", \"positive\"]]"
+  },
+  {
+    "id": 82,
+    "input": "Awesome form factor , great battery life , wonderful UX .",
+    "label": "[[\"form factor\", \"Awesome\", \"positive\"], [\"battery life\", \"great\", \"positive\"], [\"UX\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"form factor\", \"Awesome\", \"positive\"], [\"battery life\", \"great\", \"positive\"], [\"UX\", \"wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 83,
+    "input": "i love the keyboard and the screen .",
+    "label": "[[\"keyboard\", \"love\", \"positive\"], [\"screen\", \"love\", \"positive\"]]",
+    "response": "[[ \"keyboard\", \"love\", \"positive\"], [\"screen\", \"love\", \"positive\"]]"
+  },
+  {
+    "id": 84,
+    "input": "However , there are MAJOR issues with the touchpad which render the device nearly useless .",
+    "label": "[[\"touchpad\", \"issues\", \"negative\"], [\"touchpad\", \"useless\", \"negative\"]]",
+    "response": "[[\"touchpad\", \"MAJOR issues\", \"negative\"], [\"device\", \"nearly useless\", \"negative\"]]"
+  },
+  {
+    "id": 85,
+    "input": "I 've already upgraded o Mavericks and I am impressed with everything about this computer .",
+    "label": "[[\"Mavericks\", \"impressed\", \"positive\"]]",
+    "response": "[[\"computer\", \"impressed\", \"positive\"]]"
+  },
+  {
+    "id": 86,
+    "input": "Not as fast as I would have expect for an i5 .",
+    "label": "[[\"i5\", \"Not as fast\", \"negative\"]]",
+    "response": "[[\"speed\", \"not as fast\", \"negative\"]]"
+  },
+  {
+    "id": 87,
+    "input": "thanks for great service and shipping !",
+    "label": "[[\"service\", \"great\", \"positive\"], [\"shipping\", \"great\", \"positive\"]]",
+    "response": "[[[\"service\", \"great\", \"positive\"], [\"shipping\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 88,
+    "input": "The performance seems quite good , and built-in applications like iPhoto work great with my phone and camera .",
+    "label": "[[\"performance\", \"good\", \"positive\"], [\"built-in applications\", \"great\", \"positive\"], [\"iPhoto\", \"great\", \"positive\"]]",
+    "response": "[[\"performance\", \"quite good\", \"positive\"], [\"built-in applications\", \"work great\", \"positive\"]]"
+  },
+  {
+    "id": 89,
+    "input": "I did swap out the hard drive for a Samsung 830 SSD which I highly recommend .",
+    "label": "[[\"Samsung 830 SSD\", \"recommend\", \"positive\"]]",
+    "response": "[[[\"Samsung 830 SSD\", \"highly recommend\", \"positive\"]]]"
+  },
+  {
+    "id": 90,
+    "input": "Yes , that 's a good thing , but it 's made from aluminum that scratches easily .",
+    "label": "[[\"aluminum\", \"scratches easily\", \"negative\"]]",
+    "response": "[[\"thing\", \"good\", \"positive\"], [\"aluminum\", \"scratches easily\", \"negative\"]]"
+  },
+  {
+    "id": 91,
+    "input": "I was also informed that the components of the Mac Book were dirty .",
+    "label": "[[\"components\", \"dirty\", \"negative\"]]",
+    "response": "[[\"components\", \"dirty\", \"negative\"]]"
+  },
+  {
+    "id": 92,
+    "input": "the hardware problems have been so bad , i ca n't wait till it completely dies in 3 years , TOPS !",
+    "label": "[[\"hardware\", \"bad\", \"negative\"]]",
+    "response": "[[\"hardware problems\", \"so bad\", \"negative\"], [\"hardware\", \"completely dies\", \"negative\"], [\"product\", \"TOPS\", \"negative\"]]"
+  },
+  {
+    "id": 93,
+    "input": "It 's so nice that the battery last so long and that this machine has the snow lion !",
+    "label": "[[\"battery\", \"nice\", \"positive\"], [\"battery\", \"long\", \"positive\"]]",
+    "response": "[[\"battery\", \"last so long\", \"positive\"], [\"machine\", \"has the snow lion\", \"positive\"]]"
+  },
+  {
+    "id": 94,
+    "input": "it 's exactly what i wanted , and it has all the new features and whatnot .",
+    "label": "[[\"features\", \"wanted\", \"positive\"], [\"features\", \"new\", \"positive\"]]",
+    "response": "[[\"product\", \"exactly what i wanted\", \"positive\"], [\"features\", \"all the new\", \"positive\"]]"
+  },
+  {
+    "id": 95,
+    "input": "It feels cheap , the keyboard is not very sensitive .",
+    "label": "[[\"keyboard\", \"cheap\", \"negative\"], [\"keyboard\", \"not very sensitive\", \"negative\"]]",
+    "response": "[[[\"build quality\", \"cheap\", \"negative\"], [\"keyboard\", \"not very sensitive\", \"negative\"]]]"
+  },
+  {
+    "id": 96,
+    "input": "Though please note that sometimes it crashes , and the sound quality isnt superb .",
+    "label": "[[\"sound quality\", \"isnt superb\", \"negative\"]]",
+    "response": "[[\"crashes\", \"sometimes\", \"negative\"], [\"sound quality\", \"isnt superb\", \"negative\"]]"
+  },
+  {
+    "id": 97,
+    "input": "It is very easy to navigate even for a novice .",
+    "label": "[[\"navigate\", \"easy\", \"positive\"]]",
+    "response": "[[\"navigate\", \"very easy\", \"positive\"]]"
+  },
+  {
+    "id": 98,
+    "input": "Does everything I need it to , has a wonderful battery life and I could n't be happier .",
+    "label": "[[\"battery life\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"battery life\", \"wonderful\", \"positive\"], [\"overall\", \"couldn't be happier\", \"positive\"]]"
+  },
+  {
+    "id": 99,
+    "input": "Great Performance and Quality .",
+    "label": "[[\"Performance\", \"Great\", \"positive\"], [\"Quality\", \"Great\", \"positive\"]]",
+    "response": "[[\"Performance\", \"Great\", \"positive\"], [\"Quality\", \"Great\", \"positive\"]]"
+  },
+  {
+    "id": 100,
+    "input": "One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC 's , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .",
+    "label": "[[\"material\", \"cheap\", \"negative\"]]",
+    "response": "[[\"restore disks\", \"does NOT come\", \"negative\"], [\"charging cables\", \"cheap material\", \"negative\"]]"
+  },
+  {
+    "id": 101,
+    "input": "The new os is great on my macbook pro !",
+    "label": "[[\"os\", \"great\", \"positive\"]]",
+    "response": "[[\"os\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 102,
+    "input": "I have experienced no problems , works as anticipated .",
+    "label": "[[\"works\", \"as anticipated\", \"positive\"]]",
+    "response": "[[\"problems\", \"no\", \"positive\"], [\"works\", \"as anticipated\", \"positive\"]]"
+  },
+  {
+    "id": 103,
+    "input": "System is running great .",
+    "label": "[[\"System\", \"great\", \"positive\"]]",
+    "response": "[[\"system\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 104,
+    "input": "Easy to customize setting and even create your own bookmarks .",
+    "label": "[[\"customize setting\", \"Easy\", \"positive\"], [\"create your own bookmarks\", \"Easy\", \"positive\"]]",
+    "response": "[[\"setting\", \"easy to customize\", \"positive\"], [\"bookmarks\", \"create your own\", \"positive\"]]"
+  },
+  {
+    "id": 105,
+    "input": "it has all the features that we expected and the price was good , working well so far .",
+    "label": "[[\"price\", \"good\", \"positive\"], [\"working\", \"well\", \"positive\"]]",
+    "response": "[[\"features\", \"all the features that we expected\", \"positive\"], [\"price\", \"good\", \"positive\"], [\"performance\", \"working well\", \"positive\"]]"
+  },
+  {
+    "id": 106,
+    "input": "The new operating system makes this computer into a super iPad .",
+    "label": "[[\"operating system\", \"new\", \"positive\"]]",
+    "response": "[[\"operating system\", \"new\", \"positive\"], [\"computer\", \"super iPad\", \"positive\"]]"
+  },
+  {
+    "id": 107,
+    "input": "Easy to set up and go !",
+    "label": "[[\"set up\", \"Easy\", \"positive\"]]",
+    "response": "[[\"setup\", \"easy\", \"positive\"], [\"usability\", \"go\", \"positive\"]]"
+  },
+  {
+    "id": 108,
+    "input": "I ca n't believe how quiet the hard drive is and how quick this thing boots up .",
+    "label": "[[\"hard drive\", \"quiet\", \"positive\"], [\"boots up\", \"quick\", \"positive\"]]",
+    "response": "[[\"hard drive\", \"quiet\", \"positive\"], [\"boots up\", \"quick\", \"positive\"]]"
+  },
+  {
+    "id": 109,
+    "input": "It 's just what we were looking for and it works great .",
+    "label": "[[\"works\", \"great\", \"positive\"]]",
+    "response": "[[\"product\", \"just what we were looking for\", \"positive\"], [\"performance\", \"works great\", \"positive\"]]"
+  },
+  {
+    "id": 110,
+    "input": "It 's so quick and responsive that it makes working / surfing on a computer so much more pleasurable !",
+    "label": "[[\"working\", \"pleasurable\", \"positive\"], [\"surfing\", \"pleasurable\", \"positive\"]]",
+    "response": "[[\"speed\", \"quick\", \"positive\"], [\"responsiveness\", \"responsive\", \"positive\"], [\"working/surfing experience\", \"pleasurable\", \"positive\"]]"
+  },
+  {
+    "id": 111,
+    "input": "It works fine , and all the software seems to run pretty well .",
+    "label": "[[\"works\", \"fine\", \"positive\"], [\"software\", \"well\", \"positive\"]]",
+    "response": "[[\"works\", \"fine\", \"positive\"], [\"software\", \"run pretty well\", \"positive\"]]"
+  },
+  {
+    "id": 112,
+    "input": "I wanted a computer that was quite , fast , and that had overall great performance .",
+    "label": "[[\"performance\", \"great\", \"neutral\"]]",
+    "response": "[[\"noise level\", \"quiet\", \"positive\"], [\"speed\", \"fast\", \"positive\"], [\"performance\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 113,
+    "input": "Harddrive was in poor condition , had to replace it .",
+    "label": "[[\"Harddrive\", \"poor\", \"negative\"]]",
+    "response": "[[\"Harddrive\", \"poor\", \"negative\"]]"
+  },
+  {
+    "id": 114,
+    "input": "The on/off switch is a bit obscure in the rear corner .",
+    "label": "[[\"on/off switch\", \"obscure\", \"negative\"]]",
+    "response": "[[\"on/off switch\", \"obscure\", \"negative\"]]"
+  },
+  {
+    "id": 115,
+    "input": "My only complaint is the total lack of instructions that come with the mac mini .",
+    "label": "[[\"instructions\", \"lack\", \"negative\"]]",
+    "response": "[[\"instructions\", \"total lack\", \"negative\"]]"
+  },
+  {
+    "id": 116,
+    "input": "The only task that this computer would not be good enough for would be gaming , otherwise the integrated Intel 4000 graphics work well for other tasks .",
+    "label": "[[\"gaming\", \"not be good\", \"negative\"]]",
+    "response": "[[\"gaming\", \"not be good enough\", \"negative\"], [\"integrated Intel 4000 graphics\", \"work well\", \"positive\"]]"
+  },
+  {
+    "id": 117,
+    "input": "I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .",
+    "label": "[[\"Audio\", \"reliable\", \"positive\"], [\"video\", \"reliable\", \"positive\"], [\"photo editing\", \"reliable\", \"positive\"]]",
+    "response": "[[\"content creation\", \"use it mostly for\", \"positive\"], [\"reliability\", \"reliable\", \"positive\"]]"
+  },
+  {
+    "id": 118,
+    "input": "Screen is bright and gorgeous .",
+    "label": "[[\"Screen\", \"bright\", \"positive\"], [\"Screen\", \"gorgeous\", \"positive\"]]",
+    "response": "[[\"Screen\", \"bright\", \"positive\"], [\"Screen\", \"gorgeous\", \"positive\"]]"
+  },
+  {
+    "id": 119,
+    "input": "It is robust , with a friendly use as all Apple products .",
+    "label": "[[\"use\", \"friendly\", \"positive\"]]",
+    "response": "[[\"build\", \"robust\", \"positive\"], [\"use\", \"friendly\", \"positive\"]]"
+  },
+  {
+    "id": 120,
+    "input": "It is fast and easy to use .",
+    "label": "[[\"use\", \"easy\", \"positive\"]]",
+    "response": "[[\"speed\", \"fast\", \"positive\"], [\"usability\", \"easy to use\", \"positive\"]]"
+  },
+  {
+    "id": 121,
+    "input": "And the fact that it comes with an i5 processor definitely speeds things up",
+    "label": "[[\"i5 processor\", \"speeds things up\", \"positive\"]]",
+    "response": "[[\"i5 processor\", \"speeds things up\", \"positive\"]]"
+  },
+  {
+    "id": 122,
+    "input": "I have been PC for years but this computer is intuitive and its built in features are a great help",
+    "label": "[[\"built in features\", \"great help\", \"positive\"]]",
+    "response": "[[\"computer\", \"intuitive\", \"positive\"], [\"built in features\", \"great help\", \"positive\"]]"
+  },
+  {
+    "id": 123,
+    "input": "Nice screen , keyboard works great !",
+    "label": "[[\"screen\", \"Nice\", \"positive\"], [\"keyboard\", \"great\", \"positive\"]]",
+    "response": "[[\"screen\", \"Nice\", \"positive\"], [\"keyboard\", \"works great\", \"positive\"]]"
+  },
+  {
+    "id": 124,
+    "input": "I was amazed at how fast the delivery was .",
+    "label": "[[\"delivery\", \"amazed\", \"positive\"], [\"delivery\", \"fast\", \"positive\"]]",
+    "response": "[[\"delivery\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 125,
+    "input": "The memory was gone and it was not able to be used .",
+    "label": "[[\"memory\", \"gone\", \"negative\"], [\"memory\", \"not able to be used\", \"negative\"]]",
+    "response": "[[\"memory\", \"gone\", \"negative\"], [\"usability\", \"not able to be used\", \"negative\"]]"
+  },
+  {
+    "id": 126,
+    "input": "It works great and I am so happy I bought it .",
+    "label": "[[\"works\", \"great\", \"positive\"]]",
+    "response": "[[\"works\", \"great\", \"positive\"], [\"purchase decision\", \"happy\", \"positive\"]]"
+  },
+  {
+    "id": 127,
+    "input": "I like the design and ease of use with the keyboard , plenty of ports .",
+    "label": "[[\"design\", \"like\", \"positive\"], [\"keyboard\", \"like\", \"positive\"], [\"keyboard\", \"ease of use\", \"positive\"], [\"ports\", \"plenty\", \"positive\"]]",
+    "response": "[[\"design\", \"like\", \"positive\"], [\"keyboard\", \"ease of use\", \"positive\"], [\"ports\", \"plenty\", \"positive\"]]"
+  },
+  {
+    "id": 128,
+    "input": "it definitely beats my old mac and the service was great .",
+    "label": "[[\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"product\", \"definitely beats my old mac\", \"positive\"], [\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 129,
+    "input": "Web browsing is very quick with Safari browser .",
+    "label": "[[\"Web browsing\", \"quick\", \"positive\"], [\"Safari browser\", \"quick\", \"positive\"]]",
+    "response": "[[[\"Web browsing\", \"very quick\", \"positive\"]]]"
+  },
+  {
+    "id": 130,
+    "input": "I like the lighted screen at night .",
+    "label": "[[\"lighted screen\", \"like\", \"positive\"]]",
+    "response": "[[\"screen\", \"lighted\", \"positive\"]]"
+  },
+  {
+    "id": 131,
+    "input": "It is really easy to use and it is quick to start up .",
+    "label": "[[\"use\", \"easy\", \"positive\"], [\"start up\", \"quick\", \"positive\"]]",
+    "response": "[[ \"use\", \"easy\", \"positive\"], [\"start up\", \"quick\", \"positive\"]]"
+  },
+  {
+    "id": 132,
+    "input": "I 've lived with the crashes and slow operation and restarts .",
+    "label": "[[\"operation\", \"slow\", \"negative\"]]",
+    "response": "[[\"crashes\", \"crashes\", \"negative\"], [\"operation\", \"slow\", \"negative\"], [\"restarts\", \"restarts\", \"negative\"]]"
+  },
+  {
+    "id": 133,
+    "input": "USB3 Peripherals are noticably less expensive than the ThunderBolt ones .",
+    "label": "[[\"USB3 Peripherals\", \"less expensive\", \"positive\"]]",
+    "response": "[[\"USB3 Peripherals\", \"less expensive\", \"positive\"]]"
+  },
+  {
+    "id": 134,
+    "input": "It 's fast , light , and is perfect for media editing , which is mostly why I bought it in the first place .",
+    "label": "[[\"media editing\", \"perfect\", \"positive\"]]",
+    "response": "[[\"speed\", \"fast\", \"positive\"], [\"weight\", \"light\", \"positive\"], [\"media editing\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 135,
+    "input": "The battery lasts as advertised ( give or take 15-20 minutes ) , and the entire user experience is very elegant .",
+    "label": "[[\"user experience\", \"elegant\", \"positive\"]]",
+    "response": "[[\"battery\", \"lasts as advertised\", \"positive\"], [\"user experience\", \"very elegant\", \"positive\"]]"
+  },
+  {
+    "id": 136,
+    "input": "Thanks for the fast shipment and great price .",
+    "label": "[[\"shipment\", \"fast\", \"positive\"], [\"price\", \"great\", \"positive\"]]",
+    "response": "[[\"shipment\", \"fast\", \"positive\"], [\"price\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 137,
+    "input": "! Excellent performance , usability , presentation and time response .",
+    "label": "[[\"performance\", \"Excellent\", \"positive\"], [\"usability\", \"Excellent\", \"positive\"], [\"presentation\", \"Excellent\", \"positive\"], [\"time response\", \"Excellent\", \"positive\"]]",
+    "response": "[[\"performance\", \"excellent\", \"positive\"], [\"usability\", \"excellent\", \"positive\"], [\"presentation\", \"excellent\", \"positive\"], [\"time response\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 138,
+    "input": "The smaller size was a bonus because of space restrictions .",
+    "label": "[[\"size\", \"smaller\", \"positive\"], [\"size\", \"bonus\", \"positive\"]]",
+    "response": "[[\"smaller size\", \"bonus\", \"positive\"]]"
+  },
+  {
+    "id": 139,
+    "input": "I blame the Mac OS .",
+    "label": "[[\"Mac OS\", \"blame\", \"negative\"]]",
+    "response": "[[\"Mac OS\", \"blame\", \"negative\"]]"
+  },
+  {
+    "id": 140,
+    "input": "I like the operating system .",
+    "label": "[[\"operating system\", \"like\", \"positive\"]]",
+    "response": "[[[\"operating system\", \"like\", \"positive\"]]]"
+  },
+  {
+    "id": 141,
+    "input": "I love the form factor .",
+    "label": "[[\"form factor\", \"love\", \"positive\"]]",
+    "response": "[[\"form factor\", \"love\", \"positive\"]]"
+  },
+  {
+    "id": 142,
+    "input": "It 's fast at loading the internet .",
+    "label": "[[\"loading the internet\", \"fast\", \"positive\"]]",
+    "response": "[[\"loading speed\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 143,
+    "input": "So much faster and sleeker looking .",
+    "label": "[[\"looking\", \"faster\", \"positive\"], [\"looking\", \"sleeker\", \"positive\"]]",
+    "response": "[[[\"speed\", \"faster\", \"positive\"], [\"design\", \"sleeker looking\", \"positive\"]]]"
+  },
+  {
+    "id": 144,
+    "input": "Unfortunately , it runs XP and Microsoft is dropping support next April .",
+    "label": "[[\"XP\", \"Unfortunately\", \"neutral\"], [\"support\", \"Unfortunately\", \"negative\"], [\"support\", \"dropping\", \"negative\"]]",
+    "response": "[[\"XP\", \"runs\", \"negative\"], [\"support\", \"dropping\", \"negative\"]]"
+  },
+  {
+    "id": 145,
+    "input": "First off , I really do like my MBP ... once used to the OS it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .",
+    "label": "[[\"OS\", \"like\", \"positive\"], [\"OS\", \"easy\", \"positive\"], [\"overall build\", \"great\", \"positive\"], [\"keyboard\", \"best\", \"positive\"]]",
+    "response": "[[\"OS\", \"pretty easy to get around\", \"positive\"], [\"overall build\", \"great\", \"positive\"], [\"keyboard\", \"best to type on\", \"positive\"]]"
+  },
+  {
+    "id": 146,
+    "input": "It is made of such solid construction and since I have never had a Mac using my iPhone helped me get used to the system a bit .",
+    "label": "[[\"construction\", \"solid\", \"positive\"]]",
+    "response": "[[[\"construction\", \"solid\", \"positive\"], [\"system\", \"helped me get used to\", \"positive\"]]]"
+  },
+  {
+    "id": 147,
+    "input": "Very nice unibody construction .",
+    "label": "[[\"unibody construction\", \"nice\", \"positive\"]]",
+    "response": "[[\"unibody construction\", \"very nice\", \"positive\"]]"
+  },
+  {
+    "id": 148,
+    "input": "This Macbook Pro is fast , powerful , and runs super quiet and cool .",
+    "label": "[[\"runs\", \"quiet\", \"positive\"], [\"runs\", \"cool\", \"positive\"]]",
+    "response": "[[\"speed\", \"fast\", \"positive\"], [\"power\", \"powerful\", \"positive\"], [\"noise level\", \"super quiet\", \"positive\"], [\"temperature\", \"cool\", \"positive\"]]"
+  },
+  {
+    "id": 149,
+    "input": "It 's ok but does n't have a disk drive which I did n't know until after I bought it .",
+    "label": "[[\"disk drive\", \"does n't have\", \"neutral\"]]",
+    "response": "[[\"product\", \"ok\", \"neutral\"], [\"disk drive\", \"doesn't have\", \"negative\"], [\"product information\", \"didn't know\", \"negative\"]]"
+  },
+  {
+    "id": 150,
+    "input": "There is no HDMI receptacle , nor is there an SD card slot located anywhere on the device .",
+    "label": "[[\"HDMI receptacle\", \"no\", \"neutral\"], [\"SD card slot\", \"nor\", \"neutral\"]]",
+    "response": "[[\"HDMI receptacle\", \"no\", \"negative\"], [\"SD card slot\", \"no\", \"negative\"]]"
+  },
+  {
+    "id": 151,
+    "input": "It came in brand new and works perfectly .",
+    "label": "[[\"works\", \"perfectly\", \"positive\"]]",
+    "response": "[[\"condition\", \"brand new\", \"positive\"], [\"performance\", \"perfectly\", \"positive\"]]"
+  },
+  {
+    "id": 152,
+    "input": "It should n't happen like that , I do n't have any design app open or anything .",
+    "label": "[[\"design app\", \"do n't have\", \"neutral\"]]",
+    "response": "[[\"functionality\", \"shouldn't happen\", \"negative\"]]"
+  },
+  {
+    "id": 153,
+    "input": "MY TRACKPAD IS NOT WORKING .",
+    "label": "[[\"TRACKPAD\", \"NOT WORKING\", \"negative\"]]",
+    "response": "[[\"trackpad\", \"not working\", \"negative\"]]"
+  },
+  {
+    "id": 154,
+    "input": "It looks and feels solid , with a flawless finish .",
+    "label": "[[\"finish\", \"flawless\", \"positive\"], [\"looks\", \"solid\", \"positive\"], [\"feels\", \"solid\", \"positive\"]]",
+    "response": "[[\"looks\", \"solid\", \"positive\"], [\"feel\", \"solid\", \"positive\"], [\"finish\", \"flawless\", \"positive\"]]"
+  },
+  {
+    "id": 155,
+    "input": "Price was higher when purchased on MAC when compared to price showing on PC when I bought this product .",
+    "label": "[[\"Price\", \"higher\", \"negative\"]]",
+    "response": "[[\"Price\", \"higher\", \"negative\"]]"
+  },
+  {
+    "id": 156,
+    "input": "Then the system would many times not power down without a forced power-off .",
+    "label": "[[\"system\", \"not power down\", \"negative\"], [\"power down\", \"not\", \"negative\"]]",
+    "response": "[[\"power down\", \"forced power-off\", \"negative\"]]"
+  },
+  {
+    "id": 157,
+    "input": "The configuration is perfect for my needs .",
+    "label": "[[\"configuration\", \"perfect\", \"positive\"]]",
+    "response": "[[\"configuration\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 158,
+    "input": "and the speakers is the worst ever .",
+    "label": "[[\"speakers\", \"worst\", \"negative\"]]",
+    "response": "[[[\"speakers\", \"worst ever\", \"negative\"]]]"
+  },
+  {
+    "id": 159,
+    "input": "Its the best , its got the looks , super easy to use and love all you can do with the trackpad ! ..",
+    "label": "[[\"use\", \"easy\", \"positive\"], [\"trackpad\", \"love\", \"positive\"]]",
+    "response": "[[\"product\", \"best\", \"positive\"], [\"looks\", \"got the looks\", \"positive\"], [\"ease of use\", \"super easy\", \"positive\"], [\"trackpad\", \"love all you can do\", \"positive\"]]"
+  },
+  {
+    "id": 160,
+    "input": "Web surfuring is smooth and seamless .",
+    "label": "[[\"Web surfuring\", \"smooth\", \"positive\"], [\"Web surfuring\", \"seamless\", \"positive\"]]",
+    "response": "[[\"Web surfing\", \"smooth\", \"positive\"], [\"Web surfing\", \"seamless\", \"positive\"]]"
+  },
+  {
+    "id": 161,
+    "input": "I 'm overall pleased with the interface and the portability of this product .",
+    "label": "[[\"interface\", \"pleased\", \"positive\"], [\"portability\", \"pleased\", \"positive\"]]",
+    "response": "[[\"interface\", \"pleased\", \"positive\"], [\"portability\", \"pleased\", \"positive\"]]"
+  },
+  {
+    "id": 162,
+    "input": "This item is a beautiful piece , it works well , it is easy to carry and handle .",
+    "label": "[[\"works\", \"well\", \"positive\"], [\"carry\", \"easy\", \"positive\"], [\"handle\", \"easy\", \"positive\"]]",
+    "response": "[[\"item\", \"beautiful\", \"positive\"], [\"works\", \"well\", \"positive\"], [\"carry\", \"easy\", \"positive\"], [\"handle\", \"easy\", \"positive\"]]"
+  },
+  {
+    "id": 163,
+    "input": "It was also suffering from hardware ( keyboard ) issues , relatively slow performance and shortening battery lifetime .",
+    "label": "[[\"performance\", \"slow\", \"negative\"], [\"battery lifetime\", \"shortening\", \"negative\"], [\"hardware ( keyboard )\", \"suffering\", \"negative\"], [\"hardware ( keyboard )\", \"issues\", \"negative\"]]",
+    "response": "[[ \"keyboard\", \"issues\", \"negative\" ], [ \"performance\", \"slow\", \"negative\" ], [ \"battery lifetime\", \"shortening\", \"negative\" ]]"
+  },
+  {
+    "id": 164,
+    "input": "Runs good and does the job , ca n't complain about that !",
+    "label": "[[\"Runs\", \"good\", \"positive\"]]",
+    "response": "[[\"runs\", \"good\", \"positive\"], [\"job\", \"does the job\", \"positive\"], [\"that\", \"ca n't complain\", \"positive\"]]"
+  },
+  {
+    "id": 165,
+    "input": "It 's silent and has a very small footprint on my desk .",
+    "label": "[[\"footprint\", \"small\", \"positive\"]]",
+    "response": "[[[\"noise\", \"silent\", \"positive\"], [\"footprint\", \"very small\", \"positive\"]]]"
+  },
+  {
+    "id": 166,
+    "input": "The exterior is absolutely gorgeous .",
+    "label": "[[\"exterior\", \"gorgeous\", \"positive\"]]",
+    "response": "[[\"exterior\", \"absolutely gorgeous\", \"positive\"]]"
+  },
+  {
+    "id": 167,
+    "input": "It has a very high performance , just for what I needed for .",
+    "label": "[[\"performance\", \"high\", \"positive\"]]",
+    "response": "[[\"performance\", \"very high\", \"positive\"], [\"performance\", \"just for what I needed for\", \"positive\"]]"
+  },
+  {
+    "id": 168,
+    "input": "Apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .",
+    "label": "[[\"intel 4000 graphics chipset\", \"defective\", \"neutral\"], [\"design\", \"defective\", \"neutral\"]]",
+    "response": "[[\"issue\", \"aware\", \"neutral\"], [\"stock\", \"old\", \"negative\"], [\"design\", \"defective\", \"negative\"]]"
+  },
+  {
+    "id": 169,
+    "input": "I just bought the new MacBook Pro , the 13 '' model , and I ca n't believe Apple keeps making the same mistake with regard to USB ports .",
+    "label": "[[\"USB ports\", \"mistake\", \"negative\"]]",
+    "response": "[[\"USB ports\", \"keeps making the same mistake\", \"negative\"]]"
+  },
+  {
+    "id": 170,
+    "input": "It is the perfect size and speed for me .",
+    "label": "[[\"size\", \"perfect\", \"positive\"], [\"speed\", \"perfect\", \"positive\"]]",
+    "response": "[[\"size\", \"perfect\", \"positive\"], [\"speed\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 171,
+    "input": "THE CUSTOMER SERVICE IS TERRIFIC ! !",
+    "label": "[[\"CUSTOMER SERVICE\", \"TERRIFIC\", \"positive\"]]",
+    "response": "[[ \"customer service\", \"terrific\", \"positive\" ]]"
+  },
+  {
+    "id": 172,
+    "input": "My last laptop was a 17 '' ASUS gaming machine , which performed admirably , but having since built my own desktop and really settling into the college life , I found myself wanting something smaller and less cumbersome , not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago .",
+    "label": "[[\"performed\", \"admirably\", \"positive\"]]",
+    "response": "[\n[\"ASUS gaming machine\", \"performed admirably\", \"positive\"], \n[\"size\", \"smaller\", \"positive\"], \n[\"portability\", \"less cumbersome\", \"positive\"], \n[\"ASUS\", \"slowly developing problems\", \"negative\"]\n]"
+  },
+  {
+    "id": 173,
+    "input": "However , it did not have any scratches , ZERO battery cycle count ( pretty surprised ) , and all the hardware seemed to be working perfectly .",
+    "label": "[[\"battery cycle count\", \"ZERO\", \"positive\"], [\"battery cycle count\", \"surprised\", \"positive\"], [\"hardware\", \"perfectly\", \"positive\"]]",
+    "response": "[[\"scratches\", \"did not have any\", \"positive\"], [\"battery cycle count\", \"ZERO\", \"positive\"], [\"battery cycle count\", \"pretty surprised\", \"positive\"], [\"hardware\", \"working perfectly\", \"positive\"]]"
+  },
+  {
+    "id": 174,
+    "input": "And as for all the fancy finger swipes -- I just gave up and attached a mouse .",
+    "label": "[[\"finger swipes\", \"fancy\", \"negative\"]]",
+    "response": "[[\"fancy finger swipes\", \"gave up\", \"negative\"]]"
+  },
+  {
+    "id": 175,
+    "input": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+    "label": "[[\"storage\", \"big\", \"neutral\"], [\"screen\", \"nice\", \"neutral\"]]",
+    "response": "[[\"storage\", \"big\", \"positive\"], [\"screen\", \"nice\", \"positive\"], [\"speed\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 176,
+    "input": "I like coming back to Mac OS but this laptop is lacking in speaker quality compared to my $ 400 old HP laptop .",
+    "label": "[[\"Mac OS\", \"like\", \"positive\"], [\"speaker quality\", \"lacking\", \"negative\"]]",
+    "response": "[[\"Mac OS\", \"like\", \"positive\"], [\"speaker quality\", \"lacking\", \"negative\"]]"
+  },
+  {
+    "id": 177,
+    "input": "Shipped very quickly and safely .",
+    "label": "[[\"Shipped\", \"quickly\", \"positive\"], [\"Shipped\", \"safely\", \"positive\"]]",
+    "response": "[[\"shipping\", \"very quickly\", \"positive\"], [\"shipping\", \"safely\", \"positive\"]]"
+  },
+  {
+    "id": 178,
+    "input": "The thunderbolt port is awesome !",
+    "label": "[[\"thunderbolt port\", \"awesome\", \"positive\"]]",
+    "response": "[[\"thunderbolt port\", \"awesome\", \"positive\"]]"
+  },
+  {
+    "id": 179,
+    "input": "The performance is definitely superior to any computer I 've ever put my hands on .",
+    "label": "[[\"performance\", \"superior\", \"positive\"]]",
+    "response": "[[\"performance\", \"superior\", \"positive\"]]"
+  },
+  {
+    "id": 180,
+    "input": "It 's great for streaming video and other entertainment uses .",
+    "label": "[[\"streaming video\", \"great\", \"positive\"], [\"entertainment uses\", \"great\", \"positive\"]]",
+    "response": "[[\"streaming video\", \"great\", \"positive\"], [\"entertainment uses\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 181,
+    "input": "I like the design and its features but there are somethings I think needs to be improved .",
+    "label": "[[\"design\", \"like\", \"positive\"], [\"features\", \"needs to be improved\", \"positive\"]]",
+    "response": "[[\"design\", \"like\", \"positive\"], [\"features\", \"like\", \"positive\"], [\"things\", \"needs to be improved\", \"negative\"]]"
+  },
+  {
+    "id": 182,
+    "input": "There were small problems with Mac office .",
+    "label": "[[\"Mac office\", \"problems\", \"negative\"]]",
+    "response": "[[\"Mac office\", \"small problems\", \"negative\"]]"
+  },
+  {
+    "id": 183,
+    "input": "I ordered my 2012 mac mini after being disappointed with spec of the new 27 '' Imacs .",
+    "label": "[[\"spec\", \"disappointed\", \"negative\"]]",
+    "response": "[[[\"spec\", \"disappointed\", \"negative\"]]]"
+  },
+  {
+    "id": 184,
+    "input": "Its fast , easy to use and it looks great .",
+    "label": "[[\"use\", \"easy\", \"positive\"], [\"looks\", \"great\", \"positive\"]]",
+    "response": "[[\"speed\", \"fast\", \"positive\"], [\"usability\", \"easy to use\", \"positive\"], [\"design\", \"looks great\", \"positive\"]]"
+  },
+  {
+    "id": 185,
+    "input": "Performance is much much better on the Pro , especially if you install an SSD on it .",
+    "label": "[[\"Performance\", \"better\", \"positive\"], [\"SSD\", \"better\", \"positive\"]]",
+    "response": "[[\"Performance\", \"much much better\", \"positive\"], [\"SSD\", \"install\", \"positive\"]]"
+  },
+  {
+    "id": 186,
+    "input": "Note , however , that any existing MagSafe accessories you have will not work with the MagSafe 2 connection .",
+    "label": "[[\"MagSafe accessories\", \"not work\", \"neutral\"], [\"MagSafe 2 connection\", \"not work\", \"negative\"]]",
+    "response": "[[\"existing MagSafe accessories\", \"will not work\", \"negative\"]]"
+  },
+  {
+    "id": 187,
+    "input": "The only thing I dislike is the touchpad , alot of the times its unresponsive and does things I dont want it too , I would recommend using a mouse with it .",
+    "label": "[[\"touchpad\", \"dislike\", \"negative\"], [\"touchpad\", \"unresponsive\", \"negative\"], [\"mouse\", \"recommend\", \"neutral\"]]",
+    "response": "[[[\"touchpad\", \"unresponsive\", \"negative\"], [\"touchpad\", \"does things I dont want it too\", \"negative\"]]]"
+  },
+  {
+    "id": 188,
+    "input": "The Mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n't audible unlike my old pc",
+    "label": "[[\"runs\", \"quiet\", \"positive\"], [\"fans\", \"are n't audible\", \"positive\"]]",
+    "response": "[[\"size\", \"8x smaller\", \"positive\"], [\"fans\", \"not audible\", \"positive\"], [\"noise level\", \"runs very quiet\", \"positive\"]]"
+  },
+  {
+    "id": 189,
+    "input": "I thought the transition would be difficult at best and would take some time to fully familiarize myself with the new Mac ecosystem .",
+    "label": "[[\"Mac ecosystem\", \"take some time\", \"neutral\"]]",
+    "response": "[[\"transition\", \"difficult at best\", \"negative\"], [\"Mac ecosystem\", \"take some time to fully familiarize\", \"neutral\"]]"
+  },
+  {
+    "id": 190,
+    "input": "It 's absolutely wonderful and worth the price !",
+    "label": "[[\"price\", \"wonderful\", \"positive\"], [\"price\", \"worth\", \"positive\"]]",
+    "response": "[[\"it\", \"absolutely wonderful\", \"positive\"], [\"price\", \"worth\", \"positive\"]]"
+  },
+  {
+    "id": 191,
+    "input": "I am please with the products ease of use ; out of the box ready ; appearance and functionality .",
+    "label": "[[\"use\", \"please\", \"positive\"], [\"use\", \"ease\", \"positive\"], [\"appearance\", \"please\", \"positive\"], [\"functionality\", \"please\", \"positive\"]]",
+    "response": "[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"\", \"positive\"], [\"functionality\", \"\", \"positive\"]] \n\nWait, but the problem requires the opinion term. If there's no opinion term, perhaps those aspects shouldn't be included. But the user example shows all aspects. I think the correct answer according to the problem's requirements is:\n\n[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"pleased\", \"positive\"], [\"functionality\", \"pleased\", \"positive\"]]\n\nBut I'm not sure. Alternatively, maybe the answer is:\n\n[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"appearance\", \"positive\"], [\"functionality\", \"functionality\", \"positive\"]]\n\nBut that's incorrect. \n\nGiven the problem's example, the correct answer should be:\n\n[[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"pleased\", \"positive\"], [\"functionality\", \"pleased\", \"positive\"]]]\n\nBut I think the assistant should output:\n\n[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"pleased\", \"positive\"], [\"functionality\", \"pleased\", \"positive\"]]\n\nBut I'm not confident. However, given the original problem statement and the user's instruction to extract aspect, opinion, and sentiment, the correct answer is likely:\n\n[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"pleased\", \"positive\"], [\"functionality\", \"pleased\", \"positive\"]]\n\nBut actually, the aspects are \"ease of use\", \"out of the box ready\", \"appearance\", and \"functionality\". The opinion terms are \"ease\", \"ready\", and the sentiment for the last two is positive because the user is pleased. However, \"pleased\" is part of the main clause. \n\nAlternatively, the correct answer is:\n\n[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box ready\", \"ready\", \"positive\"], [\"appearance\", \"\", \"positive\"], [\"functionality\", \"\", \"positive\"]]\n\nBut the problem requires opinion terms. Given the ambiguity, I'll go with the aspects that have explicit opinion terms.\n\n**Final Answer**\n[[\"ease of use\", \"ease\", \"positive\"], [\"out of the box\", \"ready\", \"positive\"], [\"appearance\", \"pleased\", \"positive\"], [\"functionality\", \"pleased\", \"positive\"]]"
+  },
+  {
+    "id": 192,
+    "input": "Perfect for all my graphic design classes I 'm taking this year in college : - )",
+    "label": "[[\"graphic design\", \"Perfect\", \"positive\"]]",
+    "response": "[[\"graphic design classes\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 193,
+    "input": "I will not be using that slot again .",
+    "label": "[[\"slot\", \"not be using\", \"negative\"]]",
+    "response": "[[ \"slot\", \"not be using again\", \"negative\" ]]"
+  },
+  {
+    "id": 194,
+    "input": "The OS is fast and fluid , everything is organized and it 's just beautiful .",
+    "label": "[[\"OS\", \"fast\", \"positive\"], [\"OS\", \"fluid\", \"positive\"], [\"OS\", \"organized\", \"positive\"], [\"OS\", \"beautiful\", \"positive\"]]",
+    "response": "[[\"OS\", \"fast\", \"positive\"], [\"OS\", \"fluid\", \"positive\"], [\"organization\", \"organized\", \"positive\"], [\"OS\", \"beautiful\", \"positive\"]]"
+  },
+  {
+    "id": 195,
+    "input": "They are simpler to use .",
+    "label": "[[\"use\", \"simpler\", \"positive\"]]",
+    "response": "[[\"use\", \"simpler\", \"positive\"]]"
+  },
+  {
+    "id": 196,
+    "input": "! so nice .. stable .. fast .. now i got my SSD !",
+    "label": "[[\"SSD\", \"nice\", \"positive\"], [\"SSD\", \"stable\", \"positive\"], [\"SSD\", \"fast\", \"positive\"]]",
+    "response": "[[\"SSD\", \"nice\", \"positive\"], [\"stability\", \"stable\", \"positive\"], [\"speed\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 197,
+    "input": "I love the quick start up .",
+    "label": "[[\"start up\", \"love\", \"positive\"]]",
+    "response": "[[\"start up\", \"quick\", \"positive\"]]"
+  },
+  {
+    "id": 198,
+    "input": "You just can not beat the functionality of an Apple device .",
+    "label": "[[\"functionality\", \"can not beat\", \"positive\"]]",
+    "response": "[[\"functionality\", \"can not beat\", \"positive\"]]"
+  },
+  {
+    "id": 199,
+    "input": "Yet my mac continues to function properly .",
+    "label": "[[\"function\", \"properly\", \"positive\"]]",
+    "response": "[[[\"mac\", \"function properly\", \"positive\"]]]"
+  },
+  {
+    "id": 200,
+    "input": "Graphics are much improved .",
+    "label": "[[\"Graphics\", \"improved\", \"positive\"]]",
+    "response": "[[\"Graphics\", \"much improved\", \"positive\"]]"
+  },
+  {
+    "id": 201,
+    "input": "Here are the things that made me confident with my purchase : Build Quality - Seriously , you ca n't beat a unibody construction .",
+    "label": "[[\"Build Quality\", \"confident\", \"positive\"], [\"unibody construction\", \"ca n't beat\", \"positive\"]]",
+    "response": "[[\"Build Quality\", \"can't beat a unibody construction\", \"positive\"]]"
+  },
+  {
+    "id": 202,
+    "input": "It provides much more flexibility for connectivity .",
+    "label": "[[\"flexibility for connectivity\", \"more\", \"positive\"]]",
+    "response": "[[\"connectivity\", \"much more flexibility\", \"positive\"]]"
+  },
+  {
+    "id": 203,
+    "input": "Mac tutorials do help .",
+    "label": "[[\"Mac tutorials\", \"help\", \"positive\"]]",
+    "response": "[[\"Mac tutorials\", \"help\", \"positive\"]]"
+  },
+  {
+    "id": 204,
+    "input": "The technical support was not helpful as well .",
+    "label": "[[\"technical support\", \"not helpful\", \"negative\"]]",
+    "response": "[[\"technical support\", \"not helpful\", \"negative\"]]"
+  },
+  {
+    "id": 205,
+    "input": "I got the new adapter and there was no change .",
+    "label": "[[\"adapter\", \"new\", \"neutral\"], [\"adapter\", \"no change\", \"neutral\"]]",
+    "response": "[[\"adapter\", \"no change\", \"negative\"]]"
+  },
+  {
+    "id": 206,
+    "input": "Logic board utterly fried , cried , and laid down and died .",
+    "label": "[[\"Logic board\", \"utterly fried\", \"positive\"], [\"Logic board\", \"cried\", \"positive\"], [\"Logic board\", \"laid down\", \"positive\"], [\"Logic board\", \"died\", \"positive\"]]",
+    "response": "[[\"logic board\", \"utterly fried\", \"negative\"], [\"logic board\", \"cried\", \"negative\"], [\"logic board\", \"laid down and died\", \"negative\"]]"
+  },
+  {
+    "id": 207,
+    "input": "The sound was crappy even when you turn up the volume still the same results .",
+    "label": "[[\"sound\", \"crappy\", \"negative\"], [\"volume\", \"crappy\", \"negative\"]]",
+    "response": "[[\"sound\", \"crappy\", \"negative\"], [\"volume\", \"still the same results\", \"negative\"]]"
+  },
+  {
+    "id": 208,
+    "input": "OSX Lion is a great performer..extremely fast and reliable .",
+    "label": "[[\"OSX Lion\", \"great\", \"positive\"], [\"OSX Lion\", \"fast\", \"positive\"], [\"OSX Lion\", \"reliable\", \"positive\"]]",
+    "response": "[[\"performer\", \"great\", \"positive\"], [\"speed\", \"extremely fast\", \"positive\"], [\"reliability\", \"reliable\", \"positive\"]]"
+  },
+  {
+    "id": 209,
+    "input": "Having heard from friends and family about how reliable a Mac product is , I never expected to have an application crash within the first month , but I did .",
+    "label": "[[\"application\", \"crash\", \"negative\"]]",
+    "response": "[[\"Mac product\", \"reliable\", \"positive\"], [\"application\", \"crash\", \"negative\"]]"
+  },
+  {
+    "id": 210,
+    "input": "The Macbook pro 's physical form is wonderful .",
+    "label": "[[\"physical form\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"physical form\", \"wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 211,
+    "input": "The Mini 's body has n't changed since late 2010- and for a good reason .",
+    "label": "[[\"body\", \"has n't changed\", \"positive\"], [\"body\", \"good\", \"positive\"]]",
+    "response": "[[[\"body\", \"hasn't changed since late 2010\", \"positive\"]]]"
+  },
+  {
+    "id": 212,
+    "input": "The unibody construction really does feel lot more solid than Apple 's previous laptops .",
+    "label": "[[\"unibody construction\", \"solid\", \"positive\"]]",
+    "response": "[[\"unibody construction\", \"more solid\", \"positive\"]]"
+  },
+  {
+    "id": 213,
+    "input": "3D rendering slows it down considerably .",
+    "label": "[[\"3D rendering\", \"slows it down\", \"negative\"]]",
+    "response": "[[\"3D rendering\", \"slows it down considerably\", \"negative\"]]"
+  },
+  {
+    "id": 214,
+    "input": "fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098+ tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax- 1070- OTD !",
+    "label": "[[\"screen\", \"fast\", \"positive\"], [\"screen\", \"great\", \"positive\"], [\"apps\", \"beautiful\", \"positive\"]]",
+    "response": "[[\"speed\", \"fast\", \"positive\"], [\"screen\", \"great\", \"positive\"], [\"apps\", \"beautiful\", \"positive\"], [\"price\", \"discounted\", \"positive\"]]"
+  },
+  {
+    "id": 215,
+    "input": "All the ports are much needed since this is my main computer .",
+    "label": "[[\"ports\", \"much needed\", \"neutral\"]]",
+    "response": "[[[\"ports\", \"much needed\", \"positive\"]]]"
+  },
+  {
+    "id": 216,
+    "input": "The Like New condition of the iMac MC309LL/A on Amazon is at $ 900+ level only , and it is a Quad-Core 2.5 GHz CPU ( similar to the $ 799 Mini ) , with Radeon HD 6750M 512MB graphic card ( this mini is integrated Intel 4000 card ) , and it even comes with wireless Apple Keyboard and Mouse , all put together in neat and nice package .",
+    "label": "[[\"package\", \"neat\", \"positive\"], [\"package\", \"nice\", \"positive\"]]",
+    "response": "[[\"condition\", \"Like New\", \"positive\"], [\"price\", \"$900+ level only\", \"negative\"], [\"CPU\", \"Quad-Core 2.5 GHz\", \"neutral\"], [\"graphic card\", \"Radeon HD 6750M 512MB\", \"positive\"], [\"wireless Apple Keyboard and Mouse\", \"comes with\", \"positive\"], [\"package\", \"neat and nice\", \"positive\"]]"
+  },
+  {
+    "id": 217,
+    "input": "Put a cover on it and is a little better but that is my only complaint .",
+    "label": "[[\"cover\", \"a little better\", \"neutral\"], [\"cover\", \"complaint\", \"neutral\"]]",
+    "response": "[[\"cover\", \"a little better\", \"positive\"], [\"complaint\", \"only\", \"negative\"]]"
+  },
+  {
+    "id": 218,
+    "input": "Within a few hours I was using the gestures unconsciously .",
+    "label": "[[\"gestures\", \"unconsciously\", \"positive\"]]",
+    "response": "[[[\"gestures\", \"using unconsciously\", \"positive\"]]]"
+  },
+  {
+    "id": 219,
+    "input": "This mac does come with an extender cable and I 'm using mine right now hoping the cable will stay nice for the many years I plan on using this mac .",
+    "label": "[[\"cable\", \"nice\", \"positive\"]]",
+    "response": "[[\"extender cable\", \"stay nice\", \"positive\"]]"
+  },
+  {
+    "id": 220,
+    "input": "The 2.9ghz dual-core i7 chip really out does itself .",
+    "label": "[[\"2.9ghz dual-core i7 chip\", \"really\", \"positive\"]]",
+    "response": "[[\"2.9ghz dual-core i7 chip\", \"out does itself\", \"positive\"]]"
+  },
+  {
+    "id": 221,
+    "input": "It is pretty snappy and starts up in about 30 seconds which is good enough for me .",
+    "label": "[[\"starts up\", \"snappy\", \"positive\"], [\"starts up\", \"good\", \"positive\"]]",
+    "response": "[[\"speed\", \"snappy\", \"positive\"], [\"startup time\", \"good enough\", \"positive\"]]"
+  },
+  {
+    "id": 222,
+    "input": "Not sure on Windows 8 .",
+    "label": "[[\"Windows 8\", \"Not sure\", \"neutral\"]]",
+    "response": "[[\"Windows 8\", \"Not sure\", \"neutral\"]]"
+  },
+  {
+    "id": 223,
+    "input": "My one complaint is that there was no internal CD drive .",
+    "label": "[[\"internal CD drive\", \"complaint\", \"negative\"], [\"internal CD drive\", \"no\", \"negative\"]]",
+    "response": "[[\"internal CD drive\", \"no\", \"negative\"]]"
+  },
+  {
+    "id": 224,
+    "input": "This newer netbook has no hard drive or network lights .",
+    "label": "[[\"hard drive\", \"no\", \"neutral\"], [\"network lights\", \"no\", \"neutral\"]]",
+    "response": "[[\"hard drive\", \"no\", \"negative\"], [\"network lights\", \"no\", \"negative\"]]"
+  },
+  {
+    "id": 225,
+    "input": "Not too expense and has enough storage for most users and many ports .",
+    "label": "[[\"storage\", \"enough\", \"positive\"], [\"ports\", \"enough\", \"positive\"]]",
+    "response": "[[\"price\", \"not too expense\", \"positive\"], [\"storage\", \"enough\", \"positive\"], [\"ports\", \"many\", \"positive\"]]"
+  },
+  {
+    "id": 226,
+    "input": "The audio volume is quite low and virtually unusable in a room with any background activity .",
+    "label": "[[\"audio volume\", \"low\", \"negative\"], [\"audio volume\", \"unusable\", \"negative\"]]",
+    "response": "[[\"audio volume\", \"quite low\", \"negative\"], [\"audio volume\", \"virtually unusable\", \"negative\"]]"
+  },
+  {
+    "id": 227,
+    "input": "It is lightweight and the perfect size to carry to class .",
+    "label": "[[\"size\", \"perfect\", \"positive\"]]",
+    "response": "[[\"weight\", \"lightweight\", \"positive\"], [\"size\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 228,
+    "input": "The MBP is beautiful has many wonderful capabilities .",
+    "label": "[[\"capabilities\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"design\", \"beautiful\", \"positive\"], [\"capabilities\", \"wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 229,
+    "input": "I thought that it will be fine , if i do some settings .",
+    "label": "[[\"settings\", \"fine\", \"neutral\"]]",
+    "response": "[[\"settings\", \"fine\", \"positive\"]]"
+  },
+  {
+    "id": 230,
+    "input": "Runs very smoothly .",
+    "label": "[[\"Runs\", \"smoothly\", \"positive\"]]",
+    "response": "[[\"runs\", \"very smoothly\", \"positive\"]]"
+  },
+  {
+    "id": 231,
+    "input": "Boot-up slowed significantly after all Windows updates were installed .",
+    "label": "[[\"Boot-up\", \"slowed\", \"negative\"], [\"Windows updates\", \"slowed\", \"negative\"]]",
+    "response": "[[\"Boot-up\", \"slowed significantly\", \"negative\"]]"
+  },
+  {
+    "id": 232,
+    "input": "It was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .",
+    "label": "[[\"internet\", \"powerful\", \"positive\"], [\"word processing\", \"powerful\", \"positive\"], [\"graphic design\", \"powerful\", \"positive\"], [\"gaming\", \"powerful\", \"positive\"]]",
+    "response": "[[\"power\", \"powerful enough\", \"positive\"]]"
+  },
+  {
+    "id": 233,
+    "input": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+    "label": "[[\"setup\", \"like\", \"positive\"], [\"setup\", \"easy\", \"positive\"], [\"install\", \"like\", \"positive\"], [\"install\", \"easy\", \"positive\"]]",
+    "response": "[[\"Mini Mac\", \"like\", \"positive\"], [\"setup\", \"easy\", \"positive\"], [\"install\", \"easy\", \"positive\"], [\"features\", \"could use a tutorial\", \"negative\"], [\"right mouse click menu\", \"could use a tutorial\", \"negative\"]]"
+  },
+  {
+    "id": 234,
+    "input": "Runs real quick .",
+    "label": "[[\"Runs\", \"quick\", \"positive\"]]",
+    "response": "[[\"runs\", \"real quick\", \"positive\"]]"
+  },
+  {
+    "id": 235,
+    "input": "Since the machine 's slim profile is critical to me , that was a problem .",
+    "label": "[[\"profile\", \"slim\", \"negative\"], [\"profile\", \"critical\", \"negative\"]]",
+    "response": "[[\"slim profile\", \"a problem\", \"negative\"]]"
+  },
+  {
+    "id": 236,
+    "input": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+    "label": "[[\"disk drive\", \"required\", \"positive\"], [\"USB ports\", \"required\", \"positive\"], [\"WiFi capability\", \"required\", \"positive\"]]",
+    "response": "[[\"WiFi capability\", \"all that was required\", \"positive\"], [\"disk drive\", \"all that was required\", \"positive\"], [\"multiple USB ports\", \"all that was required\", \"positive\"]]"
+  },
+  {
+    "id": 237,
+    "input": "The SD card reader is slightly recessed and upside down ( the nail slot on the card can not be accessed ) , if this was a self ejecting slot this would not be an issue , but its not .",
+    "label": "[[\"SD card reader\", \"recessed\", \"negative\"], [\"SD card reader\", \"upside down\", \"negative\"], [\"nail slot on the card\", \"can not be accessed\", \"negative\"], [\"slot\", \"issue\", \"negative\"]]",
+    "response": "[[\"SD card reader\", \"slightly recessed\", \"negative\"], [\"SD card reader\", \"upside down\", \"negative\"], [\"self-ejecting slot\", \"not\", \"negative\"]]"
+  },
+  {
+    "id": 238,
+    "input": "Soft touch , anodized aluminum with laser cut precision and no flaws .",
+    "label": "[[\"touch\", \"Soft\", \"positive\"], [\"anodized aluminum\", \"precision\", \"positive\"], [\"anodized aluminum\", \"no flaws\", \"positive\"]]",
+    "response": "[[\"touch\", \"soft\", \"positive\"], [\"aluminum\", \"anodized\", \"positive\"], [\"precision\", \"laser cut\", \"positive\"], [\"flaws\", \"no\", \"positive\"]]"
+  },
+  {
+    "id": 239,
+    "input": "Simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .",
+    "label": "[[\"aluminium\", \"crafted\", \"positive\"], [\"glass\", \"blow away\", \"positive\"]]",
+    "response": "[[\"details\", \"simple\", \"positive\"], [\"aluminium\", \"crafted\", \"positive\"], [\"glass\", \"real\", \"positive\"]]"
+  },
+  {
+    "id": 240,
+    "input": "First of all yes this is a mac and it has that nice brushed aluminum .",
+    "label": "[[\"aluminum\", \"nice\", \"positive\"]]",
+    "response": "[[\"brushed aluminum\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 241,
+    "input": "No HDMI port .",
+    "label": "[[\"HDMI port\", \"No\", \"neutral\"]]",
+    "response": "[[[\"HDMI port\", \"No\", \"negative\"]]]"
+  },
+  {
+    "id": 242,
+    "input": "Customization on mac is impossible .",
+    "label": "[[\"Customization\", \"impossible\", \"negative\"]]",
+    "response": "[[[\"Customization on mac\", \"impossible\", \"negative\"]]]"
+  },
+  {
+    "id": 243,
+    "input": "Plus two finger clicking as a replacement for the right click button is surprisingly intuitive .",
+    "label": "[[\"two finger clicking\", \"surprisingly\", \"positive\"], [\"right click button\", \"intuitive\", \"neutral\"]]",
+    "response": "[[[\"two finger clicking\", \"surprisingly intuitive\", \"positive\"]]]"
+  },
+  {
+    "id": 244,
+    "input": "The SuperDrive is quiet .",
+    "label": "[[\"SuperDrive\", \"quiet\", \"positive\"]]",
+    "response": "[[\"SuperDrive\", \"quiet\", \"positive\"]]"
+  },
+  {
+    "id": 245,
+    "input": "The battery was completely dead , in fact it had grown about a quarter inch thick lump on the underside .",
+    "label": "[[\"battery\", \"dead\", \"negative\"]]",
+    "response": "[[\"battery\", \"completely dead\", \"negative\"], [\"lump\", \"quarter inch thick\", \"negative\"]]"
+  },
+  {
+    "id": 246,
+    "input": "if yo like practicality this is the laptop for you .",
+    "label": "[[\"practicality\", \"like\", \"positive\"]]",
+    "response": "[[\"practicality\", \"like\", \"positive\"]]"
+  },
+  {
+    "id": 247,
+    "input": "The OS is great .",
+    "label": "[[\"OS\", \"great\", \"positive\"]]",
+    "response": "[[\"OS\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 248,
+    "input": "CONS : Price is a bit ridiculous , kinda heavy .",
+    "label": "[[\"Price\", \"ridiculous\", \"negative\"], [\"Price\", \"heavy\", \"negative\"]]",
+    "response": "[[\"Price\", \"ridiculous\", \"negative\"], [\"weight\", \"heavy\", \"negative\"]]"
+  },
+  {
+    "id": 249,
+    "input": "Which it did not have , only 3 USB 2 ports .",
+    "label": "[[\"USB 2 ports\", \"not have\", \"neutral\"]]",
+    "response": "[[\"USB 2 ports\", \"only 3\", \"negative\"]]"
+  },
+  {
+    "id": 250,
+    "input": "No startup disk was not included but that may be my fault .",
+    "label": "[[\"startup disk\", \"No\", \"neutral\"], [\"startup disk\", \"not included\", \"neutral\"], [\"startup disk\", \"fault\", \"neutral\"]]",
+    "response": "[[\"startup disk\", \"not included\", \"negative\"]]"
+  },
+  {
+    "id": 251,
+    "input": "It is very fast and has everything that I need except for a word program .",
+    "label": "[[\"word program\", \"except for\", \"negative\"]]",
+    "response": "[[\"speed\", \"very fast\", \"positive\"], [\"features\", \"everything that I need\", \"positive\"], [\"word program\", \"except for\", \"negative\"]]"
+  },
+  {
+    "id": 252,
+    "input": "Needs a CD/DVD drive and a bigger power switch .",
+    "label": "[[\"power switch\", \"bigger\", \"negative\"]]",
+    "response": "[[ \"CD/DVD drive\", \"needs\", \"negative\"], [\"power switch\", \"bigger\", \"negative\"]]"
+  },
+  {
+    "id": 253,
+    "input": "My laptop with Windows 7 crashed and I did not want Windows 8 .",
+    "label": "[[\"Windows 7\", \"crashed\", \"negative\"], [\"Windows 8\", \"not want\", \"negative\"]]",
+    "response": "[[[\"laptop\", \"crashed\", \"negative\"], [\"Windows 8\", \"did not want\", \"negative\"]]]"
+  },
+  {
+    "id": 254,
+    "input": "Easy to install also small to leave anywhere at your bedroom also very easy to configure for ADSl cable or wifi .",
+    "label": "[[\"install\", \"Easy\", \"positive\"], [\"configure for ADSl cable or wifi\", \"easy\", \"positive\"]]",
+    "response": "[[\"installation\", \"easy\", \"positive\"], [\"size\", \"small\", \"positive\"], [\"configuration\", \"very easy\", \"positive\"]]"
+  },
+  {
+    "id": 255,
+    "input": "Nice packing .",
+    "label": "[[\"packing\", \"Nice\", \"positive\"]]",
+    "response": "[[\"packing\", \"Nice\", \"positive\"]]"
+  },
+  {
+    "id": 256,
+    "input": "I switched to this because I wanted something different , even though I miss windows .",
+    "label": "[[\"windows\", \"miss\", \"positive\"]]",
+    "response": "[[\"this\", \"something different\", \"positive\"], [\"windows\", \"miss\", \"negative\"]]"
+  },
+  {
+    "id": 257,
+    "input": "Apple no longer includes iDVD with the computer and furthermore , Apple does n't even offer it anymore !",
+    "label": "[[\"iDVD\", \"no longer includes\", \"negative\"]]",
+    "response": "[[\"iDVD\", \"no longer includes\", \"negative\"], [\"iDVD\", \"doesn't even offer\", \"negative\"]]"
+  },
+  {
+    "id": 258,
+    "input": "I also wanted Windows 7 , which this one has .",
+    "label": "[[\"Windows 7\", \"wanted\", \"positive\"]]",
+    "response": "[[[\"Windows 7\", \"has\", \"positive\"]]]"
+  },
+  {
+    "id": 259,
+    "input": "At first , I feel a little bit uncomfortable in using the Mac system .",
+    "label": "[[\"Mac system\", \"uncomfortable\", \"negative\"]]",
+    "response": "[[\"Mac system\", \"uncomfortable\", \"negative\"]]"
+  },
+  {
+    "id": 260,
+    "input": "It just works out of the box and you have a lot of cool software included with the OS .",
+    "label": "[[\"works\", \"out of the box\", \"positive\"], [\"software\", \"cool\", \"positive\"], [\"OS\", \"cool\", \"neutral\"]]",
+    "response": "[[\"setup\", \"works out of the box\", \"positive\"], [\"software included\", \"cool\", \"positive\"]]"
+  },
+  {
+    "id": 261,
+    "input": "its as advertised on here ... .. it works great and is not a waste of money !",
+    "label": "[[\"works\", \"great\", \"positive\"]]",
+    "response": "[[[\"product\", \"as advertised\", \"positive\"], [\"performance\", \"works great\", \"positive\"], [\"value\", \"not a waste of money\", \"positive\"]]]"
+  },
+  {
+    "id": 262,
+    "input": "Premium price for the OS more than anything else .",
+    "label": "[[\"price\", \"Premium\", \"positive\"], [\"OS\", \"Premium\", \"neutral\"]]",
+    "response": "[[\"price\", \"premium\", \"negative\"]]"
+  },
+  {
+    "id": 263,
+    "input": "I was a little concerned about the touch pad based on reviews , but I 've found it fine to work with .",
+    "label": "[[\"touch pad\", \"concerned\", \"positive\"], [\"touch pad\", \"fine\", \"positive\"]]",
+    "response": "[[[\"touch pad\", \"fine\", \"positive\"]]]"
+  },
+  {
+    "id": 264,
+    "input": "However , the experience was great since the OS does not become unstable and the application will simply shutdown and reopen .",
+    "label": "[[\"OS\", \"great\", \"positive\"], [\"OS\", \"not become unstable\", \"positive\"]]",
+    "response": "[[ \"experience\", \"great\", \"positive\"], [\"OS\", \"does not become unstable\", \"positive\"], [\"application\", \"simply shutdown and reopen\", \"positive\"]]"
+  },
+  {
+    "id": 265,
+    "input": "The battery is not as shown in the product photos .",
+    "label": "[[\"battery\", \"not as shown\", \"negative\"]]",
+    "response": "[[\"battery\", \"not as shown in the product photos\", \"negative\"]]"
+  },
+  {
+    "id": 266,
+    "input": "Shipping was quick and product described was the product sent and so much more ...",
+    "label": "[[\"Shipping\", \"quick\", \"positive\"]]",
+    "response": "[[\"Shipping\", \"quick\", \"positive\"], [\"product described\", \"so much more\", \"positive\"]]"
+  },
+  {
+    "id": 267,
+    "input": "the retina display display make pictures i took years ago jaw dropping .",
+    "label": "[[\"retina display display\", \"dropping\", \"positive\"]]",
+    "response": "[[\"pictures\", \"jaw dropping\", \"positive\"]]"
+  },
+  {
+    "id": 268,
+    "input": "The Mac Mini is probably the simplest example of compact computing out there .",
+    "label": "[[\"compact computing\", \"simplest\", \"positive\"]]",
+    "response": "[[\"compact computing\", \"simplest\", \"positive\"]]"
+  },
+  {
+    "id": 269,
+    "input": "Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .",
+    "label": "[[\"ventilation system\", \"barely\", \"negative\"], [\"ventilation system\", \"hot\", \"negative\"], [\"watching videos\", \"simple\", \"neutral\"], [\"watching videos\", \"hot\", \"neutral\"], [\"playing steam games\", \"hot\", \"neutral\"]]",
+    "response": "[[\"ventilation system\", \"barely\", \"negative\"], [\"laptop\", \"very very hot\", \"negative\"], [\"lap\", \"impossible\", \"negative\"]]"
+  },
+  {
+    "id": 270,
+    "input": "Chatting with Acer support , I was advised the problem was corrupted operating system files .",
+    "label": "[[\"operating system files\", \"corrupted\", \"neutral\"]]",
+    "response": "[[\"Acer support\", \"advised\", \"neutral\"], [\"operating system files\", \"corrupted\", \"negative\"]]"
+  },
+  {
+    "id": 271,
+    "input": "It 's been a couple weeks since the purchase and I 'm struggle with finding the correct keys ( but that was expected ) .",
+    "label": "[[\"keys\", \"struggle\", \"neutral\"]]",
+    "response": "[[\"keys\", \"struggling with finding the correct\", \"negative\"]]"
+  },
+  {
+    "id": 272,
+    "input": "Many people complain about the new OS , and it 's urgent for Apple to fix it asap !",
+    "label": "[[\"OS\", \"complain\", \"negative\"]]",
+    "response": "[[\"new OS\", \"complain\", \"negative\"], [\"fix\", \"urgent\", \"negative\"]]"
+  },
+  {
+    "id": 273,
+    "input": "Now that I have upgraded to Lion I am much happier about MAC OS and have just bought an iMac for office .",
+    "label": "[[\"Lion\", \"upgraded\", \"positive\"], [\"MAC OS\", \"happier\", \"positive\"]]",
+    "response": "[[\"MAC OS\", \"much happier\", \"positive\"], [\"iMac\", \"bought\", \"positive\"]]  \n\n**Note:** While \"bought\" is an action rather than a traditional opinion term, the act of purchasing (especially following a positive experience with an upgrade) often implies a positive sentiment. However, if strict adherence to explicit opinion terms is required, the second entry might be excluded. The final answer above reflects a balance between implicit sentiment inference and task guidelines."
+  },
+  {
+    "id": 274,
+    "input": "User upgradeable RAM and HDD .",
+    "label": "[[\"RAM\", \"upgradeable\", \"positive\"], [\"HDD\", \"upgradeable\", \"positive\"]]",
+    "response": "[[[\"RAM\", \"user upgradeable\", \"positive\"], [\"HDD\", \"user upgradeable\", \"positive\"]]]"
+  },
+  {
+    "id": 275,
+    "input": "But I wanted the Pro for the CD/DVD player .",
+    "label": "[[\"CD/DVD player\", \"wanted\", \"positive\"]]",
+    "response": "[[\"CD/DVD player\", \"wanted\", \"positive\"]]"
+  },
+  {
+    "id": 276,
+    "input": "I was a little worry at first because I do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .",
+    "label": "[[\"os.x\", \"worry\", \"neutral\"]]",
+    "response": "[[\"os.x\", \"worry\", \"negative\"], [\"windows\", \"second nature\", \"positive\"]]"
+  },
+  {
+    "id": 277,
+    "input": "With the softwares supporting the use of other OS makes it much better .",
+    "label": "[[\"OS\", \"better\", \"neutral\"], [\"softwares\", \"better\", \"neutral\"]]",
+    "response": "[[\"OS support\", \"much better\", \"positive\"]]"
+  },
+  {
+    "id": 278,
+    "input": "I was considering buying the Air , but in reality , this one has a more powerful performance and seems much more convenient , even though it 's about .20 inch thicker and 2 lbs heavier .",
+    "label": "[[\"performance\", \"powerful\", \"positive\"]]",
+    "response": "[[\"performance\", \"more powerful\", \"positive\"], [\"convenience\", \"much more convenient\", \"positive\"], [\"thickness\", \"thicker\", \"negative\"], [\"weight\", \"heavier\", \"negative\"]]"
+  },
+  {
+    "id": 279,
+    "input": "At home and the office it gets plugged into an external 24 '' LCD screen , so built in screen size is not terribly important .",
+    "label": "[[\"built in screen size\", \"not terribly important\", \"neutral\"]]",
+    "response": "[[\"built in screen size\", \"not terribly important\", \"neutral\"]]"
+  },
+  {
+    "id": 280,
+    "input": "Just beware no DVD slot so when I went to install software I had on CD I could n't .",
+    "label": "[[\"DVD slot\", \"no\", \"neutral\"]]",
+    "response": "[[\"DVD slot\", \"no\", \"negative\"], [\"software installation\", \"couldn't\", \"negative\"]]"
+  },
+  {
+    "id": 281,
+    "input": "No Cd Rom in the new version there 's no way I 'm spending that kind of money on something has less features than the older version .",
+    "label": "[[\"Cd Rom\", \"No\", \"neutral\"], [\"features\", \"less\", \"negative\"]]",
+    "response": "[[\"Cd Rom\", \"no\", \"negative\"], [\"features\", \"less\", \"negative\"]]"
+  },
+  {
+    "id": 282,
+    "input": "the volume is really low to low for a laptopwas not expectin t volume to be so lowan i hate that about this computer",
+    "label": "[[\"volume\", \"low\", \"negative\"], [\"volume\", \"hate\", \"negative\"], [\"volume\", \"low\", \"negative\"], [\"volume\", \"hate\", \"negative\"]]",
+    "response": "[[\"volume\", \"low\", \"negative\"], [\"computer\", \"hate\", \"negative\"]]"
+  },
+  {
+    "id": 283,
+    "input": "and its not hard to accidentally bang it against something so i recommend getting a case to protect it .",
+    "label": "[[\"case\", \"recommend\", \"neutral\"]]",
+    "response": "[[\"it\", \"not hard to accidentally bang\", \"negative\"], [\"case\", \"recommend getting\", \"positive\"]]"
+  },
+  {
+    "id": 284,
+    "input": "I got this at an amazing price from Amazon and it arrived just in time .",
+    "label": "[[\"price\", \"amazing\", \"positive\"]]",
+    "response": "[[\"price\", \"amazing\", \"positive\"], [\"arrived\", \"just in time\", \"positive\"]]"
+  },
+  {
+    "id": 285,
+    "input": "Every time I log into the system after a few hours , there is this endlessly frustrating process that I have to go through .",
+    "label": "[[\"log into the system\", \"frustrating\", \"negative\"]]",
+    "response": "[[\"process\", \"endlessly frustrating\", \"negative\"]]"
+  },
+  {
+    "id": 286,
+    "input": "Put a SSD and use a 21 '' LED screen , this set up is silky smooth !",
+    "label": "[[\"set up\", \"silky smooth\", \"positive\"]]",
+    "response": "[[\"set up\", \"silky smooth\", \"positive\"]]"
+  },
+  {
+    "id": 287,
+    "input": "The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .",
+    "label": "[[\"case\", \"larger\", \"negative\"], [\"external power supply\", \"lack\", \"neutral\"]]",
+    "response": "[[\"size\", \"slightly larger\", \"neutral\"], [\"external power supply\", \"lack of\", \"positive\"]]"
+  },
+  {
+    "id": 288,
+    "input": "I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .",
+    "label": "[[\"pad\", \"hate\", \"negative\"], [\"works\", \"great\", \"positive\"]]",
+    "response": "[[\"pad\", \"hate\", \"negative\"], [\"wireless mouse\", \"works great\", \"positive\"], [\"keyboard\", \"need to get adjusted to\", \"negative\"]]"
+  },
+  {
+    "id": 289,
+    "input": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+    "label": "[[\"features\", \"wanted\", \"positive\"], [\"VGA port\", \"wanted\", \"neutral\"], [\"HDMI\", \"wanted\", \"neutral\"], [\"ethernet\", \"wanted\", \"neutral\"], [\"USB ports\", \"wanted\", \"neutral\"]]",
+    "response": "[[\"VGA port\", \"wanted\", \"positive\"], [\"HDMI\", \"wanted\", \"positive\"], [\"ethernet\", \"wanted\", \"positive\"], [\"3 USB ports\", \"wanted\", \"positive\"]]"
+  },
+  {
+    "id": 290,
+    "input": "The only thing I dislike about this laptop are the rubber pads found on the bottom of the computer for grip .",
+    "label": "[[\"rubber pads\", \"dislike\", \"negative\"]]",
+    "response": "[[\"rubber pads\", \"dislike\", \"negative\"]]"
+  },
+  {
+    "id": 291,
+    "input": "It 's a decent computer for the price and hopefully it will last a long time .",
+    "label": "[[\"price\", \"decent\", \"neutral\"]]",
+    "response": "[[\"computer\", \"decent\", \"positive\"], [\"price\", \"for the price\", \"positive\"], [\"longevity\", \"last a long time\", \"positive\"]]"
+  },
+  {
+    "id": 292,
+    "input": "The nicest part is the low heat output and ultra quiet operation .",
+    "label": "[[\"heat output\", \"nicest\", \"positive\"], [\"heat output\", \"low\", \"positive\"], [\"operation\", \"nicest\", \"positive\"], [\"operation\", \"quiet\", \"positive\"]]",
+    "response": "[[\"heat output\", \"low\", \"positive\"], [\"operation\", \"ultra quiet\", \"positive\"]]"
+  },
+  {
+    "id": 293,
+    "input": "this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .",
+    "label": "[[\"built-in mic\", \"not have\", \"neutral\"], [\"Mac OS 10.9\", \"not handle\", \"negative\"]]",
+    "response": "[[\"built-in mic\", \"does not have\", \"negative\"], [\"Mac OS 10.9\", \"does not handle external microphones properly\", \"negative\"]]"
+  },
+  {
+    "id": 294,
+    "input": "A lot of features and shortcuts on the MBP that I was never exposed to on a normal PC .",
+    "label": "[[\"features\", \"lot of\", \"neutral\"], [\"shortcuts\", \"lot of\", \"neutral\"]]",
+    "response": "[[\"features\", \"a lot of\", \"positive\"], [\"shortcuts\", \"a lot of\", \"positive\"]]"
+  },
+  {
+    "id": 295,
+    "input": "Was n't sure if I was going to like it much less love it so I went to a local best buy and played around with the IOS system on a Mac Pro and it was totally unique and different .",
+    "label": "[[\"IOS system\", \"unique\", \"positive\"], [\"IOS system\", \"different\", \"positive\"]]",
+    "response": "[[\"IOS system\", \"totally unique\", \"positive\"], [\"IOS system\", \"different\", \"positive\"]]"
+  },
+  {
+    "id": 296,
+    "input": "air has higher resolution but the fonts are small .",
+    "label": "[[\"resolution\", \"higher\", \"positive\"], [\"fonts\", \"small\", \"negative\"]]",
+    "response": "[[\"resolution\", \"higher\", \"positive\"], [\"fonts\", \"small\", \"negative\"]]"
+  },
+  {
+    "id": 297,
+    "input": "working with Mac is so much easier , so many cool features .",
+    "label": "[[\"working\", \"easier\", \"positive\"], [\"features\", \"cool\", \"positive\"]]",
+    "response": "[[[\"Mac\", \"easier\", \"positive\"], [\"features\", \"cool\", \"positive\"]]]"
+  },
+  {
+    "id": 298,
+    "input": "I like the brightness and adjustments .",
+    "label": "[[\"brightness\", \"like\", \"positive\"], [\"adjustments\", \"like\", \"positive\"]]",
+    "response": "[[\"brightness\", \"like\", \"positive\"], [\"adjustments\", \"like\", \"positive\"]]"
+  },
+  {
+    "id": 299,
+    "input": "I only wish this mac had a CD/DVD player built in .",
+    "label": "[[\"CD/DVD player\", \"wish\", \"neutral\"]]",
+    "response": "[[\"CD/DVD player built in\", \"wish\", \"negative\"]]"
+  },
+  {
+    "id": 300,
+    "input": "The only thing I miss is that my old Alienware laptop had backlit keys .",
+    "label": "[[\"backlit keys\", \"miss\", \"negative\"]]",
+    "response": "[[[\"backlit keys\", \"miss\", \"negative\"]]]"
+  },
+  {
+    "id": 301,
+    "input": "So happy with this purchase , I just wish it came with Microsoft Word .",
+    "label": "[[\"Microsoft Word\", \"wish\", \"neutral\"]]",
+    "response": "[[\"purchase\", \"happy\", \"positive\"], [\"Microsoft Word\", \"wish\", \"negative\"]]"
+  },
+  {
+    "id": 302,
+    "input": "It has enough memory and speed to run my business with all the flexibility that comes with a laptop .",
+    "label": "[[\"memory\", \"enough\", \"positive\"], [\"speed\", \"enough\", \"positive\"]]",
+    "response": "[[\"memory\", \"enough\", \"positive\"], [\"speed\", \"enough\", \"positive\"], [\"flexibility\", \"all the flexibility that comes with a laptop\", \"positive\"]]"
+  },
+  {
+    "id": 303,
+    "input": "The battery life is excellent , the display is excellent , and downloading apps is a breeze .",
+    "label": "[[\"battery life\", \"excellent\", \"positive\"], [\"display\", \"excellent\", \"positive\"], [\"downloading apps\", \"breeze\", \"positive\"]]",
+    "response": "[[\"battery life\", \"excellent\", \"positive\"], [\"display\", \"excellent\", \"positive\"], [\"downloading apps\", \"a breeze\", \"positive\"]]"
+  },
+  {
+    "id": 304,
+    "input": "The screen , the software and the smoothness of the operating system .",
+    "label": "[[\"operating system\", \"smoothness\", \"positive\"]]",
+    "response": "[[\"operating system\", \"smoothness\", \"positive\"]]"
+  },
+  {
+    "id": 305,
+    "input": "But with this laptop , the bass is very weak and the sound comes out sounding tinny .",
+    "label": "[[\"bass\", \"weak\", \"negative\"], [\"sound\", \"tinny\", \"negative\"]]",
+    "response": "[[ \"bass\", \"very weak\", \"negative\" ], [ \"sound\", \"tinny\", \"negative\" ]]"
+  },
+  {
+    "id": 306,
+    "input": "The built quality is really good , I was so Happy and excited about this Product .",
+    "label": "[[\"built quality\", \"good\", \"positive\"], [\"built quality\", \"Happy\", \"positive\"], [\"built quality\", \"excited\", \"positive\"]]",
+    "response": "[[\"built quality\", \"good\", \"positive\"], [\"Product\", \"Happy\", \"positive\"], [\"Product\", \"excited\", \"positive\"]]"
+  },
+  {
+    "id": 307,
+    "input": "I am loving the fast performance also .",
+    "label": "[[\"performance\", \"loving\", \"positive\"], [\"performance\", \"fast\", \"positive\"]]",
+    "response": "[[\"performance\", \"fast\", \"positive\"]]"
+  },
+  {
+    "id": 308,
+    "input": "Further , this Mac Mini has a sloppy Bluetooth interface ( courtesy of the Mac OS ) and the range is poor .",
+    "label": "[[\"Bluetooth interface\", \"sloppy\", \"negative\"], [\"Mac OS\", \"courtesy\", \"negative\"], [\"range\", \"poor\", \"negative\"]]",
+    "response": "[[\"Bluetooth interface\", \"sloppy\", \"negative\"], [\"range\", \"poor\", \"negative\"]]"
+  },
+  {
+    "id": 309,
+    "input": "My only gripe would be the need to add more RAM .",
+    "label": "[[\"RAM\", \"gripe\", \"negative\"]]",
+    "response": "[[\"RAM\", \"need to add more\", \"negative\"]]"
+  },
+  {
+    "id": 310,
+    "input": "Fine if you have a touch screen .",
+    "label": "[[\"touch screen\", \"Fine\", \"neutral\"]]",
+    "response": "[[[\"touch screen\", \"fine\", \"positive\"]]]"
+  },
+  {
+    "id": 311,
+    "input": "This by far beats any computer out on the market today built well , battery life AMAZING .",
+    "label": "[[\"built\", \"well\", \"positive\"], [\"battery life\", \"AMAZING\", \"positive\"]]",
+    "response": "[[\"computer\", \"beats any computer out on the market today\", \"positive\"], [\"build\", \"well\", \"positive\"], [\"battery life\", \"AMAZING\", \"positive\"]]"
+  },
+  {
+    "id": 312,
+    "input": "The OS is easy , and offers all kinds of surprises .",
+    "label": "[[\"OS\", \"easy\", \"positive\"], [\"OS\", \"surprises\", \"positive\"]]",
+    "response": "[[\"OS\", \"easy\", \"positive\"], [\"OS\", \"all kinds of surprises\", \"positive\"]]"
+  },
+  {
+    "id": 313,
+    "input": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 ( in PC enabled with USB3 ) I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+    "label": "[[\"Firewire 800\", \"veryimportant\", \"positive\"], [\"Firewire 800\", \"better\", \"positive\"], [\"MAC OS\", \"inferior\", \"negative\"]]",
+    "response": "[[\"Firewire 800\", \"works better\", \"positive\"], [\"MAC OS\", \"inferior\", \"negative\"]]"
+  },
+  {
+    "id": 314,
+    "input": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+    "label": "[[\"iTunes\", \"like\", \"positive\"], [\"security\", \"apparent\", \"positive\"], [\"graphics stuff\", \"nice\", \"positive\"]]",
+    "response": "[[\"iTunes\", \"like\", \"positive\"], [\"security\", \"apparent\", \"positive\"], [\"form factor\", \"Mini\", \"positive\"], [\"graphics\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 315,
+    "input": "After replacing the spinning hard disk with an ssd drive , my mac is just flying .",
+    "label": "[[\"ssd drive\", \"flying\", \"positive\"]]",
+    "response": "[[\"mac\", \"flying\", \"positive\"], [\"ssd drive\", \"replacing\", \"positive\"], [\"spinning hard disk\", \"replacing\", \"negative\"]]  \n\nWait, but earlier reasoning suggested that \"replacing\" isn't an opinion term. Let me check again. The user's instruction says to extract opinion terms from the text. \"Replacing\" is an action, not an opinion. So including \"replacing\" as an opinion term might not be correct. Let me adjust.\n\nThe correct answer should only include the explicit opinion term \"flying\" about the Mac. The other aspects (ssd and hard disk) aren't directly associated with an opinion term in the text. Therefore, the correct answer is:\n\n[[[\"mac\", \"flying\", \"positive\"]]]\n\nBut maybe the aspect is \"ssd drive\" with the opinion implied through the result. However, without an explicit opinion term, it's not extracted. So the final answer is:\n\n[[\"mac\", \"flying\", \"positive\"]]"
+  },
+  {
+    "id": 316,
+    "input": "I know some people complained about HDMI issues but they released a firmware patch to address that issue .",
+    "label": "[[\"HDMI\", \"complained\", \"neutral\"]]",
+    "response": "[[[\"HDMI\", \"complained\", \"negative\"], [\"firmware patch\", \"released to address\", \"positive\"]]"
+  },
+  {
+    "id": 317,
+    "input": "With the needs of a professional photographer I generally need to keep up with the best specs .",
+    "label": "[[\"specs\", \"best\", \"neutral\"]]",
+    "response": "[[\"specs\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 318,
+    "input": "packing and everything was perfect",
+    "label": "[[\"packing\", \"perfect\", \"positive\"]]",
+    "response": "[[\"packing\", \"perfect\", \"positive\"], [\"everything\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 319,
+    "input": "I called Toshiba where I gave them the serial number and they informed me that they were having issues with the mother boards .",
+    "label": "[[\"mother boards\", \"issues\", \"neutral\"]]",
+    "response": "[[\"mother boards\", \"having issues\", \"negative\"], [\"customer service\", \"informed\", \"neutral\"]]"
+  },
+  {
+    "id": 320,
+    "input": "I seem to be having repeat problems as the Mother Board in this one is diagnosed as faulty , related to the graphics card .",
+    "label": "[[\"Mother Board\", \"faulty\", \"negative\"], [\"graphics card\", \"faulty\", \"negative\"]]",
+    "response": "[[\"Mother Board\", \"faulty\", \"negative\"], [\"Mother Board\", \"repeat problems\", \"negative\"]]"
+  },
+  {
+    "id": 321,
+    "input": "It also comes with 4G of RAM but if you 're like me you want to max that out so I immediately put 8G of RAM in her and I 've never used a computer that performs better .",
+    "label": "[[\"performs\", \"better\", \"positive\"]]",
+    "response": "[[\"RAM\", \"max that out\", \"negative\"], [\"performs\", \"better\", \"positive\"]]"
+  },
+  {
+    "id": 322,
+    "input": "This computer is also awesome for my sons virtual home schooling .",
+    "label": "[[\"virtual home schooling\", \"awesome\", \"positive\"]]",
+    "response": "[[\"computer\", \"awesome\", \"positive\"]]"
+  },
+  {
+    "id": 323,
+    "input": "Cost is more as compared to other brands .",
+    "label": "[[\"Cost\", \"more\", \"negative\"]]",
+    "response": "[[\"Cost\", \"more\", \"negative\"]]"
+  },
+  {
+    "id": 324,
+    "input": "also ... - excellent operating system -- size and weight for optimal mobility -- excellent durability of the battery -- the functions provided by the trackpad is unmatched by any other brand-",
+    "label": "[[\"operating system\", \"excellent\", \"positive\"], [\"size\", \"excellent\", \"positive\"], [\"weight\", \"excellent\", \"positive\"], [\"mobility\", \"optimal\", \"positive\"], [\"durability of the battery\", \"excellent\", \"positive\"], [\"functions provided by the trackpad\", \"unmatched\", \"positive\"]]",
+    "response": "[[\"operating system\", \"excellent\", \"positive\"], [\"size and weight\", \"optimal mobility\", \"positive\"], [\"battery durability\", \"excellent\", \"positive\"], [\"trackpad functions\", \"unmatched by any other brand\", \"positive\"]]"
+  },
+  {
+    "id": 325,
+    "input": "This hardware seems to be better than the iMac in that it is n't $ 1400 and smaller .",
+    "label": "[[\"hardware\", \"better\", \"positive\"]]",
+    "response": "[[[\"price\", \"not $1400\", \"positive\"], [\"size\", \"smaller\", \"positive\"]]"
+  },
+  {
+    "id": 326,
+    "input": "I 've had it for about 2 months now and found no issues with software or updates .",
+    "label": "[[\"software\", \"no issues\", \"neutral\"], [\"updates\", \"no issues\", \"neutral\"]]",
+    "response": "[[[\"software\", \"no issues\", \"positive\"], [\"updates\", \"no issues\", \"positive\"]]]"
+  },
+  {
+    "id": 327,
+    "input": "the latest version does not have a disc drive .",
+    "label": "[[\"disc drive\", \"not have\", \"neutral\"]]",
+    "response": "[[\"disc drive\", \"does not have\", \"negative\"]]"
+  },
+  {
+    "id": 328,
+    "input": "Screen - although some people might complain about low res which I think is ridiculous .",
+    "label": "[[\"Screen\", \"complain\", \"positive\"], [\"Screen\", \"ridiculous\", \"positive\"], [\"res\", \"low\", \"positive\"], [\"res\", \"ridiculous\", \"positive\"]]",
+    "response": "[[\"screen\", \"low res\", \"positive\"]] \n\nThe reviewer dismisses complaints about \"low res\" as ridiculous, implying they view the screen's resolution positively. The aspect is \"screen,\" the discussed opinion term is \"low res,\" and the sentiment is positive because the reviewer rejects the negative critique."
+  }
+]

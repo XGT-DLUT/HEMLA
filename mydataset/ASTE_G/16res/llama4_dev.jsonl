@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 1,
+    "input": "The food is very average ... the Thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .",
+    "label": "[[\"food\", \"average\", \"negative\"], [\"Thai fusion stuff\", \"too sweet\", \"negative\"]]",
+    "response": "[[\"food\", \"average\", \"neutral\"], [\"Thai fusion stuff\", \"too sweet\", \"negative\"]]"
+  },
+  {
+    "id": 2,
+    "input": "We went around 9:30 on a Friday and it had died down a bit by then so the service was great !",
+    "label": "[[\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 3,
+    "input": "we love th pink pony .",
+    "label": "[[\"pink pony\", \"love\", \"positive\"]]",
+    "response": "[[\"pink pony\", \"love\", \"positive\"]]"
+  },
+  {
+    "id": 4,
+    "input": "the food is decent .",
+    "label": "[[\"food\", \"decent\", \"neutral\"]]",
+    "response": "[[\"food\", \"decent\", \"neutral\"]]"
+  },
+  {
+    "id": 5,
+    "input": "however , it 's the service that leaves a bad taste in my mouth .",
+    "label": "[[\"service\", \"bad taste\", \"negative\"]]",
+    "response": "[[\"service\", \"bad\", \"negative\"]]"
+  },
+  {
+    "id": 6,
+    "input": "i happen to have a policy that goes along with a little bit of self-respect , which includes not letting a waiter intimidate me , i.e . make me feel bad asking for trivialities like water , or the check .",
+    "label": "[[\"waiter\", \"bad\", \"negative\"]]",
+    "response": "[[\"waiter\", \"intimidate\", \"negative\"]]"
+  },
+  {
+    "id": 7,
+    "input": "I tend to judge a sushi restaurant by its sea urchin , which was heavenly at sushi rose .",
+    "label": "[[\"sea urchin\", \"heavenly\", \"positive\"]]",
+    "response": "[[\"sea urchin\", \"heavenly\", \"positive\"]]"
+  },
+  {
+    "id": 8,
+    "input": "The sushi seemed pretty fresh and was adequately proportioned .",
+    "label": "[[\"sushi\", \"fresh\", \"positive\"], [\"sushi\", \"proportioned\", \"positive\"]]",
+    "response": "[[\"sushi\", \"fresh\", \"positive\"], [\"sushi\", \"proportioned\", \"positive\"]]"
+  },
+  {
+    "id": 9,
+    "input": "In the evening , this place attracted a well dressed , with it , NY crowd .",
+    "label": "[[\"crowd\", \"attracted\", \"positive\"]]",
+    "response": "[[\"crowd\", \"well dressed\", \"positive\"]]"
+  },
+  {
+    "id": 10,
+    "input": "The food was well prepared and the service impecable .",
+    "label": "[[\"food\", \"well prepared\", \"positive\"], [\"service\", \"impecable\", \"positive\"]]",
+    "response": "[[\"food\", \"well prepared\", \"positive\"], [\"service\", \"impecable\", \"positive\"]]"
+  },
+  {
+    "id": 11,
+    "input": "The Prix Fixe menu is worth every penny and you get more than enough ( both in quantity AND quality ) .",
+    "label": "[[\"Prix Fixe menu\", \"worth\", \"positive\"]]",
+    "response": "[[\"Prix Fixe menu\", \"worth every penny\", \"positive\"], [\"quantity\", \"more than enough\", \"positive\"], [\"quality\", \"more than enough\", \"positive\"]]"
+  },
+  {
+    "id": 12,
+    "input": "The kitchen however , is almost always slow .",
+    "label": "[[\"kitchen\", \"slow\", \"negative\"]]",
+    "response": "[[\"kitchen\", \"slow\", \"negative\"]]"
+  },
+  {
+    "id": 13,
+    "input": "Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening .",
+    "label": "[[\"service\", \"great\", \"positive\"], [\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"price\", \"reasonable\", \"positive\"]]"
+  },
+  {
+    "id": 14,
+    "input": "The pizza was delivered cold and the cheese was n't even fully melted !",
+    "label": "[[\"pizza\", \"cold\", \"negative\"], [\"cheese\", \"was n't even fully melted\", \"negative\"]]",
+    "response": "[[\"pizza\", \"cold\", \"negative\"], [\"cheese\", \"n't even fully melted\", \"negative\"]]"
+  },
+  {
+    "id": 15,
+    "input": "Yes , they use fancy ingredients , but even fancy ingredients do n't make for good pizza unless someone knows how to get the crust right .",
+    "label": "[[\"ingredients\", \"fancy\", \"positive\"], [\"pizza\", \"good\", \"negative\"]]",
+    "response": "[[\"crust\", \"right\", \"positive\"], [\"ingredients\", \"fancy\", \"neutral\"]] \n\nReasoning: \n- The review mentions \"crust\" and describes it as needing to be \"right\" to make good pizza, implying a positive sentiment towards a correctly made crust.\n- The term \"fancy ingredients\" is mentioned, but the sentiment towards these ingredients is neutral because the reviewer is simply stating a fact about their use without directly praising or criticizing them. The phrase \"fancy ingredients don't make for good pizza\" suggests that the mere use of fancy ingredients is not enough, but it doesn't inherently assign a negative sentiment to the ingredients themselves. \n\nTherefore, the response is based on the analysis of the aspect terms (\"crust\" and \"ingredients\"), their corresponding opinion terms (\"right\" and \"fancy\"), and the sentiment polarity associated with each aspect term."
+  },
+  {
+    "id": 16,
+    "input": "Best Pastrami I ever had and great portion without being ridiculous .",
+    "label": "[[\"Pastrami\", \"Best\", \"positive\"], [\"portion\", \"great\", \"positive\"]]",
+    "response": "[[\"Pastrami\", \"Best\", \"positive\"], [\"portion\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 17,
+    "input": "My wife had the fried shrimp which are huge and loved it .",
+    "label": "[[\"fried shrimp\", \"huge\", \"positive\"], [\"fried shrimp\", \"loved\", \"positive\"]]",
+    "response": "[[\"fried shrimp\", \"huge\", \"positive\"], [\"fried shrimp\", \"loved\", \"positive\"]]"
+  },
+  {
+    "id": 18,
+    "input": "This place is the most Japanese it can ever get .",
+    "label": "[[\"place\", \"Japanese\", \"positive\"]]",
+    "response": "[[\"place\", \"most Japanese\", \"positive\"]]"
+  },
+  {
+    "id": 19,
+    "input": "Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere .",
+    "label": "[[\"Leon\", \"casual\", \"positive\"], [\"Leon\", \"hip\", \"positive\"], [\"specials\", \"good\", \"positive\"], [\"atmosphere\", \"warm\", \"positive\"], [\"atmosphere\", \"lively\", \"positive\"], [\"French bistro fare\", \"well prepared\", \"positive\"]]",
+    "response": "[[\"atmosphere\", \"warm and lively\", \"positive\"], [\"fare\", \"well prepared\", \"positive\"], [\"specials\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 20,
+    "input": "The food was bland oily .",
+    "label": "[[\"food\", \"bland oily\", \"negative\"]]",
+    "response": "[[\"food\", \"bland\", \"negative\"], [\"food\", \"oily\", \"negative\"]]"
+  },
+  {
+    "id": 21,
+    "input": "I went there for lunch and it was not as good as I expected from the reviews I read .",
+    "label": "[[\"lunch\", \"not as good as I expected\", \"negative\"]]",
+    "response": "[[\"food or service\", \"not as good\", \"negative\"]]"
+  },
+  {
+    "id": 22,
+    "input": "This place is great .",
+    "label": "[[\"place\", \"great\", \"positive\"]]",
+    "response": "[[\"place\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 23,
+    "input": "Great pizza and fantastic service .",
+    "label": "[[\"pizza\", \"Great\", \"positive\"], [\"service\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"pizza\", \"Great\", \"positive\"], [\"service\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 24,
+    "input": "The place is small and cramped but the food is fantastic .",
+    "label": "[[\"place\", \"small\", \"negative\"], [\"place\", \"cramped\", \"negative\"], [\"food\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"place\", \"small\", \"negative\"], [\"place\", \"cramped\", \"negative\"], [\"food\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 25,
+    "input": "Moules were excellent , lobster ravioli was VERY salty !",
+    "label": "[[\"Moules\", \"excellent\", \"positive\"], [\"lobster ravioli\", \"salty\", \"negative\"]]",
+    "response": "[[\"Moules\", \"excellent\", \"positive\"], [\"lobster ravioli\", \"salty\", \"negative\"]]"
+  },
+  {
+    "id": 26,
+    "input": "Service is not exactly five star , but thats not really a big deal .",
+    "label": "[[\"Service\", \"not exactly five star\", \"neutral\"]]",
+    "response": "[[\"Service\", \"not exactly five star\", \"negative\"]]"
+  },
+  {
+    "id": 27,
+    "input": "Downstairs lounge is always a good attraction",
+    "label": "[[\"Downstairs lounge\", \"good attraction\", \"positive\"]]",
+    "response": "[[\"downstairs lounge\", \"good attraction\", \"positive\"]]"
+  },
+  {
+    "id": 28,
+    "input": "The staff is incredibly helpful and attentive .",
+    "label": "[[\"staff\", \"helpful\", \"positive\"], [\"staff\", \"attentive\", \"positive\"]]",
+    "response": "[[\"staff\", \"helpful\", \"positive\"], [\"staff\", \"attentive\", \"positive\"]]"
+  },
+  {
+    "id": 29,
+    "input": "Rude service , medicore food ... there are tons of restaurants in NY ... stay away from this one",
+    "label": "[[\"service\", \"Rude\", \"negative\"], [\"food\", \"medicore\", \"neutral\"]]",
+    "response": "[[\"service\", \"Rude\", \"negative\"], [\"food\", \"medicore\", \"negative\"]]"
+  },
+  {
+    "id": 30,
+    "input": "I had a great time at Jekyll and Hyde !",
+    "label": "[[\"Jekyll and Hyde\", \"great time\", \"positive\"]]",
+    "response": "[[\"Jekyll and Hyde\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 31,
+    "input": "The food was good too .",
+    "label": "[[\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 32,
+    "input": "The tuna and wasabe potatoes are excellent .",
+    "label": "[[\"tuna\", \"excellent\", \"positive\"], [\"wasabe potatoes\", \"excellent\", \"positive\"]]",
+    "response": "[[\"tuna\", \"excellent\", \"positive\"], [\"wasabe potatoes\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 33,
+    "input": "Great service , great food .",
+    "label": "[[\"service\", \"Great\", \"positive\"], [\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"great\", \"positive\"], [\"food\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 34,
+    "input": "The pizza is delicious - they use fresh mozzarella instead of the cheap , frozen , shredded cheese common to most pizzaria 's .",
+    "label": "[[\"pizza\", \"delicious\", \"positive\"]]",
+    "response": "[[\"pizza\", \"delicious\", \"positive\"], [\"mozzarella\", \"fresh\", \"positive\"], [\"cheese\", \"cheap\", \"negative\"], [\"cheese\", \"frozen\", \"negative\"], [\"cheese\", \"shredded\", \"negative\"]]"
+  },
+  {
+    "id": 35,
+    "input": "He served me an Uni Hand roll , which I never had before , and let me tell you ... IT WAS HEAVEN !",
+    "label": "[[\"Uni Hand roll\", \"HEAVEN\", \"positive\"]]",
+    "response": "[[\"Uni Hand roll\", \"HEAVEN\", \"positive\"]]"
+  },
+  {
+    "id": 36,
+    "input": "My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary , and to our surprise it was fantastic .",
+    "label": "[[\"Jekyll and Hyde Pub\", \"great\", \"positive\"], [\"Jekyll and Hyde Pub\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"Jekyll and Hyde Pub\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 37,
+    "input": "This was my frist time at Cafe St. Bart 's and I must say how delicious the food and the service was .",
+    "label": "[[\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"], [\"service\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 38,
+    "input": "I have to highly recommend the lobster roll - not to much mayo ; you can tell it was a fresh lobster .",
+    "label": "[[\"lobster roll\", \"recommend\", \"positive\"], [\"lobster\", \"fresh\", \"positive\"]]",
+    "response": "[[\"lobster roll\", \"highly recommend\", \"positive\"], [\"mayo\", \"not to much\", \"positive\"], [\"lobster\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 39,
+    "input": "All the staff is absolutely professional ! !",
+    "label": "[[\"staff\", \"professional\", \"positive\"]]",
+    "response": "[[\"staff\", \"professional\", \"positive\"]]"
+  },
+  {
+    "id": 40,
+    "input": "This restaurant was way overhyped .",
+    "label": "[[\"restaurant\", \"overhyped\", \"negative\"]]",
+    "response": "[[\"restaurant\", \"overhyped\", \"negative\"]]"
+  },
+  {
+    "id": 41,
+    "input": "It 's boring on the inside , and our sushi was pretty below average ... the tuna was soggy and the other rolls had no flavor .",
+    "label": "[[\"sushi\", \"below average\", \"negative\"], [\"tuna\", \"soggy\", \"negative\"], [\"rolls\", \"no flavor\", \"negative\"]]",
+    "response": "To analyze the given review and extract the aspect terms, opinion terms, and their corresponding sentiment polarities, let's break down the review:\n\n\"It 's boring on the inside , and our sushi was pretty below average ... the tuna was soggy and the other rolls had no flavor .\"\n\n1. **\"It 's boring on the inside\"** - Here, \"inside\" can be considered as an aspect term related to the ambiance or interior of the place. The opinion term is \"boring,\" and the sentiment polarity is negative because \"boring\" has a negative connotation.\n\n2. **\"our sushi was pretty below average\"** - The aspect term is \"sushi,\" the opinion term is \"below average,\" and the sentiment polarity is negative since being \"below average\" is not a positive attribute in this context.\n\n3. **\"the tuna was soggy\"** - The aspect term is \"tuna,\" the opinion term is \"soggy,\" and the sentiment"
+  },
+  {
+    "id": 42,
+    "input": "Their pad penang is delicious and everything else is fantastic .",
+    "label": "[[\"pad penang\", \"delicious\", \"positive\"]]",
+    "response": "[[\"pad penang\", \"delicious\", \"positive\"], [\"everything else\", \"fantastic\", \"positive\"]]"
+  },
+  {
+    "id": 43,
+    "input": "The price is reasonable although the service is poor .",
+    "label": "[[\"service\", \"poor\", \"negative\"]]",
+    "response": "[[\"price\", \"reasonable\", \"positive\"], [\"service\", \"poor\", \"negative\"]]"
+  },
+  {
+    "id": 44,
+    "input": "The spicy Tuna roll is huge and probably the best that I 've had at this price range .",
+    "label": "[[\"spicy Tuna roll\", \"huge\", \"positive\"], [\"spicy Tuna roll\", \"best\", \"positive\"]]",
+    "response": "[[\"Tuna roll\", \"huge\", \"positive\"], [\"Tuna roll\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 45,
+    "input": "The staff was accomodating , the food was absolutely delicious and the place is lovely .",
+    "label": "[[\"staff\", \"accomodating\", \"positive\"], [\"food\", \"delicious\", \"positive\"], [\"place\", \"lovely\", \"positive\"]]",
+    "response": "[[\"staff\", \"accomodating\", \"positive\"], [\"food\", \"delicious\", \"positive\"], [\"place\", \"lovely\", \"positive\"]]"
+  },
+  {
+    "id": 46,
+    "input": "The food is authentic Italian - delicious !",
+    "label": "[[\"food\", \"authentic Italian\", \"positive\"], [\"food\", \"delicious\", \"positive\"]]",
+    "response": "[[\"food\", \"delicious\", \"positive\"], [\"food\", \"authentic\", \"positive\"]]"
+  },
+  {
+    "id": 47,
+    "input": "I 'm still mad that i had to pay for lousy food .",
+    "label": "[[\"food\", \"lousy\", \"negative\"]]",
+    "response": "[[\"food\", \"lousy\", \"negative\"]]"
+  },
+  {
+    "id": 48,
+    "input": "Very affordable and excellent ambient !",
+    "label": "[[\"ambient\", \"affordable\", \"positive\"], [\"ambient\", \"excellent\", \"positive\"]]",
+    "response": "[[\"price\", \"affordable\", \"positive\"], [\"ambient\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 49,
+    "input": "We wo n't go to this place again for a good meal .",
+    "label": "[[\"meal\", \"good\", \"negative\"]]",
+    "response": "[[\"meal\", \"good\", \"negative\"]] \n\nReasoning: The review states \"We wo n't go to this place again for a good meal\", implying that the meal at the place is not good. Hence, the aspect term is \"meal\", the opinion term is \"good\", and the sentiment polarity is \"negative\" because it's used in a negative context (i.e., \"wo n't ... for a good meal\"). \n\nSo the output is [[\"meal\", \"good\", \"negative\"]]."
+  },
+  {
+    "id": 50,
+    "input": "However , I think this place is a good hang out spot .",
+    "label": "[[\"place\", \"good\", \"positive\"]]",
+    "response": "[[\"place\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 51,
+    "input": "Cute place , nice wait staff but would never go there again .",
+    "label": "[[\"wait staff\", \"nice\", \"positive\"], [\"place\", \"Cute\", \"negative\"]]",
+    "response": "[[\"place\", \"Cute\", \"positive\"], [\"wait staff\", \"nice\", \"positive\"], [\"place\", \"would never go there again\", \"negative\"]]"
+  },
+  {
+    "id": 52,
+    "input": "Someone else recommended the dessert - we also left that .",
+    "label": "[[\"dessert\", \"recommended\", \"negative\"]]",
+    "response": "[[\"dessert\", \"recommended\", \"positive\"]]"
+  },
+  {
+    "id": 53,
+    "input": "I 've never had bad service and the fish is fresh and delicious .",
+    "label": "[[\"service\", \"never had bad\", \"positive\"], [\"fish\", \"fresh\", \"positive\"], [\"fish\", \"delicious\", \"positive\"]]",
+    "response": "[[\"service\", \"bad\", \"negative\"], [\"fish\", \"fresh\", \"positive\"], [\"fish\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 54,
+    "input": "The place is so cool and the service is prompt and curtious .",
+    "label": "[[\"service\", \"prompt\", \"positive\"], [\"service\", \"curtious\", \"positive\"], [\"place\", \"cool\", \"positive\"]]",
+    "response": "[[\"place\", \"cool\", \"positive\"], [\"service\", \"prompt\", \"positive\"], [\"service\", \"curtious\", \"positive\"]]"
+  },
+  {
+    "id": 55,
+    "input": "My boyfriend had the New England Chowder it was good but I think the award should go to the Lobster Bisque .",
+    "label": "[[\"New England Chowder\", \"good\", \"positive\"], [\"Lobster Bisque\", \"award\", \"positive\"]]",
+    "response": "[[\"New England Chowder\", \"good\", \"positive\"], [\"Lobster Bisque\", \"award\", \"positive\"]]"
+  },
+  {
+    "id": 56,
+    "input": "The characters really make for an enjoyable experience .",
+    "label": "[[\"characters\", \"enjoyable\", \"positive\"]]",
+    "response": "[[\"characters\", \"enjoyable\", \"positive\"]]"
+  },
+  {
+    "id": 57,
+    "input": "Food was good not great not worth the wait or another visit",
+    "label": "[[\"Food\", \"good not great not worth the wait or another visit\", \"neutral\"]]",
+    "response": "[[\"Food\", \"good\", \"positive\"], [\"Food\", \"not great\", \"negative\"], [\"Food\", \"not worth the wait\", \"negative\"], [\"Food\", \"another visit\", \"negative\"]] is not entirely correct because \"another visit\" is not directly related to the food. A more accurate interpretation would be: [[\"Food\", \"good\", \"positive\"], [\"Food\", \"not great\", \"negative\"], [\"wait\", \"not worth\", \"negative\"], [\"visit\", \"not worth\", \"negative\"]]. However, a more nuanced analysis directly from the given sentence would be: [[\"Food\", \"good\", \"positive\"], [\"Food\", \"not great\", \"negative\"], [\"wait\", \"not worth\", \"negative\"], [\"visit\", \"not worth\", \"negative\"]]. A more suitable extraction is: [[\"Food\", \"good\", \"positive\"], [\"Food\", \"not great\", \"negative\"], [\"wait\", \"not worth\", \"negative\"]]. Since \"another visit"
+  },
+  {
+    "id": 58,
+    "input": "The lox is always fresh too .",
+    "label": "[[\"lox\", \"fresh\", \"positive\"]]",
+    "response": "[[\"lox\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 59,
+    "input": "The service is ok , some of the people did n't get what they asked for .",
+    "label": "[[\"service\", \"ok\", \"neutral\"]]",
+    "response": "[[\"service\", \"ok\", \"neutral\"], [\"people\", \"did n't get what they asked for\", \"negative\"]]"
+  },
+  {
+    "id": 60,
+    "input": "The wine the service was very good too .",
+    "label": "[[\"wine\", \"good\", \"positive\"], [\"service\", \"good\", \"positive\"]]",
+    "response": "[[\"service\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 61,
+    "input": "Great staff .",
+    "label": "[[\"staff\", \"Great\", \"positive\"]]",
+    "response": "[[\"staff\", \"Great\", \"positive\"]]"
+  },
+  {
+    "id": 62,
+    "input": "The hostess and the waitress were incredibly rude and did everything they could to rush us out .",
+    "label": "[[\"hostess\", \"rude\", \"negative\"], [\"waitress\", \"rude\", \"negative\"]]",
+    "response": "To solve this problem, we will analyze the given review: \"The hostess and the waitress were incredibly rude and did everything they could to rush us out.\" We need to identify the aspect terms (the entities or aspects being commented on), the opinion terms (the words or phrases expressing an opinion), and determine the sentiment polarity (positive, negative, or neutral) associated with each aspect term.\n\n1. **Identify Aspect Terms and Opinion Terms:**\n   - Aspect Terms: \"hostess\" and \"waitress\" are the entities being discussed.\n   - Opinion Terms: \"incredibly rude\" is the opinion expressed about both \"hostess\" and \"waitress\". The phrase \"did everything they could to rush us out\" also expresses a negative opinion about their service.\n\n2. **Determine Sentiment Polarity:**\n   - The sentiment expressed towards \"hostess\" and \"waitress\" through the opinion term \"incredibly rude\" is negative.\n   - The action \"did"
+  },
+  {
+    "id": 63,
+    "input": "This place is always packed .",
+    "label": "[[\"place\", \"packed\", \"neutral\"]]",
+    "response": "[[\"crowd\", \"packed\", \"positive\"]] \n\nReasoning: The review states \"This place is always packed.\" Here, \"packed\" is an opinion term expressing a positive sentiment towards the aspect \"crowd\" (implied by the context, as \"packed\" typically refers to a large number of people), indicating that the reviewer views the high volume of customers as a positive aspect. Therefore, the sentiment polarity is positive. \n\nSo the output is [[\"crowd\", \"packed\", \"positive\"]]."
+  },
+  {
+    "id": 64,
+    "input": "and yes Dal Bukhara is so dam good and so are all the kababs .",
+    "label": "[[\"kababs\", \"good\", \"positive\"], [\"Dal Bukhara\", \"good\", \"positive\"]]",
+    "response": "[[\"Dal Bukhara\", \"dam good\", \"positive\"], [\"kababs\", \"dam good\", \"positive\"]]"
+  },
+  {
+    "id": 65,
+    "input": "I have been to Roth 's twice and both times were very disappointing .",
+    "label": "[[\"Roth 's\", \"disappointing\", \"negative\"]]",
+    "response": "[[\"Roth\", \"disappointing\", \"negative\"]]"
+  },
+  {
+    "id": 66,
+    "input": "Chennai Garden is my favorite Indian restaurant in the city .",
+    "label": "[[\"Chennai Garden\", \"favorite\", \"positive\"]]",
+    "response": "[[\"Chennai Garden\", \"favorite\", \"positive\"]]"
+  },
+  {
+    "id": 67,
+    "input": "They have authentic Indian at amazin prices .",
+    "label": "[[\"Indian\", \"authentic\", \"positive\"]]",
+    "response": "[[\"prices\", \"amazin\", \"positive\"]]"
+  },
+  {
+    "id": 68,
+    "input": "It 's a rather cramped and busy restaurant and it closes early .",
+    "label": "[[\"restaurant\", \"cramped\", \"negative\"], [\"restaurant\", \"busy\", \"negative\"]]",
+    "response": "[[\"restaurant\", \"cramped\", \"negative\"], [\"restaurant\", \"busy\", \"negative\"]]"
+  },
+  {
+    "id": 69,
+    "input": "Food is excellent .",
+    "label": "[[\"Food\", \"excellent\", \"positive\"]]",
+    "response": "[[\"Food\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 70,
+    "input": "Fish is so very fresh .",
+    "label": "[[\"Fish\", \"fresh\", \"positive\"]]",
+    "response": "[[\"Fish\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 71,
+    "input": "Love YUKA .",
+    "label": "[[\"YUKA\", \"Love\", \"positive\"]]",
+    "response": "[[\"YUKA\", \"Love\", \"positive\"]]"
+  },
+  {
+    "id": 72,
+    "input": "The food is so cheap and the waiters are nice .",
+    "label": "[[\"food\", \"cheap\", \"positive\"], [\"waiters\", \"nice\", \"positive\"]]",
+    "response": "[[\"food\", \"cheap\", \"positive\"], [\"waiters\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 73,
+    "input": "Be sure to try the seasonal , and always delicious , specials .",
+    "label": "[[\"specials\", \"try\", \"positive\"], [\"specials\", \"seasonal\", \"positive\"], [\"specials\", \"delicious\", \"positive\"]]",
+    "response": "[[\"specials\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 74,
+    "input": "Salads are a delicious way to begin the meal .",
+    "label": "[[\"Salads\", \"delicious\", \"positive\"]]",
+    "response": "[[\"Salads\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 75,
+    "input": "I would definitely recommend SEA if you like thai cuisine !",
+    "label": "[[\"thai cuisine\", \"like\", \"positive\"]]",
+    "response": "[[\"SEA\", \"recommend\", \"positive\"], [\"cuisine\", \"thai\", \"neutral\"]] is not a good response since \"thai\" is not an opinion term. Here is the correct response: [[\"SEA\", \"definitely recommend\", \"positive\"]]"
+  },
+  {
+    "id": 76,
+    "input": "I absolutely Loved this place .",
+    "label": "[[\"place\", \"Loved\", \"positive\"]]",
+    "response": "[[\"this place\", \"Loved\", \"positive\"]]"
+  },
+  {
+    "id": 77,
+    "input": "Everything was wonderful ; food , drinks , staff , mileau .",
+    "label": "[[\"food\", \"wonderful\", \"positive\"], [\"drinks\", \"wonderful\", \"positive\"], [\"staff\", \"wonderful\", \"positive\"], [\"mileau\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"food\", \"wonderful\", \"positive\"], [\"drinks\", \"wonderful\", \"positive\"], [\"staff\", \"wonderful\", \"positive\"], [\"mileau\", \"wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 78,
+    "input": "Nice Family owned traditional restaurant .",
+    "label": "[[\"restaurant\", \"traditional\", \"positive\"]]",
+    "response": "[[\"restaurant\", \"Nice\", \"positive\"], [\"restaurant\", \"Family owned\", \"positive\"], [\"restaurant\", \"traditional\", \"positive\"]]"
+  },
+  {
+    "id": 79,
+    "input": "I also ordered the Change Mojito , which was out of this world .",
+    "label": "[[\"Change Mojito\", \"out of this world\", \"positive\"]]",
+    "response": "[[\"Change Mojito\", \"out of this world\", \"positive\"]]"
+  },
+  {
+    "id": 80,
+    "input": "The place was nice and calm .",
+    "label": "[[\"place\", \"nice\", \"positive\"], [\"place\", \"calm\", \"positive\"]]",
+    "response": "[[\"place\", \"nice\", \"positive\"], [\"place\", \"calm\", \"positive\"]]"
+  },
+  {
+    "id": 81,
+    "input": "Consequently , their burgers fell apart in their hands and made such a mess that they did'nt feel like finishing them .",
+    "label": "[[\"burgers\", \"fell apart\", \"negative\"]]",
+    "response": "[[\"burgers\", \"fell apart\", \"negative\"]]"
+  },
+  {
+    "id": 82,
+    "input": "I had a huge pastrami sandwich on a roll .",
+    "label": "[[\"pastrami sandwich on a roll\", \"huge\", \"neutral\"]]",
+    "response": "[[\"pastrami sandwich\", \"huge\", \"positive\"]]"
+  },
+  {
+    "id": 83,
+    "input": "THe back garden sitting area is very pleasant , where you can see their personal herb garden .",
+    "label": "[[\"back garden sitting area\", \"pleasant\", \"positive\"]]",
+    "response": "[[\"back garden sitting area\", \"pleasant\", \"positive\"], [\"herb garden\", \"personal\", \"neutral\"]]"
+  },
+  {
+    "id": 84,
+    "input": "We ended our great experience by having Gulab Jamun ( dessert ) recommended by the waiter .",
+    "label": "[[\"Gulab Jamun ( dessert )\", \"great\", \"positive\"]]",
+    "response": "[[\"Gulab Jamun\", \"great\", \"positive\"]] is not entirely correct because \"great\" is describing \"experience\", not \"Gulab Jamun\". Here is the correct response:\n\n[[\"experience\", \"great\", \"positive\"]] \n\nUpon re-examining the review, it is clear that \"Gulab Jamun\" is associated with a positive sentiment due to the context, although the direct opinion term is not available for \"Gulab Jamun\". However, the review implies a positive sentiment towards \"Gulab Jamun\" because it was \"recommended by the waiter\" and the overall experience was \"great\". A more accurate extraction would be:\n\n[[\"experience\", \"great\", \"positive\"], [\"Gulab Jamun\", \"recommended\", \"positive\"]] \n\nThis captures both the explicit sentiment towards the \"experience\" and the implied positive sentiment towards \"Gulab Jamun\" due to the waiter's recommendation. \n\nSo, the response is:"
+  },
+  {
+    "id": 85,
+    "input": "I thanked my friend who recommended me this restaurant and will certainly recommend it to others .",
+    "label": "[[\"restaurant\", \"recommend\", \"positive\"]]",
+    "response": "[[\"restaurant\", \"recommended\", \"positive\"]]"
+  },
+  {
+    "id": 86,
+    "input": "I am reluctant to write because I would not want my jem of a pizza place to become overcrowded .",
+    "label": "[[\"pizza place\", \"overcrowded\", \"positive\"]]",
+    "response": "To solve this task, let's break down the given review and analyze its components step by step.\n\n1. **Understanding the Review**: The review is \"I am reluctant to write because I would not want my jem of a pizza place to become overcrowded.\" The speaker is hesitant to recommend a pizza place they like.\n\n2. **Identifying Aspect Terms**: Aspect terms are the features or aspects of the subject being discussed. Here, the subject is a \"pizza place,\" and an aspect related to it is its potential to become \"overcrowded.\"\n\n3. **Identifying Opinion Terms**: Opinion terms express the sentiment or opinion about the aspect terms. The term \"reluctant\" expresses the speaker's hesitation, \"jem\" (likely a typo or variation of \"gem\") is a positive opinion term indicating something highly valued, and \"overcrowded\" is generally considered negative in this context as it implies a negative consequence of being popular.\n\n4. **Determining Sentiment Polarity**:"
+  },
+  {
+    "id": 87,
+    "input": "While their kitchen food is delicious , their Sushi is out of this world .",
+    "label": "[[\"kitchen food\", \"delicious\", \"positive\"], [\"Sushi\", \"out of this world\", \"positive\"]]",
+    "response": "[[\"kitchen food\", \"delicious\", \"positive\"], [\"Sushi\", \"out of this world\", \"positive\"]]"
+  },
+  {
+    "id": 88,
+    "input": "Thalia is a beautiful restaurant with beautiful people serving you , but the food does n't quite match up .",
+    "label": "[[\"people\", \"beautiful\", \"positive\"], [\"food\", \"does n't quite match up\", \"negative\"], [\"Thalia\", \"beautiful\", \"positive\"]]",
+    "response": "[[\"people\", \"beautiful\", \"positive\"], [\"food\", \"does n't quite match up\", \"negative\"], [\"restaurant\", \"beautiful\", \"positive\"]]"
+  },
+  {
+    "id": 89,
+    "input": "I expected quite a bit more from such an expensive menu .",
+    "label": "[[\"menu\", \"expensive\", \"negative\"]]",
+    "response": "[[\"menu\", \"expensive\", \"negative\"]]"
+  },
+  {
+    "id": 90,
+    "input": "The view is spectacular , and the food is great .",
+    "label": "[[\"view\", \"spectacular\", \"positive\"], [\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"view\", \"spectacular\", \"positive\"], [\"food\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 91,
+    "input": "Authentic Taiwanese food that 's cheap ... what more could you ask for ?",
+    "label": "[[\"Taiwanese food\", \"Authentic\", \"positive\"], [\"Taiwanese food\", \"cheap\", \"positive\"]]",
+    "response": "[[\"price\", \"cheap\", \"positive\"]]"
+  },
+  {
+    "id": 92,
+    "input": "Kind , attentive wait staff .",
+    "label": "[[\"wait staff\", \"Kind\", \"positive\"], [\"wait staff\", \"attentive\", \"positive\"]]",
+    "response": "[[\"wait staff\", \"Kind\", \"positive\"], [\"wait staff\", \"attentive\", \"positive\"]]"
+  },
+  {
+    "id": 93,
+    "input": "My friend devoured her chicken and mashed potatos .",
+    "label": "[[\"chicken and mashed potatos\", \"devoured\", \"positive\"]]",
+    "response": "[[\"chicken and mashed potatos\", \"devoured\", \"positive\"]]"
+  },
+  {
+    "id": 94,
+    "input": "The atmosphere is unheralded , the service impecible , and the food magnificant .",
+    "label": "[[\"atmosphere\", \"unheralded\", \"positive\"], [\"service\", \"impecible\", \"positive\"], [\"food\", \"magnificant\", \"positive\"]]",
+    "response": "[[\"atmosphere\", \"unheralded\", \"positive\"], [\"service\", \"impecible\", \"positive\"], [\"food\", \"magnificant\", \"positive\"]]"
+  },
+  {
+    "id": 95,
+    "input": "This is such a lovely , peaceful place to eat outside .",
+    "label": "[[\"place\", \"lovely\", \"positive\"], [\"place\", \"peaceful\", \"positive\"]]",
+    "response": "[[\"place\", \"lovely\", \"positive\"], [\"place\", \"peaceful\", \"positive\"]]"
+  },
+  {
+    "id": 96,
+    "input": "Great sushi experience .",
+    "label": "[[\"sushi\", \"Great\", \"positive\"]]",
+    "response": "[[\"sushi experience\", \"Great\", \"positive\"]]"
+  },
+  {
+    "id": 97,
+    "input": "This place is not worth the prices .",
+    "label": "[[\"place\", \"not worth the prices\", \"negative\"]]",
+    "response": "[[\"prices\", \"not worth\", \"negative\"]]"
+  },
+  {
+    "id": 98,
+    "input": "Love Pizza 33 ...",
+    "label": "[[\"Pizza 33\", \"Love\", \"positive\"]]",
+    "response": "[[\"Pizza 33\", \"Love\", \"positive\"]]"
+  },
+  {
+    "id": 99,
+    "input": "The rice was poor quality and was cooked so badly it was hard .",
+    "label": "[[\"rice\", \"poor quality\", \"negative\"], [\"rice\", \"cooked so badly\", \"negative\"], [\"rice\", \"hard\", \"negative\"]]",
+    "response": "[[\"rice quality\", \"poor\", \"negative\"], [\"rice\", \"cooked badly\", \"negative\"]]"
+  },
+  {
+    "id": 100,
+    "input": "The fish was adequate , but inexpertly sliced .",
+    "label": "[[\"fish\", \"adequate\", \"negative\"], [\"fish\", \"inexpertly sliced\", \"negative\"]]",
+    "response": "[[\"fish\", \"adequate\", \"neutral\"], [\"sliced\", \"inexpertly\", \"negative\"]]"
+  },
+  {
+    "id": 101,
+    "input": "The wait staff is pleasant , fun , and for the most part gorgeous ( in the wonderful aesthetic beautification way , not in that she's-way-cuter-than-me-that-b @ # $ * way ) .",
+    "label": "[[\"wait staff\", \"pleasant\", \"positive\"], [\"wait staff\", \"fun\", \"positive\"], [\"wait staff\", \"gorgeous\", \"positive\"]]",
+    "response": "[[\"wait staff\", \"pleasant\", \"positive\"], [\"wait staff\", \"fun\", \"positive\"], [\"wait staff\", \"gorgeous\", \"positive\"]]"
+  },
+  {
+    "id": 102,
+    "input": "But the best part about LS is the late night atmosphere , delightfully free of the BTs .",
+    "label": "[[\"late night atmosphere\", \"best\", \"positive\"]]",
+    "response": "To analyze the given review and extract the aspect term, opinion term, and the corresponding sentiment polarity, let's break down the review: \"But the best part about LS is the late night atmosphere, delightfully free of the BTs.\"\n\n1. **Identify Aspect Terms**: Aspect terms are the features or aspects of the subject being reviewed. In this sentence, \"LS\" and \"late night atmosphere\" are the aspects. \"LS\" refers to the subject (likely a location or establishment), and \"late night atmosphere\" is a feature of \"LS\".\n\n2. **Identify Opinion Terms**: Opinion terms express the sentiment or opinion about the aspect terms. Here, \"best\" and \"delightfully\" are opinion terms. \"Best\" indicates a positive opinion about the aspect \"late night atmosphere\", and \"delightfully\" reinforces the positive sentiment regarding being \"free of the BTs\", which relates to the aspect \"late night atmosphere\" as well.\n\n3. **Determine Sentiment Pol"
+  },
+  {
+    "id": 103,
+    "input": "Suan is a great place that I often take my friends ( classmates ) too .",
+    "label": "[[\"Suan\", \"great\", \"positive\"]]",
+    "response": "[[\"Suan\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 104,
+    "input": "noodles with shrimp and chicken and coconut juice is the MUST !",
+    "label": "[[\"noodles with shrimp and chicken and coconut juice\", \"MUST\", \"positive\"]]",
+    "response": "[[\"noodles with shrimp and chicken and coconut juice\", \"MUST\", \"positive\"]]"
+  },
+  {
+    "id": 105,
+    "input": "I can not imagine a friendlier staff working in a restaurant .",
+    "label": "[[\"staff\", \"friendlier\", \"positive\"]]",
+    "response": "[[\"staff\", \"friendlier\", \"positive\"]]"
+  },
+  {
+    "id": 106,
+    "input": "I can not imagine better Indian food in all of the city .",
+    "label": "[[\"Indian food\", \"better\", \"positive\"]]",
+    "response": "[[\"Indian food\", \"better\", \"positive\"]]"
+  },
+  {
+    "id": 107,
+    "input": "if you 're daring , try the balsamic vinegar over icecream , it 's wonderful !",
+    "label": "[[\"balsamic vinegar over icecream\", \"try\", \"positive\"], [\"balsamic vinegar over icecream\", \"wonderful\", \"positive\"]]",
+    "response": "[[\"balsamic vinegar over icecream\", \"wonderful\", \"positive\"]]"
+  },
+  {
+    "id": 108,
+    "input": "The rest of the dim sum , though pricey by Chinatown standards , is worth it .",
+    "label": "[[\"dim sum\", \"pricey\", \"positive\"], [\"dim sum\", \"worth\", \"positive\"]]",
+    "response": "[[\"dim sum\", \"pricey\", \"negative\"], [\"dim sum\", \"worth it\", \"positive\"]]"
+  },
+  {
+    "id": 109,
+    "input": "A few tips : skip the turnip cake , roast pork buns and egg custards .",
+    "label": "[[\"turnip cake\", \"skip\", \"negative\"], [\"roast pork buns\", \"skip\", \"negative\"], [\"egg custards\", \"skip\", \"negative\"]]",
+    "response": "[[\"turnip cake\", \"skip\", \"negative\"], [\"roast pork buns\", \"skip\", \"negative\"], [\"egg custards\", \"skip\", \"negative\"]]"
+  },
+  {
+    "id": 110,
+    "input": "The food was exceptional .",
+    "label": "[[\"food\", \"exceptional\", \"positive\"]]",
+    "response": "[[\"food\", \"exceptional\", \"positive\"]]"
+  },
+  {
+    "id": 111,
+    "input": "it 's a perfect place to have a amazing indian food .",
+    "label": "[[\"indian food\", \"amazing\", \"positive\"]]",
+    "response": "[[\"food\", \"amazing\", \"positive\"], [\"place\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 112,
+    "input": "Drawbacks : service is slow and they do n't toast !",
+    "label": "[[\"service\", \"slow\", \"negative\"]]",
+    "response": "[[\"service\", \"slow\", \"negative\"], [\"toast\", \"do n't toast\", \"negative\"]]"
+  },
+  {
+    "id": 113,
+    "input": "Downtown Dinner 2002 - Prixe fix : Appetizers were ok , waiter gave me poor suggestion ... try the potato stuff kanish best one .",
+    "label": "[[\"Appetizers\", \"ok\", \"neutral\"], [\"waiter\", \"poor\", \"negative\"], [\"potato stuff kanish\", \"try\", \"positive\"], [\"potato stuff kanish\", \"best\", \"positive\"]]",
+    "response": "[[\"Appetizers\", \"ok\", \"neutral\"], [\"waiter\", \"poor\", \"negative\"], [\"potato stuff\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 114,
+    "input": "The anti-pasta was excellent , especially the calamari , as were the filling pasta mains .",
+    "label": "[[\"anti-pasta\", \"excellent\", \"positive\"], [\"calamari\", \"excellent\", \"positive\"], [\"pasta mains\", \"excellent\", \"positive\"]]",
+    "response": "[[\"anti-pasta\", \"excellent\", \"positive\"], [\"calamari\", \"excellent\", \"positive\"], [\"pasta mains\", \"filling\", \"positive\"]]"
+  },
+  {
+    "id": 115,
+    "input": "Great food , great decor , great service .",
+    "label": "[[\"food\", \"Great\", \"positive\"], [\"decor\", \"great\", \"positive\"], [\"service\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"decor\", \"great\", \"positive\"], [\"service\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 116,
+    "input": "Not the typical NYC gimmick theme restaurant .",
+    "label": "[[\"restaurant\", \"Not the typical\", \"positive\"]]",
+    "response": "[[\"theme\", \"typical\", \"negative\"]] is not entirely correct as \"typical\" is not necessarily negative. A more suitable response would be: [[\"gimmick theme\", \"Not typical\", \"positive\"]]. \n\nSo, the response is: [[\"gimmick theme\", \"Not typical\", \"positive\"]]"
+  },
+  {
+    "id": 117,
+    "input": "Service was very prompt but slightly rushed .",
+    "label": "[[\"Service\", \"prompt\", \"negative\"], [\"Service\", \"rushed\", \"negative\"]]",
+    "response": "[[\"Service\", \"prompt\", \"positive\"], [\"Service\", \"rushed\", \"negative\"]]"
+  },
+  {
+    "id": 118,
+    "input": "I ca n't wait for summer , when they serve outside on their gigantic patio .",
+    "label": "[[\"patio\", \"gigantic\", \"positive\"]]",
+    "response": "[[\"patio\", \"gigantic\", \"positive\"]]"
+  },
+  {
+    "id": 119,
+    "input": "Good drink .",
+    "label": "[[\"drink\", \"Good\", \"positive\"]]",
+    "response": "[[\"drink\", \"Good\", \"positive\"]]"
+  },
+  {
+    "id": 120,
+    "input": "i 've been to sapphire twice and both times the food was fine , if not good .",
+    "label": "[[\"food\", \"fine\", \"positive\"]]",
+    "response": "[[\"food\", \"fine\", \"neutral\"], [\"food\", \"good\", \"positive\"]] is not entirely accurate due to \"if not good\" being a negation of \"good\" in this context, so the sentiment related to \"good\" is actually negative because it implies the food was not good. Thus, a more accurate representation would be: [[\"food\", \"fine\", \"neutral\"], [\"food\", \"good\", \"negative\"]]."
+  },
+  {
+    "id": 121,
+    "input": "stick with the chicken , beef , and lamb dishes .",
+    "label": "[[\"chicken\", \"stick\", \"positive\"], [\"beef\", \"stick\", \"positive\"], [\"lamb dishes\", \"stick\", \"positive\"]]",
+    "response": "[[\"chicken\", \"stick with\", \"positive\"], [\"beef\", \"stick with\", \"positive\"], [\"lamb\", \"stick with\", \"positive\"]]"
+  },
+  {
+    "id": 122,
+    "input": "service is friendly , and never had a problem walking in and getting a table .",
+    "label": "[[\"service\", \"friendly\", \"positive\"]]",
+    "response": "[[\"service\", \"friendly\", \"positive\"], [\"service\", \"never had a problem\", \"positive\"]]"
+  },
+  {
+    "id": 123,
+    "input": "skip dessert .",
+    "label": "[[\"dessert\", \"skip\", \"negative\"]]",
+    "response": "[[\"dessert\", \"skip\", \"negative\"]]"
+  },
+  {
+    "id": 124,
+    "input": "Pizza was a little soggy .",
+    "label": "[[\"Pizza\", \"soggy\", \"negative\"]]",
+    "response": "[[\"Pizza\", \"soggy\", \"negative\"]]"
+  },
+  {
+    "id": 125,
+    "input": "This place is a great bargain .",
+    "label": "[[\"place\", \"great bargain\", \"positive\"]]",
+    "response": "[[\"place\", \"great bargain\", \"positive\"]]"
+  },
+  {
+    "id": 126,
+    "input": "The design and atmosphere is just as good .",
+    "label": "[[\"design\", \"good\", \"positive\"], [\"atmosphere\", \"good\", \"positive\"]]",
+    "response": "[[\"design\", \"good\", \"positive\"], [\"atmosphere\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 127,
+    "input": "the drinks are amazing and half off till 8pm .",
+    "label": "[[\"drinks\", \"amazing\", \"positive\"]]",
+    "response": "[[\"drinks\", \"amazing\", \"positive\"], [\"price\", \"half off\", \"positive\"]]"
+  },
+  {
+    "id": 128,
+    "input": "This is an amazing place to try some roti rolls .",
+    "label": "[[\"roti rolls\", \"try\", \"positive\"]]",
+    "response": "[[\"roti rolls\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 129,
+    "input": "The food 's as good as ever .",
+    "label": "[[\"food\", \"good\", \"positive\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 130,
+    "input": "Best drumsticks over rice and sour spicy soup in town !",
+    "label": "[[\"drumsticks over rice\", \"Best\", \"positive\"], [\"sour spicy soup\", \"Best\", \"positive\"]]",
+    "response": "[[\"drumsticks over rice\", \"Best\", \"positive\"], [\"sour spicy soup\", \"Best\", \"positive\"]]"
+  },
+  {
+    "id": 131,
+    "input": "The service is good and the resturant is clean .",
+    "label": "[[\"service\", \"good\", \"positive\"], [\"resturant\", \"clean\", \"positive\"]]",
+    "response": "[[\"service\", \"good\", \"positive\"], [\"resturant\", \"clean\", \"positive\"]]"
+  },
+  {
+    "id": 132,
+    "input": "We recently decided to try this location , and to our delight , they have outdoor seating , perfect since I had my yorkie with me .",
+    "label": "[[\"outdoor seating\", \"perfect\", \"positive\"]]",
+    "response": "[[\"outdoor seating\", \"perfect\", \"positive\"]]"
+  },
+  {
+    "id": 133,
+    "input": "Great Indian food and the service is incredible .",
+    "label": "[[\"Indian food\", \"Great\", \"positive\"], [\"service\", \"incredible\", \"positive\"]]",
+    "response": "[[\"food\", \"Great\", \"positive\"], [\"service\", \"incredible\", \"positive\"]]"
+  },
+  {
+    "id": 134,
+    "input": "The food here does a great service to the name ( Cantonese that is ... ) .",
+    "label": "[[\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 135,
+    "input": "good music , great food , speedy service affordable prices .",
+    "label": "[[\"music\", \"good\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"service\", \"speedy\", \"positive\"]]",
+    "response": "[[\"music\", \"good\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"service\", \"speedy\", \"positive\"], [\"prices\", \"affordable\", \"positive\"]]"
+  },
+  {
+    "id": 136,
+    "input": "Atmosphere is nice and relaxed too ...",
+    "label": "[[\"Atmosphere\", \"nice\", \"positive\"], [\"Atmosphere\", \"relaxed\", \"positive\"]]",
+    "response": "[[\"Atmosphere\", \"nice\", \"positive\"], [\"Atmosphere\", \"relaxed\", \"positive\"]]"
+  },
+  {
+    "id": 137,
+    "input": "If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",
+    "label": "[[\"fish\", \"low quality\", \"negative\"], [\"staff\", \"unfriendly\", \"negative\"], [\"sushi chef\", \"miserable\", \"negative\"]]",
+    "response": "[[\"fish\", \"low quality\", \"negative\"], [\"staff\", \"unfriendly\", \"negative\"], [\"sushi chef\", \"miserable\", \"negative\"]]"
+  },
+  {
+    "id": 138,
+    "input": "One would think we 'd get an apology or complimentary drinks - instead , we got a snobby waiter would n't even take our order for 15 minutes and gave us lip when we asked him to do so .",
+    "label": "[[\"waiter\", \"snobby\", \"negative\"]]",
+    "response": "[[\"waiter\", \"snobby\", \"negative\"], [\"waiter\", \"would n't even take our order for 15 minutes\", \"negative\"], [\"waiter\", \"gave us lip\", \"negative\"]]"
+  },
+  {
+    "id": 139,
+    "input": "With so many good restaurants on the UWS , I do n't need overpriced food , absurdly arrogant wait-staff who do n't recognize they work at a glorified diner , clumsy service , and management that does n't care .",
+    "label": "[[\"food\", \"overpriced\", \"negative\"], [\"wait-staff\", \"arrogant\", \"negative\"], [\"service\", \"clumsy\", \"negative\"]]",
+    "response": "[[\"food\", \"overpriced\", \"negative\"], [\"wait-staff\", \"absurdly arrogant\", \"negative\"], [\"service\", \"clumsy\", \"negative\"], [\"management\", \"does n't care\", \"negative\"]]"
+  },
+  {
+    "id": 140,
+    "input": "$ 20 for all you can eat sushi can not be beaten .",
+    "label": "[[\"all you can eat sushi\", \"beaten\", \"positive\"]]",
+    "response": "[[\"price\", \"can not be beaten\", \"positive\"]]"
+  },
+  {
+    "id": 141,
+    "input": "Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went .",
+    "label": "[[\"Food\", \"good\", \"positive\"], [\"view of the new york city skiline\", \"terrific\", \"positive\"]]",
+    "response": "[[\"Food\", \"good\", \"positive\"], [\"view\", \"terrific\", \"positive\"]]"
+  },
+  {
+    "id": 142,
+    "input": "Although they do the typical what kind of water would you like questions the service was good and overall very relaxing to place to eat .",
+    "label": "[[\"service\", \"good\", \"positive\"], [\"place\", \"relaxing\", \"positive\"]]",
+    "response": "[[\"service\", \"good\", \"positive\"], [\"place to eat\", \"relaxing\", \"positive\"]]"
+  },
+  {
+    "id": 143,
+    "input": "The pizza was pretty good and huge .",
+    "label": "[[\"pizza\", \"good\", \"positive\"], [\"pizza\", \"huge\", \"positive\"]]",
+    "response": "[[\"pizza\", \"pretty good\", \"positive\"], [\"pizza\", \"huge\", \"positive\"]]"
+  },
+  {
+    "id": 144,
+    "input": "La Rosa waltzes in , and I think they are doing it the best .",
+    "label": "[[\"La Rosa\", \"best\", \"positive\"]]",
+    "response": "[[\"La Rosa\", \"waltzes in\", \"positive\"], [\"La Rosa\", \"doing it the best\", \"positive\"]]"
+  },
+  {
+    "id": 145,
+    "input": "The mussels were fantastic and so was the dessert ... definitely going to be back very soon .",
+    "label": "[[\"mussels\", \"fantastic\", \"positive\"], [\"dessert\", \"fantastic\", \"positive\"]]",
+    "response": "[[\"mussels\", \"fantastic\", \"positive\"], [\"dessert\", \"so was\", \"positive\"]] is not the best representation as \"so was\" is not a direct opinion term. A more accurate representation is: [[\"mussels\", \"fantastic\", \"positive\"], [\"dessert\", \"fantastic\", \"positive\"]]. However, the original review implies the dessert was fantastic. Here is the response: [[\"mussels\", \"fantastic\", \"positive\"], [\"dessert\", \"fantastic\", \"positive\"]]."
+  },
+  {
+    "id": 146,
+    "input": "I have been coming here for years and have nothing but good things to say about the service and the great staff at La Lanterna .",
+    "label": "[[\"service\", \"good\", \"positive\"], [\"staff\", \"great\", \"positive\"]]",
+    "response": "[[\"service\", \"good\", \"positive\"], [\"staff\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 147,
+    "input": "Love Al Di La",
+    "label": "[[\"Al Di La\", \"Love\", \"positive\"]]",
+    "response": "[[\"Al Di La\", \"Love\", \"positive\"]]"
+  },
+  {
+    "id": 148,
+    "input": "An awesome organic dog , and a conscious eco friendly establishment .",
+    "label": "[[\"dog\", \"organic\", \"positive\"], [\"establishment\", \"eco friendly\", \"positive\"]]",
+    "response": "[[\"dog\", \"awesome\", \"positive\"], [\"establishment\", \"eco friendly\", \"positive\"]]"
+  },
+  {
+    "id": 149,
+    "input": "But the best pork souvlaki I ever had is the main thing .",
+    "label": "[[\"pork souvlaki\", \"best\", \"positive\"]]",
+    "response": "[[\"pork souvlaki\", \"best\", \"positive\"]]"
+  },
+  {
+    "id": 150,
+    "input": "I LOOOVE their eggplant pizza , as well as their pastas !",
+    "label": "[[\"eggplant pizza\", \"LOOOVE\", \"positive\"], [\"pastas\", \"LOOOVE\", \"positive\"]]",
+    "response": "[[\"eggplant pizza\", \"LOOOVE\", \"positive\"], [\"pastas\", \"LOOOVE\", \"positive\"]]"
+  },
+  {
+    "id": 151,
+    "input": "We had half/half pizza , mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza !",
+    "label": "[[\"half/half pizza\", \"huge\", \"positive\"]]",
+    "response": "[[\"pizza size\", \"huge\", \"positive\"]]"
+  },
+  {
+    "id": 152,
+    "input": "Reliable , Fresh Sushi",
+    "label": "[[\"Sushi\", \"Reliable\", \"positive\"], [\"Sushi\", \"Fresh\", \"positive\"]]",
+    "response": "[[\"Sushi\", \"Fresh\", \"positive\"]]"
+  },
+  {
+    "id": 153,
+    "input": "The sashimi is always fresh and the rolls are innovative and delicious .",
+    "label": "[[\"sashimi\", \"fresh\", \"positive\"], [\"rolls\", \"innovative\", \"positive\"], [\"rolls\", \"delicious\", \"positive\"]]",
+    "response": "[[\"sashimi\", \"fresh\", \"positive\"], [\"rolls\", \"innovative\", \"positive\"], [\"rolls\", \"delicious\", \"positive\"]]"
+  },
+  {
+    "id": 154,
+    "input": "Delivery guy sometimes get upset if you do n't tip more than 10 % .",
+    "label": "[[\"Delivery guy\", \"upset\", \"negative\"]]",
+    "response": "[[\"Delivery guy\", \"upset\", \"negative\"]]"
+  },
+  {
+    "id": 155,
+    "input": "The place is a bit hidden away , but once you get there , it 's all worth it .",
+    "label": "[[\"place\", \"hidden away\", \"positive\"], [\"place\", \"worth\", \"positive\"]]",
+    "response": "[[\"place\", \"hidden\", \"negative\"], [\"overall experience\", \"worth it\", \"positive\"]]"
+  },
+  {
+    "id": 156,
+    "input": "Good food : my favorite is the seafood spaghetti .",
+    "label": "[[\"food\", \"Good\", \"positive\"], [\"seafood spaghetti\", \"favorite\", \"positive\"]]",
+    "response": "[[\"food\", \"Good\", \"positive\"], [\"seafood spaghetti\", \"favorite\", \"positive\"]]"
+  },
+  {
+    "id": 157,
+    "input": "The wait staff is very courteous and accomodating .",
+    "label": "[[\"wait staff\", \"courteous\", \"positive\"], [\"wait staff\", \"accomodating\", \"positive\"]]",
+    "response": "[[\"wait staff\", \"courteous\", \"positive\"], [\"wait staff\", \"accomodating\", \"positive\"]]"
+  },
+  {
+    "id": 158,
+    "input": "I thought the restaurant was nice and clean .",
+    "label": "[[\"restaurant\", \"nice\", \"positive\"], [\"restaurant\", \"clean\", \"positive\"]]",
+    "response": "[[\"restaurant\", \"nice\", \"positive\"], [\"restaurant\", \"clean\", \"positive\"]]"
+  },
+  {
+    "id": 159,
+    "input": "WORST PLACE ON SMITH STREET IN BROOKLYN",
+    "label": "[[\"PLACE\", \"WORST\", \"negative\"]]",
+    "response": "[[\"PLACE\", \"WORST\", \"negative\"]]"
+  },
+  {
+    "id": 160,
+    "input": "The waitress was not attentive at all .",
+    "label": "[[\"waitress\", \"not attentive\", \"negative\"]]",
+    "response": "[[\"waitress\", \"not attentive\", \"negative\"]]"
+  },
+  {
+    "id": 161,
+    "input": "The Seafood Dynamite is also otherworldly .",
+    "label": "[[\"Seafood Dynamite\", \"otherworldly\", \"positive\"]]",
+    "response": "[[\"Seafood Dynamite\", \"otherworldly\", \"positive\"]]"
+  },
+  {
+    "id": 162,
+    "input": "In the summer months , the back garden area is really nice .",
+    "label": "[[\"back garden area\", \"nice\", \"positive\"]]",
+    "response": "[[\"back garden area\", \"nice\", \"positive\"]]"
+  },
+  {
+    "id": 163,
+    "input": "The rolls are creative and I have yet to find another sushi place that serves up more inventive yet delicious japanese food .",
+    "label": "[[\"rolls\", \"creative\", \"positive\"], [\"japanese food\", \"inventive\", \"positive\"], [\"japanese food\", \"delicious\", \"positive\"]]",
+    "response": "To extract the aspect terms, opinion terms, and their corresponding sentiment polarity from the given review, let's analyze it step by step.\n\nThe review is: \"The rolls are creative and I have yet to find another sushi place that serves up more inventive yet delicious japanese food.\"\n\n1. **Aspect and Opinion Term Extraction**:\n   - The first part of the sentence is \"The rolls are creative.\" Here, \"rolls\" is the aspect term, and \"creative\" is the opinion term.\n   - The second part is \"I have yet to find another sushi place that serves up more inventive yet delicious japanese food.\" In this part, \"sushi place\" and \"japanese food\" are aspect terms. \"inventive\" and \"delicious\" are opinion terms related to \"japanese food,\" with \"sushi place\" being implicitly related to the opinion through the food it serves.\n\n2. **Sentiment Polarity Determination**:\n   - For \"The rolls are creative,\""
+  },
+  {
+    "id": 164,
+    "input": "I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ... )",
+    "label": "[[\"PLACE\", \"LOVE\", \"positive\"]]",
+    "response": "[[\"general\", \"LOVE\", \"positive\"]]"
+  },
+  {
+    "id": 165,
+    "input": "Great Indian Food !",
+    "label": "[[\"Indian Food\", \"Great\", \"positive\"]]",
+    "response": "[[\"Food\", \"Great\", \"positive\"]]"
+  },
+  {
+    "id": 166,
+    "input": "This is one of my favorite spot , very relaxing the food is great all the times , celebrated my engagement and my wedding here , it was very well organized .",
+    "label": "[[\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"spot\", \"favorite\", \"positive\"], [\"food\", \"great\", \"positive\"], [\"organization\", \"well organized\", \"positive\"]]"
+  },
+  {
+    "id": 167,
+    "input": "Love their drink menu .",
+    "label": "[[\"drink menu\", \"Love\", \"positive\"]]",
+    "response": "[[\"drink menu\", \"Love\", \"positive\"]]"
+  },
+  {
+    "id": 168,
+    "input": "A beautifully designed dreamy Egyptian restaurant that gets sceney at night .",
+    "label": "[[\"Egyptian restaurant\", \"dreamy\", \"positive\"]]",
+    "response": "[[\"design\", \"beautifully\", \"positive\"], [\"atmosphere\", \"dreamy\", \"positive\"], [\"ambience\", \"sceney\", \"positive\"]]"
+  },
+  {
+    "id": 169,
+    "input": "Watch the talented belly dancers as you enjoy delicious baba ganoush that 's more lemony than smoky .",
+    "label": "[[\"baba ganoush\", \"enjoy delicious\", \"positive\"], [\"belly dancers\", \"talented\", \"positive\"]]",
+    "response": "[[\"belly dancers\", \"talented\", \"positive\"], [\"baba ganoush\", \"delicious\", \"positive\"], [\"baba ganoush\", \"lemony\", \"positive\"], [\"baba ganoush\", \"smoky\", \"negative\"]]"
+  },
+  {
+    "id": 170,
+    "input": "The drinks are great , especially when made by Raymond .",
+    "label": "[[\"drinks\", \"great\", \"positive\"], [\"Raymond\", \"great\", \"positive\"]]",
+    "response": "[[\"drinks\", \"great\", \"positive\"], [\"Raymond\", \"great when made by\", \"positive\"]] is not in the exact required format, a more suitable extraction would be: [[\"drinks\", \"great\", \"positive\"]]. \n\nSo the response is: [[\"drinks\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 171,
+    "input": "Decor needs to be upgraded but the food is amazing !",
+    "label": "[[\"Decor\", \"upgraded\", \"negative\"], [\"food\", \"amazing\", \"positive\"]]",
+    "response": "[[\"Decor\", \"upgraded\", \"negative\"], [\"food\", \"amazing\", \"positive\"]] \n\nHere's the explanation:\n- \"Decor\" is the aspect term related to the opinion term \"upgraded\" with a negative sentiment because the context implies that the decor is not good enough and needs improvement.\n- \"Food\" is the aspect term related to the opinion term \"amazing\" with a positive sentiment because \"amazing\" is a strongly positive adjective."
+  },
+  {
+    "id": 172,
+    "input": "Great food , amazing service , this place is a class act .",
+    "label": "[[\"food\", \"Great\", \"positive\"], [\"service\", \"amazing\", \"positive\"], [\"place\", \"class act\", \"positive\"]]",
+    "response": "[[\"food\", \"Great\", \"positive\"], [\"service\", \"amazing\", \"positive\"], [\"place\", \"class act\", \"positive\"]]"
+  },
+  {
+    "id": 173,
+    "input": "Paul , the maitre d ' , was totally professional and always on top of things .",
+    "label": "[[\"Paul\", \"professional\", \"positive\"]]",
+    "response": "[[\"Paul\", \"professional\", \"positive\"], [\"Paul\", \"on top of things\", \"positive\"]]"
+  },
+  {
+    "id": 174,
+    "input": "The bar drinks were Eh , ok to say the least .",
+    "label": "[[\"bar drinks\", \"ok\", \"negative\"]]",
+    "response": "[[\"bar drinks\", \"Eh , ok\", \"neutral\"]]"
+  },
+  {
+    "id": 175,
+    "input": "The bread we received was horrible - rock hard and cold - and the `` free '' appetizer of olives was disappointing .",
+    "label": "[[\"bread\", \"horrible\", \"negative\"], [\"bread\", \"rock hard\", \"negative\"], [\"bread\", \"cold\", \"negative\"], [\"appetizer of olives\", \"disappointing\", \"negative\"]]",
+    "response": "To analyze the given review and extract the aspect term, opinion term, and the corresponding sentiment polarity, let's break down the review:\n\n\"The bread we received was horrible - rock hard and cold - and the `` free '' appetizer of olives was disappointing.\"\n\n1. The first part of the review is \"The bread we received was horrible - rock hard and cold\". \n   - \"The bread\" is the aspect term.\n   - \"horrible\", \"rock hard\", and \"cold\" are opinion terms that express a negative sentiment towards \"The bread\".\n   - The sentiment polarity is negative.\n\n2. The second part is \"and the `` free '' appetizer of olives was disappointing\".\n   - \"the `` free '' appetizer of olives\" is the aspect term. The quotation marks around \"free\" suggest irony or skepticism about it being free, implying a negative sentiment.\n   - \"disappointing\" is the opinion term.\n   - The sentiment polarity is negative.\n\nTherefore, the"
+  },
+  {
+    "id": 176,
+    "input": "short and sweet – seating is great : it 's romantic , cozy and private .",
+    "label": "[[\"seating\", \"great\", \"positive\"]]",
+    "response": "[[\"seating\", \"romantic\", \"positive\"], [\"seating\", \"cozy\", \"positive\"], [\"seating\", \"private\", \"positive\"]]"
+  },
+  {
+    "id": 177,
+    "input": "The service was extremely fast and attentive ( thanks to the service button on your table ) but I barely understood 1 word when the waiter took our order .",
+    "label": "[[\"service\", \"fast\", \"positive\"], [\"service\", \"attentive\", \"positive\"], [\"service button\", \"thanks to\", \"positive\"], [\"waiter\", \"barely understood\", \"negative\"]]",
+    "response": "[[\"service\", \"fast and attentive\", \"positive\"], [\"service button\", \"thanks to\", \"positive\"], [\"waiter\", \"barely understood 1 word\", \"negative\"]]"
+  },
+  {
+    "id": 178,
+    "input": "Highly impressed from the decor to the food to the hospitality to the great night I had !",
+    "label": "[[\"decor\", \"impressed\", \"positive\"], [\"food\", \"impressed\", \"positive\"]]",
+    "response": "[[\"decor\", \"impressed\", \"positive\"], [\"food\", \"impressed\", \"positive\"], [\"hospitality\", \"impressed\", \"positive\"], [\"night\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 179,
+    "input": "Food took some time to prepare , all worth waiting for .",
+    "label": "[[\"Food\", \"worth\", \"positive\"]]",
+    "response": "[[\"Food\", \"worth waiting\", \"positive\"]]"
+  },
+  {
+    "id": 180,
+    "input": "The menu looked great , and the waiter was very nice , but when the food came , it was average .",
+    "label": "[[\"menu\", \"great\", \"positive\"], [\"waiter\", \"nice\", \"positive\"], [\"food\", \"average\", \"neutral\"]]",
+    "response": "[[\"menu\", \"great\", \"positive\"], [\"waiter\", \"nice\", \"positive\"], [\"food\", \"average\", \"neutral\"]]"
+  },
+  {
+    "id": 181,
+    "input": "It 's a great place to order from or sit-in .",
+    "label": "[[\"place\", \"great\", \"positive\"]]",
+    "response": "[[\"place\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 182,
+    "input": "Yamato is an excellent place to go if youre not into sashimi , or if you have friends who doesnt like sushi much .",
+    "label": "[[\"Yamato\", \"excellent\", \"positive\"]]",
+    "response": "[[\"Yamato\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 183,
+    "input": "I 've had my fair share of modern Japanese and this spot delivers .",
+    "label": "[[\"modern Japanese\", \"delivers\", \"positive\"]]",
+    "response": "[[\"modern Japanese\", \"delivers\", \"positive\"]]"
+  },
+  {
+    "id": 184,
+    "input": "Everything on the menu is great .",
+    "label": "[[\"menu\", \"great\", \"positive\"]]",
+    "response": "[[\"menu\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 185,
+    "input": "Bison was quite excellent however .",
+    "label": "[[\"Bison\", \"excellent\", \"positive\"]]",
+    "response": "[[\"Bison\", \"excellent\", \"positive\"]]"
+  },
+  {
+    "id": 186,
+    "input": "All in all , the food was great ( except for the dessserts ) .",
+    "label": "[[\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"food\", \"great\", \"positive\"], [\"desserts\", \"except\", \"negative\"]]"
+  },
+  {
+    "id": 187,
+    "input": "However , our $ 14 drinks were were horrible !",
+    "label": "[[\"drinks\", \"horrible\", \"negative\"]]",
+    "response": "[[\"drinks\", \"horrible\", \"negative\"]]"
+  },
+  {
+    "id": 188,
+    "input": "The menu is fairly simple without much descriptions .",
+    "label": "[[\"menu\", \"simple\", \"neutral\"]]",
+    "response": "[[\"menu\", \"simple\", \"neutral\"]]"
+  },
+  {
+    "id": 189,
+    "input": "Not much of a selection of bottled beer either , we went with Brahma .",
+    "label": "[[\"selection of bottled beer\", \"Not much\", \"negative\"]]",
+    "response": "[[\"selection of bottled beer\", \"Not much\", \"negative\"]]"
+  },
+  {
+    "id": 190,
+    "input": "All in all the food was good - a little on the expensive side , but fresh .",
+    "label": "[[\"food\", \"good\", \"negative\"], [\"food\", \"expensive\", \"negative\"], [\"food\", \"fresh\", \"negative\"]]",
+    "response": "[[\"food\", \"good\", \"positive\"], [\"food\", \"expensive\", \"negative\"], [\"food\", \"fresh\", \"positive\"]]"
+  },
+  {
+    "id": 191,
+    "input": "It was n't as if this restaurant had any major bragging points before hand , but now it 's simply repulsive .",
+    "label": "[[\"restaurant\", \"repulsive\", \"negative\"]]",
+    "response": "[[\"restaurant\", \"repulsive\", \"negative\"]]"
+  },
+  {
+    "id": 192,
+    "input": "Gorgeous place ideal for a romantic dinner",
+    "label": "[[\"place\", \"Gorgeous\", \"positive\"], [\"place\", \"ideal\", \"positive\"]]",
+    "response": "[[\"place\", \"Gorgeous\", \"positive\"]]"
+  },
+  {
+    "id": 193,
+    "input": "The nakgi-bokum was horrible .",
+    "label": "[[\"nakgi-bokum\", \"horrible\", \"negative\"]]",
+    "response": "[[\"nakgi-bokum\", \"horrible\", \"negative\"]]"
+  },
+  {
+    "id": 194,
+    "input": "The side dishes were passable , and I did get a refill upon request .",
+    "label": "[[\"side dishes\", \"passable\", \"neutral\"]]",
+    "response": "[[\"side dishes\", \"passable\", \"neutral\"], [\"refill\", \"get\", \"positive\"]]"
+  },
+  {
+    "id": 195,
+    "input": "My wife had barely touched that mess of a dish .",
+    "label": "[[\"dish\", \"mess\", \"negative\"]]",
+    "response": "[[\"dish\", \"mess\", \"negative\"]]"
+  },
+  {
+    "id": 196,
+    "input": "The wife had the risotto which was amazing .",
+    "label": "[[\"risotto\", \"amazing\", \"positive\"]]",
+    "response": "[[\"risotto\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 197,
+    "input": "The crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .",
+    "label": "[[\"crust\", \"great\", \"positive\"], [\"crust\", \"good\", \"positive\"], [\"sauce\", \"light\", \"positive\"], [\"cheese\", \"great\", \"positive\"]]",
+    "response": "[[\"crust\", \"great bite\", \"positive\"], [\"crust\", \"good chew\", \"positive\"], [\"sauce\", \"light\", \"positive\"], [\"sauce\", \"nice acidity\", \"positive\"], [\"salt\", \"great\", \"positive\"], [\"salt\", \"heightens the flavor\", \"positive\"]]"
+  },
+  {
+    "id": 198,
+    "input": "I picked the Grilled Black Cod as my entree , which I absolutely devoured while someone commented that the Grilled Salmon dish was better .",
+    "label": "[[\"Grilled Black Cod\", \"devoured\", \"positive\"], [\"Grilled Salmon dish\", \"better\", \"positive\"]]",
+    "response": "[[\"Grilled Black Cod\", \"devoured\", \"positive\"], [\"Grilled Salmon dish\", \"better\", \"positive\"]]"
+  },
+  {
+    "id": 199,
+    "input": "The service leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night .",
+    "label": "[[\"service\", \"leaves much to be desired\", \"negative\"]]",
+    "response": "[[\"service\", \"rushed\", \"negative\"], [\"service\", \"ignored\", \"negative\"]]"
+  },
+  {
+    "id": 200,
+    "input": "The hot dogs are good , yes , but the reason to get over here is the fantastic pork croquette sandwich , perfect on its supermarket squishy bun .",
+    "label": "[[\"hot dogs\", \"good\", \"positive\"], [\"pork croquette sandwich\", \"fantastic\", \"positive\"], [\"bun\", \"perfect\", \"positive\"]]",
+    "response": "[[\"hot dogs\", \"good\", \"positive\"], [\"pork croquette sandwich\", \"fantastic\", \"positive\"], [\"pork croquette sandwich\", \"perfect\", \"positive\"], [\"bun\", \"squishy\", \"positive\"]]"
+  },
+  {
+    "id": 201,
+    "input": "The family seafood entree was very good .",
+    "label": "[[\"family seafood entree\", \"good\", \"positive\"]]",
+    "response": "[[\"family seafood entree\", \"very good\", \"positive\"]]"
+  },
+  {
+    "id": 202,
+    "input": "Price is high but the food is good , so I would come back again .",
+    "label": "[[\"food\", \"good\", \"negative\"]]",
+    "response": "[[\"Price\", \"high\", \"negative\"], [\"food\", \"good\", \"positive\"]]"
+  },
+  {
+    "id": 203,
+    "input": "This place is not inviting and the food is totally weird .",
+    "label": "[[\"place\", \"not inviting\", \"negative\"], [\"food\", \"weird\", \"negative\"]]",
+    "response": "To analyze the given review: \"This place is not inviting and the food is totally weird,\" we need to break it down into its components to identify the aspect terms, opinion terms, and the corresponding sentiment polarity.\n\n1. **Aspect Term**: This refers to the feature or aspect of the entity being reviewed. In this case, the entity is a restaurant or a dining place.\n2. **Opinion Term**: This is the term or phrase used to express an opinion about the aspect term.\n3. **Sentiment Polarity**: This indicates whether the sentiment expressed is positive, negative, or neutral.\n\nLet's analyze the review:\n\n- The review contains two clauses connected by \"and\": \"This place is not inviting\" and \"the food is totally weird.\"\n- For the first clause, \"This place\" is the aspect term, and \"not inviting\" is the opinion term. The sentiment polarity here is negative because \"not inviting\" has a negative connotation.\n- For the second clause, \""
+  },
+  {
+    "id": 204,
+    "input": "A coworker and I tried Pacifico after work a few Fridays and loved it .",
+    "label": "[[\"Pacifico\", \"loved\", \"positive\"]]",
+    "response": "[[\"Pacifico\", \"loved\", \"positive\"]]"
+  },
+  {
+    "id": 205,
+    "input": "The food we ordered was excellent , although I would n't say the margaritas were anything to write home about .",
+    "label": "[[\"food\", \"excellent\", \"positive\"]]",
+    "response": "[[\"food\", \"excellent\", \"positive\"], [\"margaritas\", \"anything to write home about\", \"negative\"]] \n\nReasoning: \n- \"food\" is an aspect term, \"excellent\" is the corresponding opinion term, and the sentiment polarity is \"positive\" because \"excellent\" has a strongly positive connotation.\n- \"margaritas\" is an aspect term. The phrase \"anything to write home about\" is an idiom that means something is particularly noteworthy or impressive. When used in a negative context (as it is here with \"wouldn't\"), it implies that the margaritas were unimpressive or not very good. Thus, \"anything to write home about\" is considered the opinion term, and the sentiment polarity is \"negative\" due to the negation (\"wouldn't\") that negates the positive implication of the idiom, turning it into a negative statement."
+  },
+  {
+    "id": 206,
+    "input": "The hot dogs are top notch , and they 're Slamwich is amazing !",
+    "label": "[[\"hot dogs\", \"top notch\", \"positive\"], [\"Slamwich\", \"amazing\", \"positive\"]]",
+    "response": "[[\"hot dogs\", \"top notch\", \"positive\"], [\"Slamwich\", \"amazing\", \"positive\"]]"
+  },
+  {
+    "id": 207,
+    "input": "But nonetheless -- great spot , great food .",
+    "label": "[[\"spot\", \"great\", \"positive\"], [\"food\", \"great\", \"positive\"]]",
+    "response": "[[\"spot\", \"great\", \"positive\"], [\"food\", \"great\", \"positive\"]]"
+  },
+  {
+    "id": 208,
+    "input": "This guy refused to seat her and she left , followed shortly by the four of us , but not before I told him that in my 40 years of world travel , including Paris , that I had never seen such a display of bad behavior by a frontman in a restaurant .",
+    "label": "[[\"frontman\", \"bad\", \"negative\"]]",
+    "response": "[[\"behavior\", \"bad\", \"negative\"]]"
+  },
+  {
+    "id": 209,
+    "input": "Mussles and calamari were superb Saturday evening .",
+    "label": "[[\"Mussles\", \"superb\", \"positive\"], [\"calamari\", \"superb\", \"positive\"]]",
+    "response": "[[\"Mussles\", \"superb\", \"positive\"], [\"calamari\", \"superb\", \"positive\"]]"
+  },
+  {
+    "id": 210,
+    "input": "I had the Lamb special which was perfect .",
+    "label": "[[\"Lamb special\", \"perfect\", \"positive\"]]",
+    "response": "[[\"Lamb special\", \"perfect\", \"positive\"]]"
+  }
+]
